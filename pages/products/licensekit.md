@@ -8,7 +8,7 @@ image:  /assets/headers/licensekit.png
 hero: /assets/icons/licensekit.png
 hero-class: icon
 
-description: EmojiKit is a powerful Swift SDK for software licenses on all Apple platforms
+description: LicenseKit is a powerful Swift SDK for software licenses on all Apple platforms
 ---
 
 {% assign product=site.data.products.licensekit %}

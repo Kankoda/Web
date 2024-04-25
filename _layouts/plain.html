@@ -16,10 +16,12 @@
 
   {% if hero_size > 0 or hero-title_size > 0 or hero-emoji_size > 0 %}
     {%- assign has_hero = 1 -%}
+  {% else %}
+    {%- assign header-class = "paper" -%}
   {% endif %}
 
   <body class="{{page.id}} {{body_class}}">  
-    {% include kankoda/global/site-header.html %}
+    {% include kankoda/global/site-header.html class=header-class %}
     {% if has_hero %}
       {% include kankoda/heros/hero.html hero=hero title=hero-title paper=hero-paper class=hero-class emoji=hero-emoji icon=hero-icon description=hero-description %}
     {% endif %}

@@ -7,10 +7,13 @@
   margin-bottom: 40px;
 }
 
-.hero.paper hr {
+.paper hr {
   margin-top: 30px;
-  margin-bottom: 0;
-  background-color: $content-background;
+}
+
+.paper.site-header hr {
+  margin-top: 15px;
+  margin-bottom: -25px;
 }
 
 .paper + .page-content {

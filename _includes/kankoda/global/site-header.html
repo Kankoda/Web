@@ -1,4 +1,4 @@
-<header class="site-header" role="banner">
+<header class="site-header {{ include.class }}" role="banner">
   <div class="row wrapper">
     <div class="column">
       <a class="logo" href="/">
@@ -23,4 +23,9 @@
     </div>
   </p>
   </div>
+  
+  {% if include.class | contains:"paper" %}
+  <hr />
+  {% endif %}
+
 </header>
