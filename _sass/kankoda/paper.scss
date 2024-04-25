@@ -1,11 +1,25 @@
-.paper {
-  
-  hr {
-    background: url(kankoda/hr.png) no-repeat center top;
-    background-size: 100% 20px;
-    border: none;
-    height: 20px;
-    margin-top: 60px;
-    margin-bottom: 40px;
-  }
+.paper hr {
+  background: url(kankoda/hr.png) no-repeat center top;
+  background-size: 100% 10px;
+  border: none;
+  height: 10px;
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.hero.paper hr {
+  margin-top: 30px;
+  margin-bottom: 0;
+  background-color: $content-background;
+}
+
+.paper + .page-content {
+  padding-top: 25px;
+}
+
+@media (max-width: 500px) {
+
+  .paper + .page-content {
+    padding-top: 0px;
+  }  
 }

@@ -106,21 +106,20 @@ defaults:
       type: "apps"
     values:
       layout: "app"
-      hero-img-class: "icon"
   -
     scope:
       type: "emojikit-features"
     values:
       image: /assets/headers/emojikit.png
       layout: "emojikit-feature"
-      hero-solid: 1
+      hero-paper: 1
   -
     scope:
       type: "licensekit-features"
     values:
       image: /assets/headers/licensekit.png
       layout: "licensekit-feature"
-      hero-solid: 1
+      hero-paper: 1
   -
     scope:
       type: "pages"
