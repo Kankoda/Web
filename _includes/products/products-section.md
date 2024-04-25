@@ -1,4 +1,4 @@
-{% assign products = include.products | sort: "info.name" %}
+{% assign products = include.products | sort_natural %}
 
 <h2>{{ include.title | default: "Products" }}</h2>
 
@@ -8,4 +8,4 @@
 </div>
 {% endif %}
 
-{% include kankoda/grids/grid.html items=products type="icons" %}
+{% include kankoda/grids/grid.html items=products limit=4 type="icons" %}

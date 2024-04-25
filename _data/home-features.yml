@@ -1,14 +1,14 @@
 - title: About us
   url: /company
   image: /assets/heros/icon.png
-  text: Who are we and how can we help you in your work?
+  text: Who are we and how can we help you create, build and scale?
 
-- title: Products
-  url:  /products
-  image: /assets/heros/products.png
-  text: Kankoda builds SDKs and apps for the Apple tech stack.
+- title: SDKs
+  url:  /sdks
+  image: /assets/icons/keyboardkit.png
+  text: Kankoda builds multi-platform SDKs for the Apple eco-system.
   
-- title: Projects
-  url:  /projects
-  image: /assets/heros/projects.png
-  text: Take a look at some of Kankoda's most recent client projects.
+- title: Apps
+  url:  /apps
+  image: /assets/icons/wally.png
+  text: Kankoda builds multi-platform apps for the Apple eco-system.

@@ -1,14 +1,19 @@
 {% assign solid_size = include.solid | size %}
 {% assign hero_size = include.hero | size %}
 {% assign emoji_size = include.emoji | size %}
+{% assign icon_size = include.icon | size %}
 {% if solid_size > 0 %}
 {% assign class = "solid" %}
 {% endif %}
 
 {% if hero_size > 0 or emoji_size > 0 %}
-
-<section class="hero {{class}}">
+<section class="hero {{class}} {{include.class}}">
     <div class="wrapper">
+        {{include.hero-icon}}
+        {% if icon_size > 0 %}
+        
+        <img class="icon" src="{{hero-icon}}" />
+        {% endif %}
         <h1>{{include.title | default: page.title}}</h1>
         <p>{{include.description | default: page.description}}</p>
         {% if hero_size > 0 %}

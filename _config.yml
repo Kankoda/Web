@@ -56,30 +56,33 @@ header_pages:
 footer_sitemap:
   - index.html
   - pages/company.md
-  - pages/projects.md
-  - pages/products.md
+  - pages/sdks.md
+  - pages/apps.md
   - pages/blog.md
 
 footer_extra_title: Products
 footer_extra:
+  - pages/products/appamini.md
+  - pages/products/emojikit.md
+  - pages/products/emojipicker.md
   - pages/products/keyboardkit.md
-  - pages/sdks/emojikit.md
-  - pages/sdks/licensekit.md
-  - pages/products/emojipicker/emojipicker.md
+  - pages/products/licensekit.md
+  - pages/products/lunchrrrrr.md
   - pages/products/wally.md
+  - pages/products/vinylsamlaren.md
 
 collections_dir: collections
 
 collections:
   apps:
     output: true
-    permalink: /apps/:name/
+    permalink: /:name/
   emojikit-features:
     output: true
-    permalink: /sdks/emojikit/features/:name/
+    permalink: /emojikit/features/:name/
   licensekit-features:
     output: true
-    permalink: /sdks/licensekit/features/:name/
+    permalink: /licensekit/features/:name/
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title

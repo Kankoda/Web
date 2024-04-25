@@ -1,29 +1,29 @@
 - title: License Validation
-  url:  /sdks/licensekit/features/license
+  url:  /licensekit/features/license
   emoji: ✅
   text: LicenseKit can validate licenses in many different ways.
 
 - title: Binary Licenses
-  url:  /sdks/licensekit/features/binary-licenses
+  url:  /licensekit/features/binary-licenses
   emoji: 🧑🏽‍💻
   text: LicenseKit can compile licenses into the product binary.
 
 - title: File-Based Licenses
-  url:  /sdks/licensekit/features/file-licenses
+  url:  /licensekit/features/file-licenses
   emoji: 📄
   text: LicenseKit can read licenses from plain text files.
 
 - title: API/Cloud-Based Licenses
-  url:  /sdks/licensekit/features/api-licenses
+  url:  /licensekit/features/api-licenses
   emoji: 🌩️
   text: LicenseKit can validate licenses over the Internet, using any API.
 
 - title: Integrations
-  url:  /sdks/licensekit/features/gumroad
+  url:  /licensekit/features/integrations
   emoji: 🏬
   text: LicenseKit integrates directly with Gumroad's license API.
 
 - title: Service Composition
-  url:  /sdks/licensekit/features/service-composition
+  url:  /licensekit/features/service-composition
   emoji: ⚙️
   text: LicenseKit can compose services to create powerful combos.

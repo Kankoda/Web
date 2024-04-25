@@ -1,6 +1,7 @@
 name: Emoji Picker
 app: 1
+
 icon: emojipicker
 image: /assets/headers/emojipicker.jpg
 url: /emojipicker
-url_appstore: https://itunes.apple.com/app/emoji-picker/id6472487442
+url_appstore: https://apps.apple.com/se/app/emoji-picker-pick-emojis/id6472487442

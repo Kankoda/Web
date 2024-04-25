@@ -1,8 +1,7 @@
 name: KeyboardKit
 app: 1
 sdk: 1
+
 icon: keyboardkit
-image: /assets/headers/keyboardkit.jpg
+text: A Swift SDK for custom keyboards.
 url: https://keyboardkit.com
-github: https://github.com/KeyboardKit/KeyboardKit
-gumroad: https://kankoda.gumroad.com/l/keyboardkitpro

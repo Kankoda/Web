@@ -1,12 +1,12 @@
 - name: Open-Source
   cta: GitHub
-  url: https://github.com/kankoda/emojikit
+  url: https://github.com/kankoda/emojikitpro
 
 - name: Pro
-  monthly_price_year: 4.99
-  monthly_price_month: 9.99
+  monthly_price_year: 10
+  monthly_price_month: 15
   cta: Free Trial
-  url: https://kankoda.gumroad.com/l/emojikit
+  url: https://kankoda.gumroad.com/l/emojikitpro
 
 - name: Custom
   cta: Contact Us
