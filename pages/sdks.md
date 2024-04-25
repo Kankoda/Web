@@ -21,6 +21,6 @@ Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.gi
 
 ## Open-Source Software
 
-Kankoda's founder has many [open-source projects](https://danielsaidi.com/opensource), which are handled as personal projects under his GitHub account. When a project is extended with a commercial add-on, it's moved to Kankoda.
+Kankoda's founder has many [open-source projects](https://danielsaidi.com/opensource), which are handled as personal projects. When a project is extended with a commercial add-on, it's transferred to Kankoda for billing purposes.
 
 {% include products/contact-section.md %}
