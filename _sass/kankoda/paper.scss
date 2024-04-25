@@ -9,6 +9,11 @@
 
 .paper hr {
   margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.hero.paper hr {
+  background-color: $content-background;
 }
 
 .paper.site-header hr {
