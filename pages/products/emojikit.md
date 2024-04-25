@@ -4,7 +4,7 @@ title: EmojiKit
 layout: page
 permalink: /emojikit
 
-image: /assets/headers/emojipicker.png
+image: /assets/headers/emojikit.png
 hero: /assets/heros/emojipicker.png
 hero-class: devices
 hero-icon: /assets/icons/emojikit.png
