@@ -1,7 +1,7 @@
 ---
 title: One Touch Paste
 
-image: /assets/headers/kankoda.jpg
+image: /assets/headers/onetouchpaste.jpg
 
 hero: /assets/heros/onetouchpaste.png
 hero-class: devices
