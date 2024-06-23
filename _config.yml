@@ -63,7 +63,6 @@ footer_sitemap:
 footer_extra_title: Products
 footer_extra:
   - pages/products/appamini.md
-  - pages/products/emojikit.md
   - pages/products/emojipicker.md
   - pages/products/keyboardkit.md
   - pages/products/licensekit.md

@@ -21,16 +21,22 @@ layout: default
     {{ content }}
   </div>
 
-  <h2>Discussions</h2>
+  {%- if page.tweet -%}
+  <h2>Discussion</h2>
 
-  <p>
-    Please share any ideas, feedback or comments you may have 
     {%- if site.disqus.shortname -%}
-    &nbsp;in the Disqus section below, or
+    <p>
+      If you found this post interesting and would like to share 
+      your thoughts, ideas, feedback etc. please comment in the
+      Disqus section below or reply to {% include kankoda/blog/post-discussion-links.html %}.
+    </p>
+    {%- else -%}
+    <p>
+      If you found this post interesting and would like to share 
+      your thoughts, ideas, feedback etc. please reply to {% include kankoda/blog/post-discussion-links.html %}.
+    </p>
     {%- endif -%}
-    &nbsp;by replying 
-    {% include kankoda/blog/post-discussion-links.html %}.
-  </p>
+  {%- endif -%}
 
   <h2>Follow for more</h2>
 
