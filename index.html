@@ -28,6 +28,9 @@ description: We build SDKs & apps for the Apple tech stack
 
   {% assign apps = site.data.products | where:"info.app",1 %}
   {% include products/products-section.md products=apps title="Apps" all-url="/apps" %}
+
+  {% assign opensource = site.data.open-source %}
+  {% include products/products-section.md products=opensource title="Open-Source" all-url="/sdks" %}
   
   <section>
     <h2>Latest news</h2>
