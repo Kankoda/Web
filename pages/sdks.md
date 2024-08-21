@@ -14,7 +14,7 @@ Kankoda builds multi-platform SDKs for the Apple ecosystem, using [Swift]({{site
 
 ## Closed-Source Products
 
-Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.urls.github}}), distributed with the [Swift Package Manager]({{site.spm}}) and sold through [Gumroad]({{site.gumroad_url}}).
+Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.urls.github}}), distributed with the [Swift Package Manager]({{site.spm}}) and sold through [Gumroad]({{site.urls.gumroad}}).
 
 {% assign products = site.data.products | where:"info.sdk",1 | sort:"info.name" %}
 {% include kankoda/grids/grid.html items=products type="icons" %}

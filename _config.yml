@@ -18,7 +18,6 @@ appstore_url: https://apps.apple.com/us/developer/kankoda-sweden-ab/id516398918
 email: info@kankoda.com
 email_url: mailto:info@kankoda.com
 github_url: https://github.com/kankoda
-gumroad_url: https://kankoda.gumroad.com
 mastodon_url: https://mastodon.social/@kankoda
 mastodon_username: kankoda@mastodon.social
 twitter_url: https://twitter.com/kankodahq
@@ -27,7 +26,10 @@ twitter_username: kankodahq
 urls:
   blog:       /blog
   github:     https://github.com/kankoda
+  gumroad:    https://kankoda.gumroad.com
   newsletter: https://kankoda.gumroad.com/subscribe
+
+  keyboardkit: https://keyboardkit.com
 
 swift:      https://developer.apple.com/swift/
 swiftui:    https://developer.apple.com/xcode/swiftui/
@@ -39,7 +41,6 @@ jetpack:    https://developer.android.com/jetpack/compose
 stockholm:  https://www.google.com/maps/place/Stockholm,+Sweden/@59.3262131,17.8172499,11z/data=!3m1!4b1!4m6!3m5!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808!16zL20vMDZteHM
 
 emojikit:       https://kankoda.com/emojikit
-keyboardkit:    https://keyboardkit.com
 keyboardkitpro: https://keyboardkit.com/pro
 licensekit:     https://kankoda.com/licensekit
 wally:          https://wally.app
@@ -130,6 +131,7 @@ defaults:
     values:
       author: "danielsaidi"
       layout: "post"
+      image: /assets/headers/kankoda.jpg
 
 exclude:
   - Gemfile
