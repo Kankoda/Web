@@ -6,7 +6,7 @@ layout: default
 hero: /assets/devices.png
 hero-title: Welcome to Kankoda
 
-description: We build SDKs & apps for the Apple tech stack
+description: We build SDKs, apps and software for the Apple eco-system
 ---
 
 <div class="home-content paper">
@@ -18,26 +18,34 @@ description: We build SDKs & apps for the Apple tech stack
     Don't hesistate to <a href="mailto:{{site.email}}">reach out</a> if you need help with a project or want to build something amazing.
   </p>
 
+  {% include kankoda/grids/grid-features.html features=site.data.home-features %}
+
+  <hr />
+
   <section>
-    <h2>About us</h2>
-    {% include kankoda/grids/grid-features.html features=site.data.home-features %}
+    <h2>Social Media</h2>
+    <p>
+      Follow us on
+      <a href="{{ site.twitter_url }}">Twitter</a> and
+      <a href="{{ site.mastodon_url }}">Mastodon</a>
+      for the latest news.
+    </p>
   </section>
 
-  {% assign sdks = site.data.products | where:"info.sdk",1 %}
-  {% include products/products-section.md products=sdks title="SDKs" all-url="/sdks" %}
-
-  {% assign apps = site.data.products | where:"info.app",1 %}
-  {% include products/products-section.md products=apps title="Apps" all-url="/apps" %}
-
-  {% assign opensource = site.data.open-source %}
-  {% include products/products-section.md products=opensource title="Open-Source" all-url="/sdks" %}
-  
   <section>
-    <h2>Latest news</h2>
+    <h2>Newsletter</h2>
+    <p>
+      Subscribe to our <a href="{{site.urls.newsletter}}">newsletter</a> for periodic updates.
+    </p>
+    <p>
+      {% include kankoda/widgets/newsletter.html %} 
+    </p>
+  </section>
+
+  <section>
+    <h2>Blog</h2>
     <div>
-      <a href="/blog">Blog</a> ·
-      <a href="{{ site.twitter_url }}">Twitter</a> ·
-      <a href="{{ site.mastodon_url }}">Mastodon</a>
+      Follow our <a href="/blog">blog</a> for news and articles about our products and services.
     </div>
     <p></p>
     <div class="grid blog list">
@@ -48,4 +56,15 @@ description: We build SDKs & apps for the Apple tech stack
       {% endfor %}
     </div>
   </section>
+
+  <hr />
+
+  {% assign sdks = site.data.products | where:"info.sdk",1 %}
+  {% include products/products-section.md products=sdks title="SDKs" all-url="/sdks" %}
+
+  {% assign apps = site.data.products | where:"info.app",1 %}
+  {% include products/products-section.md products=apps title="Apps" all-url="/apps" %}
+
+  {% assign opensource = site.data.open-source %}
+  {% include products/products-section.md products=opensource title="Open-Source" all-url="/sdks" %}
 </div>

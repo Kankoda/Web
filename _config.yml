@@ -24,6 +24,9 @@ mastodon_username: kankoda@mastodon.social
 twitter_url: https://twitter.com/kankodahq
 twitter_username: kankodahq
 
+urls:
+  newsletter: https://kankoda.gumroad.com/subscribe
+
 swift:      https://developer.apple.com/swift/
 swiftui:    https://developer.apple.com/xcode/swiftui/
 spm:        https://www.swift.org/package-manager/

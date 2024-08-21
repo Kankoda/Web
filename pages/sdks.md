@@ -6,7 +6,7 @@ permalink: /sdks
 
 hero: /assets/heros/sdks.png
 
-description: Kankoda builds open-source & closed-source SDKs for the Apple ecosystem
+description: Kankoda builds open-source & closed-source SDKs for the Apple eco-system
 ---
 
 Kankoda builds multi-platform SDKs for the Apple ecosystem, using [Swift]({{site.swift}}), [SwiftUI]({{site.swiftui}}) & [Swift Package Manager]({{site.spm}}) to provide useful tools for iOS, iPadOS, macOS, tvOS, watchOS & visionOS.
@@ -22,8 +22,8 @@ Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.gi
 
 ## Open-Source Software
 
-Kankoda's founder, [Daniel Saidi](https://danielsaidi.com) has many [open-source projects](https://danielsaidi.com/opensource), which are handled as personal projects. When a project becomes commercial, it's transferred to Kankoda for billing purposes.
 
+Kankoda's founder [Daniel Saidi](https://danielsaidi.com) has many [open-source projects](https://danielsaidi.com/opensource) up on GitHub. When any project becomes commercial, it's transferred to Kankoda's GitHub account.
 {% assign projects = site.data.open-source | sort:"name" %}
 {% include kankoda/grids/grid.html items=projects type="icons" %}
 

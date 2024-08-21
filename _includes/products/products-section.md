@@ -4,7 +4,7 @@
 
 {% if include.all-url %}
 <div>
-    <h5><a href="{{include.all-url}}">View more</a></h5>
+    <p><a href="{{include.all-url}}">View all</a></p>
 </div>
 {% endif %}
 
