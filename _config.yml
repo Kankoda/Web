@@ -25,6 +25,8 @@ twitter_url: https://twitter.com/kankodahq
 twitter_username: kankodahq
 
 urls:
+  blog:       /blog
+  github:     https://github.com/kankoda
   newsletter: https://kankoda.gumroad.com/subscribe
 
 swift:      https://developer.apple.com/swift/
@@ -58,20 +60,14 @@ header_pages:
 
 footer_sitemap:
   - index.html
-  - pages/company.md
+  - pages/about.md
   - pages/sdks.md
   - pages/apps.md
-  - pages/blog.md
 
-footer_extra_title: Products
+footer_extra_title: SDKs
 footer_extra:
-  - pages/products/appamini.md
-  - pages/products/emojipicker.md
   - pages/products/keyboardkit.md
   - pages/products/licensekit.md
-  - pages/products/lunchrrrrr.md
-  - pages/products/wally.md
-  - pages/products/vinylsamlaren.md
 
 collections_dir: collections
 

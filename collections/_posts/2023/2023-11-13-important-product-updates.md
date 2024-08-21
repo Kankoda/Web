@@ -12,8 +12,8 @@ As Kankoda creates more products, having separate web sites and social media acc
 
 The affected products will be converted to product pages on this website and product news will be posted on Kankoda's [Twitter]({{site.twitter_url}}) and [Mastodon]({{site.mastodon_url}}) accounts and on the [Kankoda blog](/blog). 
 
-The GitHub repos for affected SDK products will also be moved into the [Kankoda organization]({{site.github_url}}).
+The GitHub repos for affected SDK products will also be moved into the [Kankoda organization]({{site.urls.github}}).
 
-This change applies to [LicenseKit](/licensekit), which means that [the old LicenseKit website](https://getlicensekit.com) is now a [product page](/licensekit) on this website, and the GitHub account is now found [here]({{site.github_url}}/LicenseKit) from now on.
+This change applies to [LicenseKit](/licensekit), which means that [the old LicenseKit website](https://getlicensekit.com) is now a [product page](/licensekit) on this website, and the GitHub account is now found [here]({{site.urls.github}}/LicenseKit).
 
 This change will for now not apply to [KeyboardKit](https://keyboardkit.com), [Appamini](https://appamini.com) or [Wally](https://wally.app), which for now keeps their own sites and accounts.

@@ -1,13 +1,15 @@
 ---
-id: company
-title: Company
+id: about
+title: About
 layout: page
-permalink: /company
+permalink: /about
 
 image:  /assets/headers/kankoda-sthlm.jpg
 
 hero-class: paper
 hero-title: About Kankoda
+
+redirect_from: /company
 
 description: Kankoda builds apps & SDKs for all major Apple platforms.
 ---
