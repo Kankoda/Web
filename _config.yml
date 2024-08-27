@@ -14,41 +14,33 @@ copyright_year: 2021-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
-appstore_url: https://apps.apple.com/us/developer/kankoda-sweden-ab/id516398918
 email: info@kankoda.com
 email_url: mailto:info@kankoda.com
-github_url: https://github.com/kankoda
-mastodon_url: https://mastodon.social/@kankoda
 mastodon_username: kankoda@mastodon.social
-twitter_url: https://twitter.com/kankodahq
 twitter_username: kankodahq
 
 urls:
+  appstore:   https://apps.apple.com/us/developer/kankoda-sweden-ab/id516398918
   blog:       /blog
   github:     https://github.com/kankoda
   gumroad:    https://kankoda.gumroad.com
+  mastodon:   https://mastodon.social/@kankoda
   newsletter: https://kankoda.gumroad.com/subscribe
+  twitter:    https://twitter.com/kankodahq
 
   keyboardkit: https://keyboardkit.com
+  keyboardkitpro: https://keyboardkit.com/pro
+  licensekit: https://kankoda.com/licensekit
+  wally:      https://wally.app
 
-swift:      https://developer.apple.com/swift/
-swiftui:    https://developer.apple.com/xcode/swiftui/
-spm:        https://www.swift.org/package-manager/
-docc:       https://www.swift.org/documentation/docc/#:~:text=DocC%20syntax%20—%20called%20documentation%20markup,%2C%20code%20listings%2C%20and%20asides.
-kotlin:     https://kotlinlang.org
-jetpack:    https://developer.android.com/jetpack/compose
+  docc:       https://www.swift.org/documentation/docc/#:~:text=DocC%20syntax%20—%20called%20documentation%20markup,%2C%20code%20listings%2C%20and%20asides.
+  jetpack:    https://developer.android.com/jetpack/compose
+  kotlin:     https://kotlinlang.org
+  spm:        https://www.swift.org/package-manager/
+  swift:      https://developer.apple.com/swift/
+  swiftui:    https://developer.apple.com/xcode/swiftui/
 
-stockholm:  https://www.google.com/maps/place/Stockholm,+Sweden/@59.3262131,17.8172499,11z/data=!3m1!4b1!4m6!3m5!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808!16zL20vMDZteHM
-
-emojikit:       https://kankoda.com/emojikit
-keyboardkitpro: https://keyboardkit.com/pro
-licensekit:     https://kankoda.com/licensekit
-wally:          https://wally.app
-
-bambuser:       https://bambuser.com
-cineasterna:    https://cineasterna.com/en
-oribi:          https://oribi.se/en/
-qapital:        https://qapital.com
+  stockholm:  https://www.google.com/maps/place/Stockholm,+Sweden/@59.3262131,17.8172499,11z/data=!3m1!4b1!4m6!3m5!1s0x465f763119640bcb:0xa80d27d3679d7766!8m2!3d59.3293235!4d18.0685808!16zL20vMDZteHM
 
 assets: /assets/
 header_image: /assets/logo/logo.png

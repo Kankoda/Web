@@ -12,4 +12,4 @@ description: Pick emojis from more places
 
 Say hi to Emoji Kit – the app that lets you pick emojis on your iPhone, iPad and Mac, from the app, macOS menubar, or from widgets on your home screen or desktop.
 
-Emoji Picker was created with [Swift]({{site.swift}}) and [SwiftUI]({{site.swiftui}}) and has great accessibility and keyboard support. It supports categories, skin tones, search, and much more.
+Emoji Picker was created with [Swift]({{site.urls.swift}}) and [SwiftUI]({{site.urls.swiftui}}) and has great accessibility and keyboard support. It supports categories, skin tones, search, and much more.

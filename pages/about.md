@@ -16,7 +16,7 @@ description: Kankoda builds apps & SDKs for all major Apple platforms.
 
 ![Kankoda logotype over Stockholm backdrop]({{page.image}})
 
-Kankoda is an app and software agency in beautiful [Stockholm, Sweden]({{site.stockholm}}), that builds software for all major Apple platforms, using technologies like [Swift]({{site.swift}}), [SwiftUI]({{site.swiftui}}), and [Swift Package Manager]({{site.spm}}).
+Kankoda is an app and software agency in beautiful [Stockholm, Sweden]({{site.urls.stockholm}}), that builds software for all major Apple platforms, using technologies like [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}), and [Swift Package Manager]({{site.urls.spm}}).
 
 Don't hesitate to [reach out](mailto:{{site.email}}) if want to build something, or need help with your apps or software. Kankoda can help you create, build and scale.
 
@@ -28,7 +28,7 @@ Kankoda builds multi-platform [apps](/products) that use Swift packages to run o
 
 ## SDKs
 
-Kankoda builds commercial [SDKs](/products) that use the [Swift Package Manager]({{site.spm}}) and [LicenseKit]({{site.licensekit}}) to deliver closed-source software products that are protected by commersial licenses.
+Kankoda builds commercial [SDKs](/products) that use the [Swift Package Manager]({{site.urls.spm}}) and [LicenseKit]({{site.urls.licensekit}}) to deliver closed-source software products that are protected by commersial licenses.
 
 
 ## Open-source
@@ -43,4 +43,4 @@ Kankoda can help you out with your apps and software on freelance basis. Don't h
 
 ## Android
 
-Kankoda can team up with amazing friends to deliver stunning experiences for Android, using tools like [Kotlin]({{site.kotlin}}) and [Jetpack Compose]({{site.jetpack}}).
+Kankoda can team up with amazing friends to deliver stunning experiences for Android, using tools like [Kotlin]({{site.urls.kotlin}}) and [Jetpack Compose]({{site.urls.jetpack}}).

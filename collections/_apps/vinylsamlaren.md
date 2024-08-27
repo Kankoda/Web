@@ -13,4 +13,4 @@ Say hi to Vinylsamlaren – the app that lets you find great record stores nearb
 
 Vinylsamlaren also has a Discogs integrated scanner that lets you scan any record's EAN code to get all relevant information for that album.
 
-Vinylsamlaren is currently a bit old, and was created with [Swift]({{site.swift}}) and UIKit many years ago. It's free to use and was created as a fun side project.
+Vinylsamlaren is currently a bit old, and was created with [Swift]({{site.urls.swift}}) and UIKit many years ago. It's free to use and was created as a fun side project.

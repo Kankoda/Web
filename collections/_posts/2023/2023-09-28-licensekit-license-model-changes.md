@@ -7,7 +7,7 @@ icon:   lunchrrrrr
 image:  /assets/headers/licensekit.png
 ---
 
-The [LicenseKit]({{site.licensekit}}) license model has been updated to be more affordable for single indie developers and smaller startups, while also providing more functionality.
+The [LicenseKit]({{site.urls.licensekit}}) license model has been updated to be more affordable for single indie developers and smaller startups, while also providing more functionality.
 
 ![LicenseKit header]({{page.image}})
 

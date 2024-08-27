@@ -9,7 +9,7 @@ hero: /assets/heros/apps.png
 description: Kankoda builds multi-platform apps with Swift & SwiftUI
 ---
 
-Kankoda builds apps for the [App Store]({{site.appstore_url}}). Due to the main focus on SDKs, open-source and client work, most of apps are small, but most are built with the latest versions of [Swift]({{site.swift}}) & [SwiftUI]({{site.swiftui}}).
+Kankoda builds apps for the [App Store]({{site.urls.appstore}}). Due to the main focus on SDKs, open-source and client work, most of apps are small, but most are built with the latest versions of [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
 
 ## Apps
 

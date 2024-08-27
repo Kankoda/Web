@@ -9,12 +9,12 @@ hero: /assets/heros/sdks.png
 description: Kankoda builds open-source & closed-source SDKs for the Apple eco-system
 ---
 
-Kankoda builds multi-platform SDKs for the Apple ecosystem, using [Swift]({{site.swift}}), [SwiftUI]({{site.swiftui}}) & [Swift Package Manager]({{site.spm}}) to provide useful tools for iOS, iPadOS, macOS, tvOS, watchOS & visionOS.
+Kankoda builds multi-platform SDKs for the Apple ecosystem, using [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}) & [Swift Package Manager]({{site.urls.spm}}) to provide useful tools for iOS, iPadOS, macOS, tvOS, watchOS & visionOS.
 
 
 ## Closed-Source Products
 
-Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.urls.github}}), distributed with the [Swift Package Manager]({{site.spm}}) and sold through [Gumroad]({{site.urls.gumroad}}).
+Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.urls.github}}), distributed with the [Swift Package Manager]({{site.urls.spm}}) and sold through [Gumroad]({{site.urls.gumroad}}).
 
 {% assign products = site.data.products | where:"info.sdk",1 | sort:"info.name" %}
 {% include kankoda/grids/grid.html items=products type="icons" %}
