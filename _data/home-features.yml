@@ -1,7 +1,7 @@
-- title: About us
+- title: About
   url: /company
   image: /assets/heros/icon.png
-  text: Who are we and how can we help you create, build and scale?
+  text: Kankoda builds products and can help you to create, build & scale.
 
 - title: SDKs
   url:  /sdks
