@@ -7,16 +7,26 @@
   github_pro: https://github.com/KeyboardKit/KeyboardKitPro
   icon: keyboardkit
 
-- name: SwiftUIKit
-  url: https://github.com/danielsaidi/SwiftUIKit
-  header: /assets/headers/swiftuikit.png
-  icon: swiftuikit
+- name: EmojiKit
+  url: https://github.com/kankoda/EmojiKit
+  header: /assets/headers/emojikit.png
+  icon: emojikit
 
 - name: RichTextKit
   url: https://github.com/danielsaidi/RichTextKit
   header: /assets/headers/richtextkit.png
   icon: richtextkit
 
+- name: DeckKit
+  url: https://github.com/danielsaidi/DeckKit
+  header: /assets/headers/deckkit.png
+  icon: deckkit
+
+
+- name: SwiftUIKit
+  url: https://github.com/danielsaidi/SwiftUIKit
+  header: /assets/headers/swiftuikit.png
+  icon: swiftuikit
 
 - name: ApiKit
   url: https://github.com/danielsaidi/ApiKit
@@ -28,20 +38,10 @@
   header: /assets/headers/badgeicon.png
   icon: badgeicon
 
-- name: DeckKit
-  url: https://github.com/danielsaidi/DeckKit
-  header: /assets/headers/deckkit.png
-  icon: deckkit
-
 - name: DocumentKit
   url: https://github.com/danielsaidi/DocumentKit
   header: /assets/headers/documentkit.png
   icon: documentkit
-
-- name: EmojiKit
-  url: https://github.com/kankoda/EmojiKit
-  header: /assets/headers/emojikit.png
-  icon: emojikit
 
 - name: EnvironmentKit
   url: https://github.com/danielsaidi/EnvironmentKit

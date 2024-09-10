@@ -2,7 +2,9 @@
 id: licensekit
 title: LicenseKit
 layout: page
-permalink: /licensekit
+permalink: /sdks/licensekit
+
+redirect_from: /licensekit
 
 image:  /assets/headers/licensekit.png
 hero: /assets/icons/licensekit.png

@@ -9,7 +9,7 @@ gumroad: https://gumroad.com
 
 ## Gumroad licenses
 
-[LicenseKit's](/licensekit) Gumroad license service makes it super simple to validate licenses that you've sold at Gumroad, and maps the API response to a valid LicenseKit license.
+[LicenseKit's](/sdks/licensekit) Gumroad license service makes it super simple to validate licenses that you've sold at Gumroad, and maps the API response to a valid LicenseKit license.
 
 
 ## How does it work?

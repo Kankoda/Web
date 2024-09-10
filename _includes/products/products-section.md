@@ -1,4 +1,4 @@
-{% assign products = include.products | sort_natural %}
+{% assign products = include.products %}
 
 <h2>{{ include.title | default: "Products" }}</h2>
 

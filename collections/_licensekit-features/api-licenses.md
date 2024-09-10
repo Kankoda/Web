@@ -7,7 +7,7 @@ description: LicenseKit can validate licenses over the Internet, using any REST 
 
 ## API/Cloud-based licenses
 
-[LicenseKit's](/licensekit) API-based license engine is a great alternative when validating licenses from external license providers, using regular REST API requests.
+[LicenseKit's](/sdks/licensekit) API-based license engine is a great alternative when validating licenses from external license providers, using regular REST API requests.
 
 
 ## How does it work?

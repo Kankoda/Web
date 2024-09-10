@@ -61,10 +61,10 @@ description: We build SDKs, apps and software for the Apple eco-system
 
   <hr />
 
-  {% assign sdks = site.data.products | where:"info.sdk",1 %}
+  {% assign sdks = site.data.sdks %}
   {% include products/products-section.md products=sdks title="SDKs" all-url="/sdks" %}
 
-  {% assign apps = site.data.products | where:"info.app",1 %}
+  {% assign apps = site.data.apps %}
   {% include products/products-section.md products=apps title="Apps" all-url="/apps" %}
 
   {% assign opensource = site.data.open-source %}

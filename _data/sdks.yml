@@ -1,0 +1,9 @@
+- name: KeyboardKit
+  icon: keyboardkit
+  text: KeyboardKit helps you build custom keyboards in Swift & SwiftUI.
+  url: https://keyboardkit.com
+
+- name: LicenseKit
+  icon: licensekit
+  text: LicenseKit protects your closed-source software with commercial licenses.
+  url: /sdks/licensekit

@@ -2,11 +2,11 @@
 layout: default
 ---
 
-{%- assign app = site.data.products | where:"info.name", page.title | first -%}
+{%- assign app = site.data.apps | where:"name", page.title | first -%}
 
 <article>
     {{ content }}
-    {% include kankoda/apps/app-store-button.html url=app.info.url_appstore image-class="plain" %}
+    {% include kankoda/apps/app-store-button.html url=app.url_appstore image-class="plain" %}
     <p>
         For information on how the app collects data (it doesn't), please see the <a href="{{page.url}}privacy-policy">privacy policy</a> document.
     </p>

@@ -1,7 +1,0 @@
-name: KeyboardKit
-app: 1
-sdk: 1
-
-icon: keyboardkit
-text: A Swift SDK for custom keyboards.
-url: https://keyboardkit.com

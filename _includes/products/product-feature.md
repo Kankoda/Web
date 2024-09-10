@@ -14,6 +14,6 @@
 
   <hr />
 
-  {% assign products = site.data.products | where:"info.sdk",1 %}
+  {% assign products = site.data.sdks %}
   {% include products/products-section.md products=products title="Our SDKs" %}
 </article>

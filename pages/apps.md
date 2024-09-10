@@ -15,7 +15,7 @@ Kankoda builds apps for the [App Store]({{site.urls.appstore}}). Due to the main
 
 Here are some apps that Kankoda has created, either as products, as partnerships, or for clients.
 
-{% assign apps = site.data.products | where:"info.app",1 | sort_natural %}
+{% assign apps = site.data.apps %}
 {% include kankoda/grids/grid.html items=apps type="icons" %}
 
 {% include products/contact-section.md %}

@@ -10,4 +10,4 @@ hero-class: icon
 description: The LicenseKit SDK offers add-ons to your license.
 ---
 
-{% include kankoda/licenses/addons.md product="LicenseKit" url="/licensekit" %}
+{% include kankoda/licenses/addons.md product="LicenseKit" url="/sdks/licensekit" %}

@@ -1,6 +1,4 @@
 name: Emoji Picker
-app: 1
-
 icon: emojipicker
 image: /assets/headers/emojipicker.jpg
 url: /emojipicker

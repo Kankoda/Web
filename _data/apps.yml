@@ -1,0 +1,43 @@
+- name: KeyboardKit
+  icon: keyboardkit
+  text: A Swift SDK for custom keyboards.
+  url: https://keyboardkit.com
+
+- name: Wally
+  icon: wally
+  text: A digital wallet for your private things.
+  url:  https://wally.app
+
+- name: Emoji Picker
+  icon: emojipicker
+  image: /assets/headers/emojipicker.jpg
+  url: /emojipicker
+  url_appstore: https://apps.apple.com/se/app/emoji-picker-pick-emojis/id6472487442
+
+- name: Appamini
+  icon: appamini
+  url:  https://appamini.com
+
+- name: Cineasterna
+  icon: cineasterna
+  url:  https://cineasterna.se/en
+
+- name: One Touch Paste
+  icon: onetouchpaste
+  url: /onetouchpaste
+  url_appstore: https://apps.apple.com/se/app/one-touch-paste/id6478205851
+
+- name: Oribi Writer
+  icon: oribiwriter
+  url:  https://oribi.se/en/apps/oribi-writer/
+
+- name: Lunchrrrrr
+  icon: lunchrrrrr
+  url: /lunchrrrrr
+  url_appstore: https://apps.apple.com/se/app/lunchrrrrr/id1209779063
+
+- name: Vinylsamlaren
+  icon: vinylsamlaren
+  text: Find great record shops nearby.
+  url:  /vinylsamlaren
+  url_appstore: https://itunes.apple.com/us/app/vinylsamlaren/id640253601

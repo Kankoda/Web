@@ -6,7 +6,7 @@ description: LicenseKit can read licenses from plain text files
 
 ## File-based licenses
 
-[LicenseKit's](/licensekit) can read licenses from plain text files, that can be read either from the product bundle or from any URL that your software has access to.
+[LicenseKit's](/sdks/licensekit) can read licenses from plain text files, that can be read either from the product bundle or from any URL that your software has access to.
 
 
 ## How does it work?

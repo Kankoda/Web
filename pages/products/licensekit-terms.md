@@ -1,15 +1,16 @@
 ---
 title: LicenseKit - Terms & Conditions
 layout: page
-permalink: /sdkslicensekit/terms-and-conditions
-redirect_from: 
-  - licensekit/terms
-  - /sdkslicensekit/terms
+permalink: /sdks/licensekit/terms-and-conditions
 
-image:  /assets/headers/licensekit.png
+redirect_from: 
+  - /sdks/licensekit/terms
+
+image: /assets/headers/licensekit.png
 hero: /assets/icons/licensekit.png
+hero-class: icon
 
 description: These terms and conditions apply to the LicenseKit SDK.
 ---
 
-{% include kankoda/licenses/terms.md product="LicenseKit" url="/licensekit" %}
+{% include kankoda/licenses/terms.md product="LicenseKit" url="/sdks/licensekit" %}

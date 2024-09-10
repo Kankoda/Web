@@ -30,7 +30,7 @@ urls:
 
   keyboardkit: https://keyboardkit.com
   keyboardkitpro: https://keyboardkit.com/pro
-  licensekit: https://kankoda.com/licensekit
+  licensekit: https://kankoda.com/sdks/licensekit
   wally:      https://wally.app
 
   docc:       https://www.swift.org/documentation/docc/#:~:text=DocC%20syntax%20—%20called%20documentation%20markup,%2C%20code%20listings%2C%20and%20asides.
@@ -73,7 +73,7 @@ collections:
     permalink: /emojikit/features/:name/
   licensekit-features:
     output: true
-    permalink: /licensekit/features/:name/
+    permalink: /sdks/licensekit/features/:name/
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title

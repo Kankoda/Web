@@ -6,7 +6,7 @@ description: LicenseKit can compile licenses into the product binary
 
 ## Binary licenses
 
-[LicenseKit's](/licensekit) can compile licenses into the product binary. This is a great alternative when you need to ship your licenses together with your product, e.g. to be validated even when offline.
+[LicenseKit's](/sdks/licensekit) can compile licenses into the product binary. This is a great alternative when you need to ship your licenses together with your product, e.g. to be validated even when offline.
 
 
 ## How does it work?
