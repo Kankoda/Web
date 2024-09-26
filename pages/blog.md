@@ -8,6 +8,8 @@ permalink: /blog/
 
 <div class="blog">
     {%- include kankoda/tags/list.html tags=site.tags firstmost="general,app,sdk" -%}
-    {%- include kankoda/blog/post-list.html posts=site.posts -%}
+    {% for post in site.posts %}
+    {% include kankoda/blog/post-list-item.html post=post %}
+    {% endfor %}
     {%- include kankoda/tags/scripts.html -%}
 </div>
