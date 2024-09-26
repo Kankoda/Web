@@ -8,12 +8,13 @@ description: >-
   Kankoda builds apps and products for iOS, iPadOS, tvOS, macOS and watchOS, using technologies like Swift, SwiftUI and Swift Package Manager. 
 
 url: http://kankoda.com
+email: info@kankoda.com
 
 copyright_year: 2021-2024
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
-email: info@kankoda.com
+github_username: Kankoda
 mastodon_username: kankoda@mastodon.social
 twitter_username: kankodahq
 
