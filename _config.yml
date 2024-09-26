@@ -15,11 +15,12 @@ copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
 email: info@kankoda.com
-email_url: mailto:info@kankoda.com
 mastodon_username: kankoda@mastodon.social
 twitter_username: kankodahq
 
 urls:
+  email:      mailto:info@kankoda.com
+
   appstore:   https://apps.apple.com/us/developer/kankoda-sweden-ab/id516398918
   blog:       /blog
   github:     https://github.com/kankoda

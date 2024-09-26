@@ -1,4 +1,4 @@
-{% assign email = site.email_url | append: "?subject=" | append: product.info.name %}
+{% assign email = site.urls.email | append: "?subject=" | append: product.info.name %}
 
 
 By purchasing an SDK license, you acknowledge and approve the [license terms & conditions](terms).
