@@ -5,10 +5,10 @@
 
 - title: SDKs
   url:  /sdks
-  image: /assets/icons/keyboardkit.png
-  text: Kankoda builds multi-platform SDKs for the Apple eco-system.
+  image: /assets/icons/sdks.png
+  text: Kankoda builds multi-platform SDKs for the Apple ecosystem.
   
 - title: Apps
   url:  /apps
-  image: /assets/icons/wally.png
-  text: Kankoda builds multi-platform apps for the Apple eco-system.
+  image: /assets/icons/apps.png
+  text: Kankoda builds multi-platform apps for the Apple ecosystem.

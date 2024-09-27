@@ -6,7 +6,7 @@ permalink: /sdks
 
 hero: /assets/heros/sdks.png
 
-description: Kankoda builds open-source & closed-source SDKs for the Apple eco-system
+description: Kankoda builds open-source & closed-source SDKs for the Apple ecosystem
 ---
 
 Kankoda builds multi-platform SDKs for the Apple ecosystem, using [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}) & [Swift Package Manager]({{site.urls.spm}}) to provide useful tools for iOS, iPadOS, macOS, tvOS, watchOS & visionOS.
