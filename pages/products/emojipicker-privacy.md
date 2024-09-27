@@ -8,4 +8,4 @@ redirect_from:
 ---
 
 {% assign product=site.data.products.emojipicker %}
-{% include kankoda/apps/privacy-policy.md product=product %}
+{% include kankoda/privacy/policy.md product=product %}

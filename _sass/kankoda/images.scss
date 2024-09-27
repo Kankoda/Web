@@ -1,8 +1,7 @@
 p > img { margin: 50px 0; }
  
-img, .image-container {
+article img, .rounded {
   border-radius: 1em;
-  
   img {
     border-radius: 0em;
   }
