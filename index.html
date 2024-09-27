@@ -25,13 +25,13 @@ description: We build SDKs, apps and software for the Apple ecosystem
   <section>
     <h2>Blog</h2>
     <div>
-      Follow the <a href="/blog">blog</a> for recurring news & updates.
+      Follow the <a href="/blog">Kankoda blog</a> for news & updates.
     </div>
     <p></p>
     <div class="grid blog list">
       {% for post in site.posts limit:2 %}
           <div>
-            {% include kankoda/blog/list-item.html post=posts.first %}
+            {% include kankoda/blog/list-item.html post=posts.first tag-limit=1 %}
           </div>
       {% endfor %}
     </div>
