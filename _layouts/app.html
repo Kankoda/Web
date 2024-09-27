@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{%- assign app = site.data.apps | where:"name", page.title | first -%}
+{% include kankoda/data/app.html name=page.title %}
 
 <article>
     {{ content }}
