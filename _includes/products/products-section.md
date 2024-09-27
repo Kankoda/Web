@@ -8,4 +8,4 @@
 </div>
 {% endif %}
 
-{% include kankoda/grids/grid.html items=products limit=4 type="icons" %}
+{% include kankoda/grid/grid.html items=products limit=4 type="icons" %}
