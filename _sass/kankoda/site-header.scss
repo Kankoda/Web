@@ -1,7 +1,10 @@
 .site-header {
   min-height: 0px;
 	border: 0 !important;
-  padding: 15px 0;
+  
+  > div {
+    padding: 15px 0;
+  }
 
   .row {
     align-items: center;
@@ -10,6 +13,10 @@
 
   .logo img {
     max-height: 25px;
+  }
+
+  .logo img.icon {
+    max-height: 50px;
   }
 
   .logo:hover {
