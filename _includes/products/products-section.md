@@ -1,11 +1,6 @@
 {% assign products = include.products %}
-
-<h2>{{ include.title | default: "Products" }}</h2>
-
-{% if include.all-url %}
-<div>
-    <p><a href="{{include.all-url}}">View all</a></p>
-</div>
-{% endif %}
-
+{% assign title = include.title | default: "Products" %}
+<article>
+{% include kankoda/titles/section.html title=title link-title="View all" link=include.all-url  %}
 {% include kankoda/grid/grid.html items=products limit=4 type="icons" %}
+</article>
