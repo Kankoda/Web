@@ -22,11 +22,11 @@ assets: /assets/
 header_image: /assets/logo/logo.png
 
 urls:
+  blog:       /blog
   email:      mailto:info@kankoda.com
   rss:        https://kankoda.com/feed.xml
 
   appstore:   https://apps.apple.com/us/developer/kankoda-sweden-ab/id516398918
-  blog:       /blog
   github:     https://github.com/kankoda
   gumroad:    https://kankoda.gumroad.com
   mastodon:   https://mastodon.social/@kankoda

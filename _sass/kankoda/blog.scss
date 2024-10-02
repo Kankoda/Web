@@ -5,11 +5,20 @@
   }
 }
 
+h2 + .post-header {
+
+  margin-top: -10px;
+}
+
 article.post .grid {
   margin: 40px 0px !important;
 }
 
 .post-header {
+
+  hr {
+    margin-bottom: 0px;
+  }
   font-size: smaller; 
   font-weight: normal;
   color: $foreground-secondary !important;
