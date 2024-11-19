@@ -1,6 +1,7 @@
 .tag, .tag:visited {
   display: inline-block;
   margin-right: 5px;
+  margin-bottom: 0.5em;
   padding: 1px 9px 2px 9px;
   border-radius: 1em;
   background-color: $tag-background;
@@ -34,6 +35,11 @@
 .tag.swiftui {
   background-color: $swiftui-color;
   border: solid 1px $swiftui-color;
+}
+
+.tag.guest-article {
+  color: $foreground !important;
+  background-color: white;
 }
 
 section.tag-list {

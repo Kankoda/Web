@@ -6,6 +6,7 @@ image: /assets/headers/onetouchpaste.jpg
 hero: /assets/heros/onetouchpaste.png
 hero-class: devices
 hero-icon: /assets/icons/onetouchpaste.png
+hero-title: One Touch Paste
 
 description: Paste with ease!
 ---

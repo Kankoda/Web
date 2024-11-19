@@ -8,6 +8,7 @@
   {%- assign hero-paper = page.hero-paper -%}
   {%- assign hero-emoji = page.hero-emoji -%}
   {%- assign hero-icon = page.hero-icon -%}
+  {%- assign hero-image-class = page.hero-image-class -%}
   {%- assign hero-description = page.hero-description | default: page.description -%}
 
   {% assign hero_size = hero | size %}
@@ -24,7 +25,7 @@
   <body class="{{page.id}} {{body_class}}">  
     {% include kankoda/global/site-header.html class=header-class %}
     {% if has_hero %}
-      {% include kankoda/heros/hero.html hero=hero title=hero-title paper=hero-paper class=hero-class emoji=hero-emoji icon=hero-icon description=hero-description %}
+      {% include kankoda/heros/hero.html hero=hero title=hero-title paper=hero-paper class=hero-class emoji=hero-emoji icon=hero-icon image-class=hero-image-class description=hero-description %}
     {% endif %}
     {{ content }}
     {% include kankoda/global/site-footer.html %}

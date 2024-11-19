@@ -6,6 +6,7 @@ image: /assets/headers/emojipicker.png
 hero: /assets/heros/emojipicker.png
 hero-class: devices
 hero-icon: /assets/icons/emojipicker.png
+hero-title: Emoji Picker
 
 description: Pick emojis from more places
 ---

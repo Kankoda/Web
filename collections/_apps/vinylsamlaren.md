@@ -5,6 +5,7 @@ image:  /assets/headers/kankoda.jpg
 hero: /assets/heros/vinylsamlaren.png
 hero-class: devices
 hero-icon: /assets/icons/vinylsamlaren.png
+hero-title: Vinylsamlaren
 
 description: Find great record stores nearby
 ---

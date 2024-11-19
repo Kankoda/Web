@@ -3,13 +3,13 @@
   url: https://kankoda.gumroad.com/l/licensekit
 
 - name: Silver
-  monthly_price_year: 119
-  monthly_price_month: 149
-  cta: Free Trial
+  price_year: 1499
+  price_month: 149
+  cta: Sign Up
   url: https://kankoda.gumroad.com/l/licensekit
 
 - name: Gold
-  monthly_price_year: 399
-  monthly_price_month: 499
-  cta: Free Trial
+  price_year: 4999
+  price_month: 499
+  cta: Sign Up
   url: https://kankoda.gumroad.com/l/licensekit
