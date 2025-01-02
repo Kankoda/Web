@@ -3,7 +3,7 @@
   {% include kankoda/head/head.html %}
   
   {%- assign hero = page.hero -%}
-  {%- assign hero-title = page.hero-title -%}
+  {%- assign hero-title = page.hero-title | default: page.title -%}
   {%- assign hero-class = page.hero-class -%}
   {%- assign hero-paper = page.hero-paper -%}
   {%- assign hero-emoji = page.hero-emoji -%}
@@ -12,8 +12,8 @@
   {%- assign hero-description = page.hero-description | default: page.description -%}
 
   {% assign hero_size = hero | size %}
-  {% assign hero-title_size = hero-title | size %}
-  {% assign hero-emoji_size = hero-emoji | size %}
+  {% assign hero-title_size = page.hero-title | size %}
+  {% assign hero-emoji_size = page.hero-emoji | size %}
 
   {% if hero_size > 0 or hero-title_size > 0 or hero-emoji_size > 0 %}
     {%- assign has_hero = 1 -%}

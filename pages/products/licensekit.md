@@ -9,7 +9,6 @@ redirect_from: /licensekit
 image:  /assets/headers/licensekit.png
 hero: /assets/icons/licensekit.png
 hero-image-class: icon rounded sticker
-hero-title: LicenseKit
 
 description: LicenseKit is a powerful Swift SDK for software licenses on all Apple platforms
 ---

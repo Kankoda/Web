@@ -6,15 +6,12 @@ permalink: /about
 
 image:  /assets/headers/kankoda-sthlm.jpg
 
-hero-class: paper
-hero-title: About Kankoda
-
 redirect_from: /company
 
 description: Kankoda builds apps & SDKs for all major Apple platforms.
 ---
 
-![Kankoda logotype over Stockholm backdrop]({{page.image}})
+# About Kankoda
 
 Kankoda is an app and software agency in beautiful [Stockholm, Sweden]({{site.urls.stockholm}}), that builds software for all major Apple platforms, using technologies like [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}), and [Swift Package Manager]({{site.urls.spm}}).
 
