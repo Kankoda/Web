@@ -1,5 +1,5 @@
 {%- for path in include.paths -%}
-  {%- assign page = pages | where: "path", path | first -%}
+  {%- assign page = site.pages | where: "path", path | first -%}
   {%- assign title = page.title | default:page.name -%}
   {%- if title -%}
   <a href="{{ page.url | relative_url }}">{{ title | escape }}</a>
