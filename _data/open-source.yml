@@ -5,90 +5,81 @@
   pro: https://keyboardkit.com/pro
   github: https://github.com/KeyboardKit/KeyboardKit
   github_pro: https://github.com/KeyboardKit/KeyboardKitPro
-  icon: keyboardkit
-
-- name: EmojiKit
-  url: https://github.com/kankoda/EmojiKit
-  header: /assets/headers/emojikit.png
-  icon: emojikit
-
-- name: RichTextKit
-  url: https://github.com/danielsaidi/RichTextKit
-  header: /assets/headers/richtextkit.png
-  icon: richtextkit
-
-- name: DeckKit
-  url: https://github.com/danielsaidi/DeckKit
-  header: /assets/headers/deckkit.png
-  icon: deckkit
-
 
 - name: SwiftUIKit
   url: https://github.com/danielsaidi/SwiftUIKit
   header: /assets/headers/swiftuikit.png
-  icon: swiftuikit
+
+- name: RichTextKit
+  url: https://github.com/danielsaidi/RichTextKit
+  header: /assets/headers/richtextkit.png
 
 - name: ApiKit
   url: https://github.com/danielsaidi/ApiKit
   header: /assets/headers/apikit.png
-  icon: apikit
+
+- name: AppIconKit
+  url: https://github.com/danielsaidi/AppIconKit
+  header: /assets/headers/appiconkit.png
 
 - name: BadgeIcon
   url: https://github.com/danielsaidi/BadgeIcon
   header: /assets/headers/badgeicon.png
-  icon: badgeicon
+
+- name: DeckKit
+  url: https://github.com/danielsaidi/DeckKit
+  header: /assets/headers/deckkit.png
 
 - name: DocumentKit
   url: https://github.com/danielsaidi/DocumentKit
   header: /assets/headers/documentkit.png
-  icon: documentkit
 
-- name: EnvironmentKit
-  url: https://github.com/danielsaidi/EnvironmentKit
-  header: /assets/headers/environmentkit.png
-  icon: environmentkit
+- name: EmojiKit
+  url: https://github.com/danielsaidi/EmojiKit
+  header: /assets/headers/emojikit.png
+
+- name: GestureButton
+  url: https://github.com/danielsaidi/GestureButton
+  header: /assets/headers/gesturebutton.png
 
 - name: MockingKit
   url: https://github.com/danielsaidi/MockingKit
   header: /assets/headers/mockingkit.png
-  icon: mockingkit
 
 - name: OnboardingKit
   url: https://github.com/danielsaidi/OnboardingKit
   header: /assets/headers/onboardingkit.png
-  icon: onboardingkit
 
 - name: PrintingKit
   url: https://github.com/danielsaidi/PrintingKit
   header: /assets/headers/printingkit.png
-  icon: printingkit
 
 - name: QuickSearch
   url: https://github.com/danielsaidi/QuickSearch
   header: /assets/headers/quicksearch.png
-  icon: quicksearch
 
 - name: ScrollKit
   url: https://github.com/danielsaidi/ScrollKit
   header: /assets/headers/scrollkit.png
-  icon: scrollkit
 
 - name: StoreKitPlus
   url: https://github.com/danielsaidi/StoreKitPlus
   header: /assets/headers/storekitplus.png
-  icon: storekitplus
+
+- name: SwiftPackageScripts
+  title: SPM Scripts
+  url: https://github.com/danielsaidi/SwiftPackageScripts
+  header: /assets/headers/swiftpackagescripts.png
 
 - name: SystemNotification
+  title: SystemNot...
   url: https://github.com/danielsaidi/SystemNotification
   header: /assets/headers/systemnotification.png
-  icon: systemnotification
 
 - name: TagKit
   url: https://github.com/danielsaidi/TagKit
   header: /assets/headers/tagkit.png
-  icon: tagkit
 
 - name: WebViewKit
   url: https://github.com/danielsaidi/WebViewKit
   header: /assets/headers/webviewkit.png
-  icon: webviewkit
