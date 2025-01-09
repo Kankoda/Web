@@ -10,7 +10,7 @@ As Kankoda creates more products, having separate web sites and social media acc
 
 ![LicenseKit header]({{page.image}})
 
-The affected products will be converted to product pages on this website and product news will be posted on Kankoda's [Twitter]({{site.urls.twitter}}) and [Mastodon]({{site.urls.mastodon}}) accounts and on the [Kankoda blog](/blog). 
+The affected products will be converted to product pages on this website and product news will be posted on Kankoda's [X]({{site.urls.twitter}}) and [Mastodon]({{site.urls.mastodon}}) accounts and on the [Kankoda blog](/blog). 
 
 The GitHub repos for affected SDK products will also be moved into the [Kankoda organization]({{site.urls.github}}).
 

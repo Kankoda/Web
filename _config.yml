@@ -10,10 +10,11 @@ description: >-
 url: http://kankoda.com
 email: info@kankoda.com
 
-copyright_year: 2021-2024
+copyright_year: 2021-2025
 copyright_owner: Kankoda Sweden AB
 copyright_url: https://kankoda.com
 
+bluesky_username: "@kankoda.bsky.social"
 github_username: Kankoda
 mastodon_username: kankoda@mastodon.social
 twitter_username: kankodahq
@@ -27,6 +28,7 @@ urls:
   rss:        https://kankoda.com/feed.xml
 
   appstore:   https://apps.apple.com/us/developer/kankoda-sweden-ab/id516398918
+  bluesky:    https://bsky.app/profile/kankoda.bsky.social
   github:     https://github.com/kankoda
   gumroad:    https://kankoda.gumroad.com
   mastodon:   https://mastodon.social/@kankoda
