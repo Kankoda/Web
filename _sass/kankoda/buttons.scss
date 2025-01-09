@@ -84,6 +84,11 @@ a.forward-button:after {
   -webkit-mask: url(/assets/kankoda/social-icons/github.svg) no-repeat center;
 }
 
+.social-button.githubsponsors {
+  mask: url(/assets/kankoda/social-icons/githubsponsors.svg) no-repeat center;
+  -webkit-mask: url(/assets/kankoda/social-icons/githubsponsors.svg) no-repeat center;
+}
+
 .social-button.linkedin {
   mask: url(/assets/kankoda/social-icons/linkedin.svg) no-repeat center;
   -webkit-mask: url(/assets/kankoda/social-icons/linkedin.svg) no-repeat center;
