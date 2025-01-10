@@ -5,6 +5,8 @@ permalink: /sdks/licensekit
 redirect_from: /licensekit
 
 image:  /assets/headers/licensekit.png
+image-show: 0
+
 hero: /assets/icons/licensekit.png
 hero-image-class: icon rounded sticker
 

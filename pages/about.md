@@ -13,24 +13,32 @@ description: Kankoda builds apps & SDKs for all major Apple platforms.
 
 # About Kankoda
 
-Kankoda is an app and software agency in beautiful [Stockholm, Sweden]({{site.urls.stockholm}}), that builds software for all major Apple platforms, using technologies like [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}), and [Swift Package Manager]({{site.urls.spm}}).
+Kankoda is an software company in [Stockholm, Sweden]({{site.urls.stockholm}}), that builds software for all major Apple platforms, using technologies like [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}), and the [Swift Package Manager]({{site.urls.spm}}).
 
-Don't hesitate to [reach out](mailto:{{site.email}}) if want to build something, or need help with your apps or software. Kankoda can help you create, build and scale.
+Kankoda builds [SDKs](/sdks) and [apps](/apps) for the Apple ecosystem and helps companies as freelance experts on app development & architecture.
+
+
+{% include company/contact-section.md %}
 
 
 ## Apps
 
-Kankoda builds multi-platform [apps](/products) that use Swift packages to run on all major Apple platforms with maximum compatibility and minimum effort.
+Kankoda builds multi-platform [apps](/products) that can run on all major Apple platforms (iOS, iPadOS, macOS, watchOS, visionOS), with maximum compatibility and minimum effort.
 
 
 ## SDKs
 
-Kankoda builds commercial [SDKs](/products) that use the [Swift Package Manager]({{site.urls.spm}}) and [LicenseKit]({{site.urls.licensekit}}) to deliver closed-source software products that are protected by commersial licenses.
+Kankoda builds commercial [SDKs](/products) that can run on all major Apple platforms (iOS, iPadOS, macOS, watchOS, visionOS), and that use the [Swift Package Manager]({{site.urls.spm}}) for easy distribution & integration.
 
 
 ## Open-source
 
-Kankoda builds and manages many open-source projects that run on all major Apple platforms and uses automated workflows to standardize the deployment process.
+Kankoda has extensive experience of open-source software, and can help you set up and maintain complex, long-term projects.
+
+
+## System Architecture
+
+Kankoda has extensive experience of frontend, backend and API design. We can help you design your system and information architecture.
 
 
 ## Freelancing

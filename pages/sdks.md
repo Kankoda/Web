@@ -23,7 +23,6 @@ Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.ur
 ## Open-Source Software
 
 Kankoda's founder [Daniel Saidi](https://danielsaidi.com) has many [open-source projects](https://danielsaidi.com/opensource) up on GitHub. When any project becomes commercial, it's transferred to Kankoda's GitHub account.
-{% assign projects = site.data.open-source %}
-{% include kankoda/grid/grid.html items=projects type="icons" %}
 
-{% include products/contact-section.md %}
+
+{% include company/contact-section.md %}

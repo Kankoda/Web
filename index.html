@@ -11,16 +11,30 @@ description: We build SDKs, apps and software for the Apple ecosystem
 
 <div class="home-content paper">
   <p>
-    Kankoda is <a href="/company">a software company</a> that builds <a href="/sdks">SDKs</a> and <a href="/apps">apps</a> for the Apple ecosystem and helps other companies as freelance experts on app development & architecture.
+    Kankoda builds <a href="/sdks">SDKs</a> and <a href="/apps">apps</a> for the Apple ecosystem and helps companies as freelance experts on app development & architecture.
   </p>
 
   <p>
     Don't hesistate to <a href="mailto:{{site.email}}">reach out</a> if you need help with a project or want to build something amazing.
   </p>
 
-  {% include kankoda/grid/features.html features=site.data.home-features %}
-
   <hr />
+
+  <section>
+    <div class="grid home centered">
+      <div class="column">
+        {% include kankoda/titles/section.html title="Social Media" %}
+        <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, <a href="{{site.urls.mastodon}}">Mastodon</a>, and <a href="{{site.urls.twitter}}">X</a> for the latest news.</p>
+      </div>
+      <div class="column">
+        {% include kankoda/titles/section.html title="Newsletter" %}
+        <p>Subscribe to <a href="{{site.urls.newsletter}}">the Kankoda newsletter</a> for periodic updates.</p>
+        {% include kankoda/widgets/newsletter.html %}
+      </div>
+    </div>
+  </section>
+
+  <hr />  
 
   <section>
     <h2>Blog</h2>
@@ -39,32 +53,12 @@ description: We build SDKs, apps and software for the Apple ecosystem
 
   <hr />
 
-  <section>
-    <div class="grid home centered">
-      <div class="column">
-        {% include kankoda/titles/section.html title="Social Media" %}
-        <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, <a href="{{site.urls.mastodon}}">Mastodon</a>, and <a href="{{site.urls.twitter}}">X</a> for the latest news.</p>
-      </div>
-      <div class="column">
-        {% include kankoda/titles/section.html title="Newsletter" %}
-        <p>Subscribe to <a href="{{site.urls.newsletter}}">the Kankoda newsletter</a> for periodic updates.</p>
-        {% include kankoda/widgets/newsletter.html %}
-      </div>
-    </div>
-  </section>
-
+  {% assign sdks = site.data.sdks %}
+  {% include products/grid-section.md products=sdks title="SDKs" all-url="/sdks" %}
+  
   <hr />
 
-  {% assign sdks = site.data.sdks %}
-  {% include products/products-section.md products=sdks title="SDKs" all-url="/sdks" %}
-  
-  <br />
-
   {% assign apps = site.data.apps %}
-  {% include products/products-section.md products=apps title="Apps" all-url="/apps" %}
+  {% include products/grid-section.md products=apps title="Apps" all-url="/apps" %}
 
-  <br />
-  
-  {% assign opensource = site.data.open-source %}
-  {% include products/products-section.md products=opensource title="Open-Source" all-url="/sdks" %}
 </div>
