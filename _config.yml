@@ -98,37 +98,31 @@ plugins:
 defaults:
   -
     scope:
-      type: "apps"
+      type: apps
     values:
       layout: app
       hero-class: devices
   -
     scope:
-      type: "emojikit-features"
-    values:
-      hero-paper: 1
-      layout: "emojikit-feature"
-      image: /assets/headers/emojikit.png
-  -
-    scope:
-      type: "licensekit-features"
-    values:
-      hero-paper: 1
-      layout: "licensekit-feature"
-      image: /assets/headers/licensekit.png
-  -
-    scope:
-      type: "pages"
+      type: pages
     values:
       hero: ""
+      layout: page
       image: /assets/headers/kankoda.jpg
   -
     scope:
-      type: "posts"
+      type: posts
     values:
-      author: "danielsaidi"
-      layout: "post"
+      author: danielsaidi
+      layout: post
       image: /assets/headers/kankoda.jpg
+  -
+    scope:
+      type: licensekit-features
+    values:
+      hero-paper: 1
+      layout: licensekit-feature
+      image: /assets/headers/licensekit.png
 
 exclude:
   - Gemfile
