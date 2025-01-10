@@ -100,7 +100,8 @@ defaults:
     scope:
       type: "apps"
     values:
-      layout: "app"
+      layout: app
+      hero-class: devices
   -
     scope:
       type: "emojikit-features"

@@ -2,13 +2,12 @@
 title: One Touch Paste
 
 image: /assets/headers/onetouchpaste.jpg
+image-show: 0
 
 hero: /assets/heros/onetouchpaste.png
-hero-class: devices
 hero-icon: /assets/icons/onetouchpaste.png
-hero-title: One Touch Paste
 
-description: Paste text and snippets with ease.
+description: Paste text and snippets with ease
 
 redirect_from: /onetouchpaste
 ---
