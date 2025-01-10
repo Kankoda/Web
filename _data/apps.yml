@@ -1,6 +1,6 @@
 - name: KeyboardKit
   icon: keyboardkit
-  text: A Swift SDK for custom keyboards.
+  text: Create custom keyboards on your iPhone & iPad.
   url: https://keyboardkit.com
 
 - name: Wally
@@ -10,33 +10,34 @@
 
 - name: Emoji Picker
   icon: emojipicker
-  url: /emojipicker
+  text: Pick emojis from more places.
+  url: /apps/emojipicker
   url_appstore: https://apps.apple.com/se/app/emoji-picker-pick-emojis/id6472487442
 
 - name: Appamini
   icon: appamini
+  text: Educational games for curious kids.
   url:  https://appamini.com
 
 - name: Cineasterna
   icon: cineasterna
+  text: Stream library movies for free.
   url:  https://cineasterna.se/en
 
 - name: One Touch Paste
   icon: onetouchpaste
-  url: /onetouchpaste
+  text: Paste text and snippets with ease.
+  url: /apps/onetouchpaste
   url_appstore: https://apps.apple.com/se/app/one-touch-paste/id6478205851
-
-- name: Oribi Writer
-  icon: oribiwriter
-  url:  https://oribi.se/en/apps/oribi-writer/
 
 - name: Lunchrrrrr
   icon: lunchrrrrr
-  url: /lunchrrrrr
+  text: Find great restaurants nearby.
+  url: /apps/lunchrrrrr
   url_appstore: https://apps.apple.com/se/app/lunchrrrrr/id1209779063
 
 - name: Vinylsamlaren
   icon: vinylsamlaren
   text: Find great record shops nearby.
-  url:  /vinylsamlaren
+  url:  /apps/vinylsamlaren
   url_appstore: https://itunes.apple.com/us/app/vinylsamlaren/id640253601

@@ -8,6 +8,8 @@ hero-icon: /assets/icons/vinylsamlaren.png
 hero-title: Vinylsamlaren
 
 description: Find great record stores nearby
+
+redirect_from: /vinylsamlaren
 ---
 
 Say hi to Vinylsamlaren – the app that lets you find great record stores nearby. Just open the app to get the best places to find that next great vinyl in the palm of your hands.

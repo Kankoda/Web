@@ -71,7 +71,7 @@ collections_dir: collections
 collections:
   apps:
     output: true
-    permalink: /:name/
+    permalink: /apps/:name/
   emojikit-features:
     output: true
     permalink: /emojikit/features/:name/

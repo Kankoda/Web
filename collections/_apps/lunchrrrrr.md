@@ -9,6 +9,8 @@ hero-icon: /assets/icons/lunchrrrrr.png
 hero-title: Lunchrrrrr
 
 description: Find great restaurants nearby
+
+redirect_from: /lunchrrrrr
 ---
 
 Say hi to Lunchrrrrr – the app that lets you find great restaurants nearby. Just open the app and get the best places to grab lunch, dinner or a snack in the palm of your hands.

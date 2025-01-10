@@ -8,7 +8,9 @@ hero-class: devices
 hero-icon: /assets/icons/onetouchpaste.png
 hero-title: One Touch Paste
 
-description: Paste with ease!
+description: Paste text and snippets with ease.
+
+redirect_from: /onetouchpaste
 ---
 
 Say hello to One Touch Paste – an app that lets you create, manage and sync clips & snippets, then paste them into any app or browser, using the powerful keyboard.
