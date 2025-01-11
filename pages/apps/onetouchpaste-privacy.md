@@ -8,5 +8,5 @@ redirect_from:
   - /onetouchpaste/privacy-policy
 ---
 
-{% assign product=site.data.products.onetouchpaste %}
-{% include kankoda/privacy/policy.md product=product %}
+{% include kankoda/data/app name="One Touch Paste" %}
+{% include kankoda/privacy/policy.md product=app %}

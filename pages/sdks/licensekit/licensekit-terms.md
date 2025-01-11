@@ -8,4 +8,5 @@ redirect_from:
 image: /assets/headers/licensekit.png
 ---
 
-{% include kankoda/licenses/terms.md product="LicenseKit" url="/sdks/licensekit" %}
+{% include kankoda/data/sdk name="LicenseKit" %}
+{% include kankoda/licenses/terms.md product="LicenseKit" %}

@@ -8,5 +8,5 @@ redirect_from:
   - /emojipicker/privacy-policy
 ---
 
-{% assign product=site.data.products.emojipicker %}
-{% include kankoda/privacy/policy.md product=product %}
+{% include kankoda/data/app name="Emoji Picker" %}
+{% include kankoda/privacy/policy.md product=app %}

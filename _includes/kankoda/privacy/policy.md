@@ -1,6 +1,6 @@
-# {{include.app-name}} Privacy Policy
+# {{include.product.name}} Privacy Policy
 
-This is the privacy policy for the [{{include.product.info.name}}]({{include.product.info.url}}) app (hereby referred to as "the app").
+This is the privacy policy for the [{{include.product.name}}]({{include.product.url}}) app (hereby referred to as "the app").
 
 
 ## Definitions

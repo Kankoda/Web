@@ -61,11 +61,6 @@ footer_sitemap:
   - pages/sdks.md
   - pages/apps.md
 
-footer_extra_title: SDKs
-footer_extra:
-  - pages/products/keyboardkit.md
-  - pages/products/licensekit.md
-
 collections_dir: collections
 
 collections:

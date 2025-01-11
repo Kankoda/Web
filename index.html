@@ -53,12 +53,10 @@ description: We build SDKs, apps and software for the Apple ecosystem
 
   <hr />
 
-  {% assign sdks = site.data.sdks %}
-  {% include products/grid-section.md products=sdks title="SDKs" all-url="/sdks" %}
+  {% include products/grid-section.md title="SDKs" products=site.data.sdks all-url="/sdks" %}
   
   <hr />
 
-  {% assign apps = site.data.apps %}
-  {% include products/grid-section.md products=apps title="Apps" all-url="/apps" %}
+  {% include products/grid-section.md title="Apps" products=site.data.apps all-url="/apps" %}
 
 </div>

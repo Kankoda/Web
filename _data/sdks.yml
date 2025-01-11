@@ -2,8 +2,13 @@
   icon: keyboardkit
   text: KeyboardKit helps you build custom keyboards in Swift & SwiftUI.
   url: https://keyboardkit.com
+  github: https://github.com/KeyboardKit/KeyboardKit
+  gumroad: https://kankoda.gumroad.com/l/keyboardkit
 
 - name: LicenseKit
   icon: licensekit
   text: LicenseKit protects your closed-source software with commercial licenses.
   url: /sdks/licensekit
+  github: https://github.com/LicenseKit/LicenseKit
+  gumroad: https://kankoda.gumroad.com/l/licensekit
+  documentation: https://kankoda.github.io/LicenseKit

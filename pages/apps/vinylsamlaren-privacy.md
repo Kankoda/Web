@@ -8,5 +8,5 @@ redirect_from:
   - /vinylsamlaren/privacy-policy
 ---
 
-{% assign product=site.data.products.vinylsamlaren %}
-{% include kankoda/privacy/policy.md product=product %}
+{% include kankoda/data/app name="Vinylsamlaren" %}
+{% include kankoda/privacy/policy.md product=app %}

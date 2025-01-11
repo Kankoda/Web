@@ -8,5 +8,5 @@ redirect_from:
   - /lunchrrrrr/privacy-policy
 ---
 
-{% assign product=site.data.products.lunchrrrrr %}
-{% include kankoda/privacy/policy.md product=product %}
+{% include kankoda/data/app name="Lunchrrrrr" %}
+{% include kankoda/privacy/policy.md product=app %}
