@@ -6,12 +6,12 @@ layout: default
 hero: /assets/devices.png
 hero-title: Welcome to Kankoda
 
-description: We build SDKs, apps and software for the Apple ecosystem
+description: Kankoda builds software for Apple platforms, using Swift & SwiftUI
 ---
 
 <div class="home-content paper">
   <p>
-    Kankoda builds <a href="/sdks">SDKs</a> and <a href="/apps">apps</a> for the Apple ecosystem and helps companies as freelance experts on app development & architecture.
+    Kankoda is a software company in Stockholm, Sweden, that builds <a href="/sdks">SDKs</a> and <a href="/apps">apps</a> for Apple platforms, using technologies like Swift, SwiftUI and the Swift Package Manager.
   </p>
 
   <p>
@@ -24,7 +24,11 @@ description: We build SDKs, apps and software for the Apple ecosystem
     <div class="grid home centered">
       <div class="column">
         {% include kankoda/titles/section.html title="Social Media" %}
-        <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, <a href="{{site.urls.mastodon}}">Mastodon</a>, and <a href="{{site.urls.twitter}}">X</a> for the latest news.</p>
+        <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
+        <div>
+          {% include kankoda/buttons/social.html name="bluesky" href=site.urls.bluesky class="scale" %}
+          {% include kankoda/buttons/social.html name="mastodon" href=site.urls.mastodon class="scale" %}  
+        </div>
       </div>
       <div class="column">
         {% include kankoda/titles/section.html title="Newsletter" %}
