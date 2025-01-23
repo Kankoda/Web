@@ -16,6 +16,7 @@
         {% endif %}
         <h1>{{include.title | default: page.title}}</h1>
         <p>{{include.description | default: page.description}}</p>
+        
         {% if hero_size > 0 %}
         <div class="image-wrapper">
             <img src="{{include.hero}}" alt="Page hero image for {{page.id}} page" class="{{include.image-class}}" />
@@ -26,16 +27,4 @@
         </span>
         {% endif %}
     </div>
-    {% if class contains "paper" %}
-    {% else %}
-    <div class="hero-line">
-        <div class="line-content">
-            <div class="line"></div>
-            <div class="line-footer"></div>
-        </div>
-    </div>
-    {% endif %}
-    {% if class contains "paper" %}
-    <hr />
-    {% endif %}
 </section>

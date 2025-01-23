@@ -22,12 +22,20 @@
     {%- assign header-class = "paper" -%}
   {% endif %}
 
-  <body class="{{page.id}} {{body_class}}">  
-    {% include kankoda/global/site-header.html class=header-class %}
-    {% if has_hero %}
-      {% include kankoda/heros/hero.html hero=hero title=hero-title paper=hero-paper class=hero-class emoji=hero-emoji icon=hero-icon image-class=hero-image-class description=hero-description %}
-    {% endif %}
+  <body class="{{page.id}} {{body_class}}"> 
+    
+    <!-- Header -->
+    <header class="site-header paper" role="banner">
+      {% include kankoda/global/site-header.html %}
+        {% if has_hero %}
+        {% include kankoda/heros/hero.html hero=hero title=hero-title paper=hero-paper class=hero-class emoji=hero-emoji icon=hero-icon image-class=hero-image-class description=hero-description %}
+      {% endif %}
+      <hr />
+    </header>
+
     {{ content }}
+
+    <!-- Footer -->
     {% include kankoda/global/site-footer.html %}
   </body>
 </html>

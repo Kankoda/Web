@@ -6,6 +6,9 @@ a.cta {
   text-align: center;
   padding: 10px 15px;
   font-size: large;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 a.cta:visited {
@@ -103,10 +106,18 @@ a.forward-button:after {
   -webkit-mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
 }
 
+article > .button-container {
+  margin-top: 15px;
+}
+
+article > .button-container ~ .button-container {
+  margin-top: 25px;
+}
+
 .button-container {
   font-size: small;
   text-align: center;
-  margin: 50px 0;
+  margin-bottom: 50px;
 
   .group {
     padding: 15px 5px;
