@@ -93,17 +93,16 @@ plugins:
 defaults:
   -
     scope:
+      type: "pages"
+    values:
+      layout: "page"
+      image: /assets/headers/kankoda.jpg
+  -
+    scope:
       type: apps
     values:
       layout: app
       hero-class: devices
-  -
-    scope:
-      type: pages
-    values:
-      hero-image: ""
-      layout: page
-      image: /assets/headers/kankoda.jpg
   -
     scope:
       type: posts
