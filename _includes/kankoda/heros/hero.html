@@ -3,7 +3,7 @@
 {% assign has-image = page.hero-image | size %}
 {% assign has-title = page.hero-title | size %}
 
-{% if has-icon > 0 or has-image > 0 or has-emoji > 0 or has-title %}
+{% if has-icon > 0 or has-image > 0 or has-emoji > 0 or has-title > 0 %}
     {%- assign has-hero = 1 -%}
 {% endif %}
   
