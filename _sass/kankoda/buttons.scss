@@ -49,6 +49,18 @@ section.app-store-button {
   font-size: medium;
 }
 
+.back-button, .forward-button + h1 {
+  margin-top: 0px;
+}
+
+.back-button {
+  margin-left: -12px;
+}
+
+.forward-button {
+  margin-right: -12px;
+}
+
 .back-button a:before, a.back-button:before {
   content: "«";
 }
