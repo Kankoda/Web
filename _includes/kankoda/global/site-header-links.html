@@ -1,4 +1,4 @@
-<ul class="horizontal">
+<ul class="horizontal menu">
   {%- for path in site.header_pages -%}
     {%- assign current-page = site.pages | where: "path", path | first -%}
     {%- assign title = current-page.title | default:current-page.name | escape -%}
