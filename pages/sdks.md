@@ -4,7 +4,7 @@ title: SDKs
 layout: page
 permalink: /sdks
 
-hero: /assets/heros/sdks.png
+hero-image: /assets/heros/sdks.png
 
 description: Kankoda builds open-source & closed-source SDKs for the Apple ecosystem
 ---

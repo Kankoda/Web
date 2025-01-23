@@ -1,6 +1,6 @@
 ---
 title: Service Composition
-hero: /assets/heros/licensekit/services.png
+hero-image: /assets/heros/licensekit/services.png
 description: LicenseKit can compose services to create powerful combinations
 ---
 

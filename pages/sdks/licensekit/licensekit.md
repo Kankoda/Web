@@ -7,7 +7,7 @@ redirect_from: /licensekit
 image:  /assets/headers/licensekit.png
 image-show: 0
 
-hero: /assets/icons/licensekit.png
+hero-image: /assets/icons/licensekit.png
 hero-image-class: icon rounded sticker
 
 description: A powerful software license SDK for all Apple platforms

@@ -101,7 +101,7 @@ defaults:
     scope:
       type: pages
     values:
-      hero: ""
+      hero-image: ""
       layout: page
       image: /assets/headers/kankoda.jpg
   -
@@ -115,7 +115,6 @@ defaults:
     scope:
       type: licensekit-features
     values:
-      hero-paper: 1
       layout: licensekit-feature
       image: /assets/headers/licensekit.png
 

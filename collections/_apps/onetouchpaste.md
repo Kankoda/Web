@@ -4,7 +4,7 @@ title: One Touch Paste
 image: /assets/headers/onetouchpaste.jpg
 image-show: 0
 
-hero: /assets/heros/onetouchpaste.png
+hero-image: /assets/heros/onetouchpaste.png
 hero-icon: /assets/icons/onetouchpaste.png
 
 description: Paste text and snippets with ease

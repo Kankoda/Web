@@ -4,7 +4,7 @@ title: Vinylsamlaren
 image: /assets/headers/kankoda.jpg
 image-show: 0
 
-hero: /assets/heros/vinylsamlaren.png
+hero-image: /assets/heros/vinylsamlaren.png
 hero-icon: /assets/icons/vinylsamlaren.png
 
 description: Find great record stores nearby

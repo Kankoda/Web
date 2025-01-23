@@ -4,7 +4,7 @@ title: Lunchrrrrr
 image: /assets/headers/kankoda.jpg
 image-show: 0
 
-hero: /assets/heros/lunchrrrrr.png
+hero-image: /assets/heros/lunchrrrrr.png
 hero-icon: /assets/icons/lunchrrrrr.png
 
 description: Find great restaurants nearby

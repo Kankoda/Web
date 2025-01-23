@@ -4,7 +4,7 @@ title: Apps
 layout: page
 permalink: /apps
 
-hero: /assets/heros/apps.png
+hero-image: /assets/heros/apps.png
 
 description: Kankoda builds multi-platform apps with Swift & SwiftUI
 ---
