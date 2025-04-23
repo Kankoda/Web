@@ -22,7 +22,10 @@ LicenseKit is a Swift SDK helps you protect your apps and SDKs with commercial s
 
 {% include sdks/github-section.md sdk=sdk %}
 {% include kankoda/licenses/feature-section.html features=product.features %}
-{% include kankoda/paper/hr.md %}
+
+<div class="paper">
+  <hr />
+</div>
 
 {% include kankoda/licenses/pricing-section.html product=sdk %}
 
