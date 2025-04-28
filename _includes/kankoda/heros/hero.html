@@ -17,9 +17,9 @@
   {% if has-image > 0 %}
   <img src="{{page.hero-image}}" alt="Hero image for {{page.id}} page" class="{{page.hero-image-class}}" />
   {% elsif has-emoji > 0 %}
-  <span class="emoji">
+  <div class="emoji">
       {{page.hero-emoji}}
-  </span>
+  </div>
   {% endif %}
 </section>
 {% endif %}
