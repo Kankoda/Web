@@ -1,0 +1,18 @@
+.glass-container {
+
+  margin: 40px 0;
+  background-image: url('/assets/bg/glass-1.jpg');
+  background-position: center;
+  background-size: 100% 100%; /* Stretch image to exactly fill container */
+  background-repeat: no-repeat;
+
+  h1 + img { margin: 70px 0; }
+}
+
+.glasscontainer.bg1 {
+  background-image: url('/assets/bg/glass-1.jpg');
+}
+
+.glasscontainer.bg2 {
+  background-image: url('/assets/bg/glass-2.jpg');
+}
