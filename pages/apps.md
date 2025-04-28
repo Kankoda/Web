@@ -3,17 +3,14 @@ id: apps
 title: Apps
 layout: page
 permalink: /apps
+page-class: glass-panel bg-2
+description: Kankoda builds multiplatform apps for all major Apple platforms
 
-description: Kankoda builds multi-platform apps with Swift & SwiftUI
+hero-image: /assets/heros/apps.png
+hero-description: Multiplatform apps for Apple platforms
 ---
 
-<section class="glass-container bg-2 centered">
-    <h2>Apps</h2>
-    <h1>Kankoda builds multiplatform apps for all major Apple platforms.</h1>
-    <img src="/assets/heros/apps.png" class="plain" />
-</section>
-
-Kankoda builds apps for the [App Store]({{site.urls.appstore}}). Due to the main focus on SDKs, open-source & client work, most of our apps are small, but built with the latest versions of [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
+Kankoda has a bunch of apps on the [App Store]({{site.urls.appstore}}). Due to the company's focus on SDKs, open-source & client work, most apps are small, but they're built with the latest versions of [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
 
 
 ## Apps

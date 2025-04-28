@@ -2,16 +2,16 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include kankoda/head/head.html %}
 
-  <body class="{{page.id}} {{body_class}}"> 
+  <body class="{{page.id}} {{page.page-class}}"> 
     
     <!-- Header -->
-    <header class="site-header paper" role="banner">
+    <header class="site-header" role="banner">
       {% include kankoda/global/site-header.html %}
-      {% include kankoda/heros/hero.html %}
     </header>
 
     <!-- Content -->
     <main class="page-content" aria-label="Content">
+      {% include kankoda/heros/hero.html %}
       {{ content }}
     </main>
 

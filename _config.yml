@@ -104,6 +104,7 @@ defaults:
     values:
       layout: app
       hero-class: devices
+      page-class: glass-panel bg-1
   -
     scope:
       type: posts

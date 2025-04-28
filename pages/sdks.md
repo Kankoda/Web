@@ -3,15 +3,12 @@ id: sdks
 title: SDKs
 layout: page
 permalink: /sdks
+page-class: glass-panel bg-3
+description: Kankoda builds multiplatform SDKs for all major Apple platforms
 
-description: Kankoda builds open-source & closed-source SDKs for the Apple ecosystem
+hero-image: /assets/heros/sdks.png
+hero-description: Multiplatform SDKs for Apple platforms
 ---
-
-<section class="glass-container bg-2 centered">
-    <h2>SDKs</h2>
-    <h1>Kankoda builds multiplatform SDKs for all major Apple platforms.</h1>
-    <img src="/assets/heros/sdks.png" class="plain" />
-</section>
 
 Kankoda builds SDKs for the Apple ecosystem, using [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}) and [Swift Package Manager]({{site.urls.spm}}) to create developer tools for iOS, iPadOS, macOS, tvOS, watchOS & visionOS.
 
