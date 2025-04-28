@@ -4,8 +4,8 @@
   h1 { font-size: 1.8em !important; }
   h2 { font-size: 2.3em !important; }
   h2 { margin-top: 0em !important; font-weight: bold;}
-  h2 { margin-bottom: 60px !important; }
-  h2 + img { margin-bottom: 60px 0; }
+  h2 { margin-bottom: 60px; }
+  h2 + img { margin-bottom: 60px; }
 
   img.app-icon {
     width: 100px;
