@@ -5,8 +5,9 @@ permalink: /sdks/licensekit/addons
 
 image:  /assets/headers/licensekit.png
 
-hero-image: /assets/icons/licensekit.png
-hero-image-class: icon rounded sticker
+hero-icon: /assets/sdks/licensekit.png
+hero-icon-class: plain large
+hero-description: Add-ons to the LicenseKit license
 
 description: The LicenseKit SDK offers add-ons to your license.
 ---

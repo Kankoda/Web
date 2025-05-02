@@ -1,6 +1,7 @@
 ---
-title: API/Cloud-based Licenses
-hero-image: /assets/heros/licensekit/api.png
+title: Custom API Integrations
+hero-icon: /assets/heros/licensekit/api.png
+hero-icon-class: plain large
 description: LicenseKit can validate licenses over the Internet, using any REST API
 ---
 

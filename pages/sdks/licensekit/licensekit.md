@@ -7,8 +7,8 @@ redirect_from: /licensekit
 image:  /assets/headers/licensekit.png
 image-show: 0
 
-hero-image: /assets/icons/licensekit.png
-hero-image-class: icon rounded sticker
+hero-icon: /assets/sdks/licensekit.png
+hero-icon-class: large
 
 description: A powerful software license SDK for all Apple platforms
 ---
@@ -21,14 +21,15 @@ description: A powerful software license SDK for all Apple platforms
 LicenseKit is a Swift SDK helps you protect your apps and SDKs with commercial software licenses on all major Apple platforms (iOS, iPadOS, macOS, tvOS and watchOS).
 
 {% include sdks/github-section.md sdk=sdk %}
-{% include kankoda/licenses/feature-section.html features=product.features %}
+
+{% include kankoda/licenses/pricing-section.html product=sdk %}
+
+{% include sdks/licensekit-feature-table.html tiers=product.tiers %}
 
 <div class="paper">
   <hr />
 </div>
 
-{% include kankoda/licenses/pricing-section.html product=sdk %}
-
-{% include sdks/licensekit-feature-table.html tiers=product.tiers %}
+{% include kankoda/licenses/feature-section.html features=product.features %}
 
 {% include sdks/sdk-footer.md %}

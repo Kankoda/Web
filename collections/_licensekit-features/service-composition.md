@@ -1,6 +1,6 @@
 ---
 title: Service Composition
-hero-image: /assets/heros/licensekit/services.png
+hero-emoji: ⚙️
 description: LicenseKit can compose services to create powerful combinations
 ---
 

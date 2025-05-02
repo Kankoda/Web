@@ -1,3 +1,1 @@
-## GitHub
-
 {{ page.title }} is hosted at [GitHub]({{ include.sdk.github }}), where you find releases, a getting-started guide, documentation, code samples, issue tracker, and more.
