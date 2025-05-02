@@ -18,8 +18,8 @@
   emoji: 🌩️
   text: LicenseKit can validate licenses over the Internet, using any API.
 
-- title: Integrations
-  url:  /sdks/licensekit/features/integrations
+- title: Gumroad
+  url:  /sdks/licensekit/features/gumroad
   emoji: 🏬
   text: LicenseKit integrates directly with Gumroad's license API.
 

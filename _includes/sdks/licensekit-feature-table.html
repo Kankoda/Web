@@ -2,30 +2,40 @@
   {% include kankoda/gumroad/script.html %}
 {% endif %}
 
-<section class="feature-table three-tier {{include.price}}">
+<section class="feature-table {{include.price}}">
   {% include kankoda/licenses/tiers-header.html tiers=include.tiers price=include.price %}    
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Max licenses" columns="5,25,Unlimited" title="LicenseKit lets you define licenses in text files." %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Max licenses" columns="5,25,<b>Unlimited</b>,<b>Unlimited</b>" title="LicenseKit lets you define licenses in text files." %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Binary Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses with code." url="features/binary-licenses" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="File-based Licenses" columns="✔,✔,✔" title="LicenseKit lets you define licenses in text files." url="features/file-licenses" %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Gumroad Integration" columns="✔,✔,✔" title="LicenseKit lets you integrate with Gumroad." url="features/integrations" %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Binary Licenses" columns="✔,✔,✔,✔" title="LicenseKit lets you define licenses with code." url="features/binary-licenses" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="File-based Licenses" columns="✔,✔,✔,✔" title="LicenseKit lets you define licenses in text files." url="features/file-licenses" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Gumroad Integration" columns="✔,✔,✔,✔" title="LicenseKit lets you integrate with Gumroad." url="features/gumroad" %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Custom API Integrations" columns="-,-,✔" title="LicenseKit lets you validate licenses over the cloud." url="features/api-licenses" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="License Caching" columns="-,-,✔" title="LicenseKit lets you integrate with Gumroad." url="features/api-licenses" %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Service Compositions" columns="-,-,✔" title="LicenseKit lets you combine multiple license services into a single service." url="features/service-composition" %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Custom API Integrations" columns="-,-,✔,✔" title="LicenseKit lets you validate licenses over the cloud." url="features/api-licenses" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="License Caching" columns="-,-,✔,✔" title="LicenseKit lets you integrate with Gumroad." url="features/api-licenses" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Service Compositions" columns="-,-,✔,✔" title="LicenseKit lets you combine multiple license services into a single service." url="features/service-composition" %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Onboarding call" columns="-,-,Add-on" title="The optional onboarding call lets us understand your needs to help you get started." url="/sdks/licensekit/addons" %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Monthly call" columns="-,-,Add-on" title="The optional monthly call lets us keep in sync and move your products forward." url="/sdks/licensekit/addons" %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Binary License" columns="-,-,Add-on" title="The optional onboarding call lets us understand your needs to help you get started." url="/sdks/licensekit/addons" %}
-  {% include kankoda/licenses/table-row.html row=04 feature="Additional bundles" columns="-,-,Add-on" title="Additional bundle IDs can be added to an existing license at a discounted price." url="/sdks/licensekit/addons" %}
-  {% include kankoda/licenses/table-row.html row=05 feature="Support" columns="-,GitHub,E-mail" title="The higher tiers include priority support and can pay extra for dedicated support." url="/sdks/licensekit/addons" %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Offline Validation"  columns="-,-,Yearly,✔" title="Yearly Gold and Enterprise licenses are compiled into the library and can be validated offline, without the need for Full Access." url="license-validation" %}
   
-  {% include kankoda/licenses/tiers-footer.html tiers=include.tiers %}    
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Additional Products" columns="-,-,-,✔" title="Custom licenses can include additional products, at a significant discount." url="addons" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Custom Billing" columns="-,-,-,✔" title="Custom licenses can customize the billing, included products, etc." url="addons" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Custom Terms" columns="-,-,-,✔" title="Custom licenses can customize the license terms." url="addons" %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Enterprise Support" columns="-,-,-,✔" title="Custom licenses can include support for additional test environments and enterprise requirements.." url="addons" %}
+  {% include kankoda/licenses/table-row.html row=05 feature="Escrow Services" columns="-,-,-,✔" title="Enterprise licenses can include support for additional test environments and enterprise requirements.." url="addons" %}
+  
+  <hr />
+  
+  {% include kankoda/licenses/table-row.html row=01 feature="Support" columns="GitHub,Email,Priority,Dedicated" title="The higher tiers include priority support and can pay extra for dedicated support." url="support" %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Terms" columns="Standard,Standard,Custom,Custom" title="Custom licenses can customize the terms to accomodate to any business or legal requirements." url="terms-and-conditions" %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Discord Server" columns="Public,Public,Private,Private" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." url="support#communication" %}
+
+  <hr />
 </section>

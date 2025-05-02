@@ -4,7 +4,7 @@ date:   2023-09-28 06:00:00 +0000
 tags:   sdk licensekit
 
 icon:   lunchrrrrr
-image:  /assets/headers/licensekit.png
+image:  /assets/sdks/licensekit-header.jpg
 ---
 
 The [LicenseKit]({{site.urls.licensekit}}) license model has been updated to be more affordable for single indie developers and smaller startups, while also providing more functionality.

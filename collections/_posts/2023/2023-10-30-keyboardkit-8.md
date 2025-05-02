@@ -3,7 +3,7 @@ title:  KeyboardKit 8
 date:   2023-10-30 06:00:00 +0000
 tags:   sdk keyboardkit
 
-image:  /assets/headers/keyboardkit.png
+image:  /assets/sdks/keyboardkit-header.jpg
 
 post:   https://keyboardkit.com/blog/2023/10/30/keyboardkit-8
 ---

@@ -1,15 +1,20 @@
-- name: Basic
-  cta: Free
+- name: Free
+  cta: Sign Up
   url: https://kankoda.gumroad.com/l/licensekit
 
-- name: Silver
+- name: Starter
   price_year: 1500
   price_month: 150
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/licensekit
 
-- name: Gold
+- name: Business
   price_year: 5000
   price_month: 500
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/licensekit
+
+- name: Custom
+  cta: Contact Us
+  subtitle: Let's talk
+  url: mailto:info@kankoda.com?subject=LicenseKit%20Custom%20Plan

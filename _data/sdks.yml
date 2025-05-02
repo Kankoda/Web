@@ -2,6 +2,7 @@
   text: KeyboardKit helps you build custom keyboards in Swift & SwiftUI.
   url: https://keyboardkit.com
   image: /assets/sdks/keyboardkit.png
+  header: /assets/sdks/keyboardkit-header.jpg
   github: https://github.com/KeyboardKit/KeyboardKit
   gumroad: https://kankoda.gumroad.com/l/keyboardkit
 
@@ -9,6 +10,16 @@
   text: LicenseKit protects your closed-source software with commercial licenses.
   url: /sdks/licensekit
   image: /assets/sdks/licensekit.png
+  header: /assets/sdks/licensekit-header.jpg
   github: https://github.com/LicenseKit/LicenseKit
   gumroad: https://kankoda.gumroad.com/l/licensekit
   documentation: https://kankoda.github.io/LicenseKit
+
+- name: VietnameseInput
+  text: VietnameseInput lets you add Vietnamese input support to your apps.
+  url: /sdks/vietnameseinput
+  image: /assets/sdks/vietnameseinput.png
+  header: /assets/sdks/vietnameseinput-header.jpg
+  github: https://github.com/kankoda/vietnameseinput
+  gumroad: https://kankoda.gumroad.com/l/vietnameseinput
+  documentation: https://kankoda.github.io/VietnameseInput

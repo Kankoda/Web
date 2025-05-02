@@ -71,12 +71,16 @@ collections:
   emojikit-features:
     output: true
     permalink: /emojikit/features/:name/
-  licensekit-features:
-    output: true
-    permalink: /sdks/licensekit/features/:name/
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
+
+  licensekit-features:
+    output: true
+    permalink: /sdks/licensekit/features/:name/
+  vietnameseinput-features:
+    output: true
+    permalink: /sdks/vietnameseinput/features/:name/
 
 baseurl: ""
 theme: minima
@@ -117,7 +121,13 @@ defaults:
       type: licensekit-features
     values:
       layout: licensekit-feature
-      image: /assets/headers/licensekit.png
+      image: /assets/sdks/licensekit-header.jpg
+  -
+    scope:
+      type: vietnameseinput-features
+    values:
+      layout: vietnameseinput-feature
+      image: /assets/sdks/vietnameseinput-header.jpg
 
 exclude:
   - Gemfile

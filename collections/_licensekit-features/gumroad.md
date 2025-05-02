@@ -1,7 +1,7 @@
 ---
-title: Integrations
+title: Gumroad Integration
 hero-emoji: 🏬
-description: LicenseKit integrates directly with Gumroad's license API
+description: LicenseKit integrates directly with various license API
 
 gumroad: https://gumroad.com
 ---
