@@ -10,7 +10,11 @@ image-show: 0
 hero-icon: /assets/sdks/vietnameseinput.png
 hero-icon-class: large
 
-description: Vietnamese input support for Swift-based apps
+cta:
+  title: Pricing
+  url:   /sdks/vietnameseinput#pricing
+
+description: Vietnamese input for Swift-based apps
 ---
 
 {% assign product=site.data.vietnameseinput %}

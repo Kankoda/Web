@@ -4,4 +4,4 @@ By purchasing an SDK license, you acknowledge and approve the [license terms & c
   <hr />
 </div>
 
-{% include products/grid-section.md title="Our SDKs" products=site.data.sdks %}
+{% include products/grid-section.md title="Our SDKs" products=site.data.sdks all-url="/sdks" %}

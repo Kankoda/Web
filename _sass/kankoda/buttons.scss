@@ -1,14 +1,32 @@
 a.cta {
-  color: $cta-foreground !important;
+  color: $cta-foreground;
   background-color: $cta-background;
-  border-radius: 20px; 
+  border-color: $cta-border;
+  border-radius: 100px;
+  display: inline-block;
+  font-weight: normal;
+  font-size: medium;
+  min-width: 100px;
   text-align: center;
-  padding: 10px 15px;
+  padding: 5px;
 }
 
-a.cta:visited {
-  color: $cta-foreground !important;
+.hero a.cta {
+  padding: 10px;
 }
+
+a.cta:hover { color: $cta-foreground; }
+a.cta:visited { color: $cta-foreground !important; }
+
+a.cta.secondary {
+  color: $cta-secondary-foreground;
+  background-color: $cta-secondary-background;
+  border-color: $cta-secondary-border;
+  border: solid 1px;
+}
+
+a.cta.secondary:hover { color: $cta-secondary-foreground; }
+a.cta.secondary:visited { color: $cta-secondary-foreground !important; }
 
 .cta-container {
   text-align: center;

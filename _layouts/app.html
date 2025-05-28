@@ -10,4 +10,11 @@ layout: default
     <p>
         For information on how the app collects data (it doesn't), please see the <a href="{{page.url}}privacy-policy">privacy policy</a> document.
     </p>
+
+    <div class="paper">
+        <hr />
+    </div>
+    
+    {% include products/grid-section.md title="Our apps" products=site.data.apps all-url="/apps" %}
+
 </article>

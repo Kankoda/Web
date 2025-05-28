@@ -23,6 +23,6 @@
 
   <hr />
 
-  {% include products/grid-section.md title="Our SDKs" products=site.data.sdks %}
+  {% include products/grid-section.md title="Our SDKs" products=site.data.sdks all-url="/sdks" %}
   
 </article>

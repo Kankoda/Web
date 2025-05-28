@@ -14,11 +14,6 @@
   url: /apps/emojipicker
   url_appstore: https://apps.apple.com/se/app/emoji-picker-pick-emojis/id6472487442
 
-- name: Appamini
-  icon: appamini
-  text: Educational games for curious kids.
-  url:  https://appamini.com
-
 - name: Cineasterna
   icon: cineasterna
   text: Stream library movies for free.
@@ -29,6 +24,11 @@
   text: Paste text and snippets with ease.
   url: /apps/onetouchpaste
   url_appstore: https://apps.apple.com/se/app/one-touch-paste/id6478205851
+
+- name: Appamini
+  icon: appamini
+  text: Educational games for curious kids.
+  url:  https://appamini.com
 
 - name: Lunchrrrrr
   icon: lunchrrrrr

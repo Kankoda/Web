@@ -4,8 +4,12 @@ title: Lunchrrrrr
 image: /assets/headers/kankoda.jpg
 image-show: 0
 
-hero-image: /assets/heros/lunchrrrrr.png
 hero-icon: /assets/icons/lunchrrrrr.png
+hero-image: /assets/heros/lunchrrrrr.png
+
+cta:
+  title: Download
+  url:   https://apps.apple.com/se/app/lunchrrrrr/id1209779063
 
 description: Find great restaurants nearby
 

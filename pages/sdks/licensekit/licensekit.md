@@ -8,7 +8,14 @@ image:  /assets/sdks/licensekit-header.jpg
 image-show: 0
 
 hero-icon: /assets/sdks/licensekit.png
-hero-icon-class: large
+
+cta:
+  title: Pricing
+  url:   /sdks/licensekit#pricing
+
+cta-secondary:
+  title: Features
+  url:   /sdks/licensekit#features
 
 description: A powerful software license SDK for all Apple platforms
 ---

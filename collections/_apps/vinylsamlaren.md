@@ -7,6 +7,10 @@ image-show: 0
 hero-image: /assets/heros/vinylsamlaren.png
 hero-icon: /assets/icons/vinylsamlaren.png
 
+cta:
+  title: Download
+  url:   https://itunes.apple.com/us/app/vinylsamlaren/id640253601
+
 description: Find great record stores nearby
 
 redirect_from: /vinylsamlaren

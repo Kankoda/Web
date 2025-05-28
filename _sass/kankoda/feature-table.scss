@@ -56,6 +56,9 @@
 
       .cta {
         display: block;
+        color: white;
+        background-color: black;
+        padding: 10px 15px;
       }
     }
 
@@ -69,8 +72,8 @@
       background-color: rgba(255, 215, 0, 0.2);
 
       .cta {
-        color: black !important;
-        background-color: gold !important;
+        color: black;
+        background-color: gold;
       }
 
       .cta:hover {
@@ -82,11 +85,11 @@
     .tier.custom {
       border: solid 1px #334;
       background-color: #445;
-      color: white !important;
+      color: white;
 
       .cta {
-        color: black !important;
-        background-color: white !important;
+        color: black;
+        background-color: white;
       }
     }
 

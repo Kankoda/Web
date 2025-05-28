@@ -4,8 +4,11 @@ title: One Touch Paste
 image: /assets/headers/onetouchpaste.jpg
 image-show: 0
 
-hero-image: /assets/heros/onetouchpaste.png
 hero-icon: /assets/icons/onetouchpaste.png
+
+cta:
+  title: Download
+  url:   https://apps.apple.com/se/app/one-touch-paste/id6478205851
 
 description: Paste text and snippets with ease
 
