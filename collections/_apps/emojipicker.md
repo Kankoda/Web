@@ -26,6 +26,6 @@ Say hi to Emoji Picker – an app that lets you pick emojis from more places on 
 
 The iPhone & iPad app has a full-blown picker, and lets you pick emojis from a home screen widget, while the macOS app has a full-blown picker app, a menu bar app, and a desktop widget.
 
-<img src="/assets/screenshots/emojipicker-macOS.jpg" alt="EmojiPicker macOS app screenshot" />
+<img src="/assets/screenshots/emojipicker-macos.jpg" alt="EmojiPicker macOS app screenshot" />
 
 Emoji Picker was created with [Swift]({{site.urls.swift}}) and [SwiftUI]({{site.urls.swiftui}}) and has great accessibility and keyboard support. It supports categories, skin tones, search, and much more.
