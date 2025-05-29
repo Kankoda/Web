@@ -1,9 +1,8 @@
 ---
-title: Emoji Picker
 id: pricing
-image: /assets/headers/emojipicker.png
-image-show: 0
+title: Emoji Picker
 
+image: /assets/headers/emojipicker.png
 hero-image: /assets/heros/emojipicker.png
 hero-icon: /assets/icons/emojipicker.png
 
@@ -11,9 +10,9 @@ cta:
   title: Download
   url:   https://apps.apple.com/se/app/emoji-picker/id6472487442
 
-description: Pick emojis from more places
-
 redirect_from: /emojipicker
+
+description: Pick emojis from more places
 ---
 
 Say hi to Emoji Picker – an app that lets you pick emojis from more places on iPhone, iPad and Mac.

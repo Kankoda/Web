@@ -2,8 +2,6 @@
 title: Vinylsamlaren
 
 image: /assets/headers/kankoda.jpg
-image-show: 0
-
 hero-image: /assets/heros/vinylsamlaren.png
 hero-icon: /assets/icons/vinylsamlaren.png
 
@@ -11,9 +9,9 @@ cta:
   title: Download
   url:   https://itunes.apple.com/us/app/vinylsamlaren/id640253601
 
-description: Find great record stores nearby
-
 redirect_from: /vinylsamlaren
+
+description: Find great record stores nearby
 ---
 
 Say hi to Vinylsamlaren – the app that lets you find great record stores nearby. Just open the app to get the best places to find that next great vinyl in the palm of your hands.

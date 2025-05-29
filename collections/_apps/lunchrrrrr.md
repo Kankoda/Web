@@ -1,9 +1,8 @@
 ---
+id: lunchrrrrr
 title: Lunchrrrrr
 
 image: /assets/headers/kankoda.jpg
-image-show: 0
-
 hero-icon: /assets/icons/lunchrrrrr.png
 hero-image: /assets/heros/lunchrrrrr.png
 
@@ -11,9 +10,9 @@ cta:
   title: Download
   url:   https://apps.apple.com/se/app/lunchrrrrr/id1209779063
 
-description: Find great restaurants nearby
-
 redirect_from: /lunchrrrrr
+
+description: Find great restaurants nearby
 ---
 
 Say hi to Lunchrrrrr – the app that lets you find great restaurants nearby. Just open the app and get the best places to grab lunch, dinner or a snack in the palm of your hands.

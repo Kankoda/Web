@@ -1,18 +1,18 @@
 ---
 id: vietnameseinput
 title: Vietnamese Input
-permalink: /sdks/vietnameseinput
-redirect_from: /vietnameseinput
 
 image:  /assets/sdks/vietnameseinput-header.jpg
 image-show: 0
 
 hero-icon: /assets/sdks/vietnameseinput.png
-hero-icon-class: large
 
 cta:
   title: Pricing
   url:   /sdks/vietnameseinput#pricing
+
+permalink: /sdks/vietnameseinput
+redirect_from: /vietnameseinput
 
 description: Vietnamese input for Swift-based apps
 ---

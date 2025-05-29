@@ -2,17 +2,15 @@
 title: One Touch Paste
 
 image: /assets/headers/onetouchpaste.jpg
-image-show: 0
-
 hero-icon: /assets/icons/onetouchpaste.png
 
 cta:
   title: Download
   url:   https://apps.apple.com/se/app/one-touch-paste/id6478205851
 
-description: Paste text and snippets with ease
-
 redirect_from: /onetouchpaste
+
+description: Paste text and snippets with ease
 ---
 
 Say hello to One Touch Paste – an app that lets you create, manage and sync clips & snippets, then paste them into any app or browser, using the powerful keyboard.

@@ -1,8 +1,6 @@
 ---
 id: licensekit
 title: LicenseKit
-permalink: /sdks/licensekit
-redirect_from: /licensekit
 
 image:  /assets/sdks/licensekit-header.jpg
 image-show: 0
@@ -16,6 +14,9 @@ cta:
 cta-secondary:
   title: Features
   url:   /sdks/licensekit#features
+
+permalink: /sdks/licensekit
+redirect_from: /licensekit
 
 description: A powerful software license SDK for all Apple platforms
 ---
