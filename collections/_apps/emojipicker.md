@@ -2,7 +2,7 @@
 id: pricing
 title: Emoji Picker
 
-image: /assets/headers/emojipicker.png
+image: /assets/headers/emojipicker.jpg
 hero-image: /assets/heros/emojipicker.png
 hero-icon: /assets/icons/emojipicker.png
 
