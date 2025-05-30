@@ -11,6 +11,10 @@ a.cta {
   padding: 5px;
 }
 
+a.cta + a.cta {
+  margin-left: 20px;
+}
+
 .hero a.cta {
   padding: 10px;
 }

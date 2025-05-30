@@ -1,7 +1,7 @@
 ---
 title: Using LicenseKit to protect your apps & libraries with commercial licenses
 date:  2025-04-24 07:00:00 +0100
-tags:  apps
+tags:  sdks licensekit
 
 assets: /assets/blog/25/0424/
 header: /assets/blog/25/0424/header.jpg

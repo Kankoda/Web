@@ -1,7 +1,7 @@
 ---
 title:  LicenseKit License Model Changes
 date:   2023-09-28 06:00:00 +0000
-tags:   sdk licensekit
+tags:   sdks licensekit
 
 icon:   lunchrrrrr
 image:  /assets/sdks/licensekit-header.jpg

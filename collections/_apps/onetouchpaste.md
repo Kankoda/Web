@@ -2,7 +2,10 @@
 title: One Touch Paste
 
 image: /assets/headers/onetouchpaste.jpg
+
 hero-icon: /assets/icons/onetouchpaste.png
+hero-tagline: Paste text and snippets with ease
+hero-description: One Touch Paste lets you create, manage and sync clips & snippets, then paste them into any app or browser.
 
 cta:
   title: Download
@@ -13,9 +16,10 @@ redirect_from: /onetouchpaste
 description: Paste text and snippets with ease
 ---
 
-Say hello to One Touch Paste – an app that lets you create, manage and sync clips & snippets, then paste them into any app or browser, using the powerful keyboard.
+One Touch Paste lets you create and sync clips and snippets across all devices, using your personal, secure iCloud storage.
 
-One Touch Paste syncs your clips and snippets across all your devices, using your personal, secure iCloud storage. The keyboard supports 60+ locales, and features such as autocomplete, emojis, etc.
+The app has a keyboard extension that lets you use your clips and snippets in any app or browser. It supports 70+ locales, and features such as autocomplete, emojis, etc.
+
 
 {% include kankoda/grid/screenshots.html images="onetouchpaste-1,onetouchpaste-2,onetouchpaste-3" %}
 

@@ -1,7 +1,7 @@
 ---
 title:  Important EmojiKit changes
 date:   2024-06-23 06:00:00 +0000
-tags:   general
+tags:   sdks
 
 image:  /assets/headers/emojikit.png
 ---

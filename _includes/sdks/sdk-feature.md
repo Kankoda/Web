@@ -11,11 +11,11 @@
 
   <hr />
   
-  {% include kankoda/licenses/feature-section.html title="Features" features=features %}
+  {% include kankoda/sdks/feature-section.html title="Features" features=features %}
   
   <hr />
   
-  {% include kankoda/licenses/pricing-section.html product=sdk %}
+  {% include kankoda/sdks/pricing-section.html product=sdk %}
 
   <div class="cta-container">
     <a href="{{sdk.url}}#pricing" class="cta">Sign up now!</a>
