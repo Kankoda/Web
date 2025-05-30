@@ -1,23 +1,24 @@
 ---
-title: Custom API Integrations
-hero-icon: /assets/heros/licensekit/api.png
-hero-icon-class: plain large
-description: LicenseKit can validate licenses over the Internet, using any REST API
+title: API Integrations
+
+hero-title: LicenseKit API Integrations
+
+description: Integrate with any 3rd party REST API
 ---
 
 
-## API/Cloud-based licenses
+## API-based licenses
 
-[LicenseKit's](/sdks/licensekit) API-based license engine is a great alternative when validating licenses from external license providers, using regular REST API requests.
+[LicenseKit's](/sdks/licensekit) API license service is a great way to validate licenses from any remote license API using regular REST API requests.
 
+All you have to do to create a custom API integration is to define a service configuration, as well as a response mapper that maps API responses to a LicenseKit license.
 
-## How does it work?
-
-LicenseKit has an API license service that can fetch licenses from any external API. All you have to do is to provide the service a configuration and a response mapper to map a response to a license.
-
-The response mapper provides you with a strongly typed response. You can then map the response response to a LicenseKit license, which will be validated as normal.
-
+The response mapper will provide you with a strongly typed response or any custom type. You can then map the type value to a LicenseKit license, using convenient mapping functions.
 
 ## Offline mode
 
-If your software needs to work offline, LicenseKit can cache the last fetched license and ignore any non-license errors that occur during the license validation.
+If your product needs to work offline, LicenseKit can [cache the last successful license validation](/sdks/licensekit/features/license-caching) and ignore any non-license errors that occur during the license validation.
+
+## Tiers
+
+Custom API Integrations are available in the Business tier, and in all Custom and Enterprise tiers.

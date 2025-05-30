@@ -1,14 +1,25 @@
 ---
 title: License Validation
-layout: page
 permalink: /sdks/licensekit/license-validation
 
 image: /assets/sdks/licensekit-header.jpg
-hero-icon: /assets/sdks/licensekit.png
-hero-icon-class: plain large
 
-description: LicenseKit can validate licenses over the Internet or on-device
+hero-title: License Validation
+
+description: LicenseKit requires a valid license
 ---
 
 {% include kankoda/data/sdk name="LicenseKit" %}
+{% include kankoda/buttons/back.html url=sdk.url %}
 {% include kankoda/licenses/license-validation.md product=sdk.name url=sdk.url %}
+
+## Licenses
+
+[LicenseKit](/licensekit) can provide and validate licenses that can define expiration date, features, tier, bundle IDs, supported platforms & environments, and much more.
+
+{% assign product=site.data.licensekit %}
+
+
+## License Providers
+
+LicenseKit can compile licenses into the product binary, read licenses from files, fetch licenses from remote APIs, integrate with external services like Gumroad, etc.

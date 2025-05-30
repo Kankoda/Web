@@ -5,9 +5,11 @@
 
   {{ content }}
 
+  {% if page.documentation == -1 %}
+  {% else %}
   <h2>Documentation</h2>
-  
-  See the <a href="{{sdk.github}}">GitHub repository</a> and the <a href="{{sdk.documentation}}">online documentation</a> for more information about LicenseKit.
+  See the <a href="{{sdk.github}}">GitHub repository</a> and the <a href="{{sdk.documentation}}">online documentation</a> for more information about the SDK.
+  {% endif %}
 
   <hr />
   
@@ -18,7 +20,7 @@
   {% include kankoda/sdks/pricing-section.html product=sdk %}
 
   <div class="cta-container">
-    <a href="{{sdk.url}}#pricing" class="cta">Sign up now!</a>
+    <a href="{{sdk.url}}#pricing" class="cta padding">Sign up now!</a>
   </div>
 
   <hr />

@@ -1,18 +1,15 @@
 ---
-title: Binary Licenses
-hero-emoji: 🧑🏽‍💻
-description: LicenseKit can compile licenses into the product binary
+title: LicenseKit Binary Licenses
+
+hero-title: LicenseKit Binary Licenses
+
+description: Compile licenses into your product binary
 ---
 
 ## Binary licenses
 
-[LicenseKit's](/sdks/licensekit) can compile licenses into the product binary. This is a great alternative when you need to ship your licenses together with your product, e.g. to be validated even when offline.
+[LicenseKit](/sdks/licensekit) can compile product licenses into a product binary. This is a great alternative if you need to ship licenses together with your product, with custom handling for each license.
 
+Binary licenses are validated on-device. This lets you validate product licenses even when the device is offline. You must however release new product versions to add, remove and edit licenses.
 
-## How does it work?
-
-This may sound complicated, but is actually very easy. You just define your licenses with code that is compiled into the binary as part of building your product.
-
-Since binary licenses are compiled into the binary, you must release new versions of your software to add, remove and edit licenses.
-
-You can choose if a license should expire on its expiration date, or if you want your customer to be able to keep using it in all versions where the license was active.
+To avoid having to release a new product version for each new license, you can generate encrypted license files from your binary licenses, which your customers can use to unlock your product.

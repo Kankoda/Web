@@ -1,11 +1,8 @@
 ---
 title: LicenseKit Support
-layout: page
-permalink: /sdks/licensekit/support
 
-image: /assets/sdks/licensekit-header.jpg
-hero-icon: /assets/sdks/licensekit.png
-hero-icon-class: plain large
+hero-title: LicenseKit Support
+documentation: -1
 
 description: LicenseKit has custom support levels for larger organizations
 ---

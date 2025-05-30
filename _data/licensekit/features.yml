@@ -13,15 +13,15 @@
   emoji: 📄
   text: LicenseKit can read licenses from plain text files.
 
-- title: API/Cloud-Based Licenses
-  url:  /sdks/licensekit/features/api-licenses
-  emoji: 🌩️
-  text: LicenseKit can validate licenses over the Internet, using any API.
-
 - title: Gumroad
   url:  /sdks/licensekit/features/gumroad
   emoji: 🏬
   text: LicenseKit integrates directly with Gumroad's license API.
+
+- title: API Integrations
+  url:  /sdks/licensekit/features/api-licenses
+  emoji: 🌩️
+  text: LicenseKit can integrate with any 3rd party API.
 
 - title: Service Composition
   url:  /sdks/licensekit/features/service-composition
