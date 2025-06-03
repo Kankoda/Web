@@ -27,7 +27,7 @@ section.hero {
 
   h3 {
     opacity: 70%;
-    font-size: 1.5em;
+    font-size: 1.4em;
     margin-top: 30px;
   }
 
@@ -59,11 +59,12 @@ section.hero {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
-  .hero {
-    h1 { font-size: 1.2em !important; }
+  section.hero {
+    h1 { font-size: 1.4em !important; }
     h2 { font-size: 1.6em !important; }
+    h3 { font-size: 1.0em !important; }
   
     img.app-icon {
       width: 100px;

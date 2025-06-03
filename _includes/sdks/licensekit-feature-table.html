@@ -2,9 +2,13 @@
   {% include kankoda/gumroad/script.html %}
 {% endif %}
 
-<section class="feature-table {{include.price}}">
+<section class="feature-table ">
   {% include kankoda/licenses/tiers-header.html tiers=include.tiers price=include.price %}
 
+  {% include kankoda/licenses/table-row.html row=01 feature="Max Licenses" columns="5,25,50,Unlimited" url="features/file-licenses" title="LicenseKit lets you define licenses in text files." %}
+  
+  <hr />
+  
   {% include kankoda/licenses/table-row.html row=01 feature="License Validation" columns="✔,✔,✔,✔" url="features/license-validation" title="LicenseKit can validate licenses in many ways." %}
   {% include kankoda/licenses/table-row.html row=02 feature="Binary Licenses" columns="✔,✔,✔,✔" url="features/binary-licenses" title="LicenseKit lets you define licenses with code." %}
   {% include kankoda/licenses/table-row.html row=03 feature="File-based Licenses" columns="✔,✔,✔,✔" url="features/file-licenses" title="LicenseKit lets you define licenses in text files." %}
@@ -33,9 +37,9 @@
   
   <hr />
   
-  {% include kankoda/licenses/table-row.html row=01 feature="Support" columns="GitHub,Email,Priority,Dedicated" url="features/support" title="The higher tiers include priority support and can pay extra for dedicated support." %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Discord Server" columns="-,Public,Private,Private" url="features/support#communication" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}
+{% include kankoda/licenses/table-row.html row=01 feature="Support" columns="GitHub,Email,Priority,Dedicated" url="features/support" title="The higher tiers include priority support and can pay extra for dedicated support." %}
   {% include kankoda/licenses/table-row.html row=02 feature="Terms" columns="Standard,Standard,Custom,Custom" url="terms-and-conditions" title="Custom licenses can customize the terms to accomodate to any business or legal requirements." %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Discord Server" columns="Public,Public,Private,Private" url="features/support#communication" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}
-
+  
   <hr />
 </section>

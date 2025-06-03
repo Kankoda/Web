@@ -72,7 +72,7 @@
       background-color: rgba(255, 215, 0, 0.2);
 
       .cta {
-        color: black;
+        color: black !important;
         background-color: gold;
       }
 
@@ -175,7 +175,7 @@
   }
 }
   
-@media (max-width: 500px) {
+@media (max-width: 600px) {
 
   .feature-table {
 
@@ -191,6 +191,7 @@
 
     .cta {
       font-size: small;
+      min-width: 10px;
     }
   }
 }

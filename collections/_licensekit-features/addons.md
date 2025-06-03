@@ -2,7 +2,6 @@
 title: Add-ons
 
 hero-title: LicenseKit Add-ons
-
 documentation: -1
 
 description: Extend your license with great add-ons

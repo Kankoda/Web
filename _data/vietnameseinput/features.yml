@@ -1,24 +1,9 @@
-- title: TELEX
+- title: TELEX, VIQR & VNI
   url:  /sdks/vietnameseinput/features/input
   emoji: 🇻🇳
-  text: Vietnamese Input supports TELEX input.
+  text: Vietnamese Input supports all three major input methods.
 
-- title: VIQR
-  url:  /sdks/vietnameseinput/features/input
-  emoji: 🇻🇳
-  text: Vietnamese Input supports VIQR input.
-
-- title: VNI
-  url:  /sdks/vietnameseinput/features/input
-  emoji: 🇻🇳
-  text: Vietnamese Input supports VIQR input.
-
-- title: Typing Support
-  url:  /sdks/vietnameseinput/features/input
-  emoji: ⌨️
-  text: Vietnamese Input lets you type in Vietnamese.
-
-- title: Automations
+- title: Simulated Input
   url:  /sdks/vietnameseinput/features/input
   emoji: 💡
   text: Vietnamese Input can apply a sequence of characters.

@@ -2,31 +2,35 @@
   {% include kankoda/gumroad/script.html %}
 {% endif %}
 
-<section class="feature-table two-tier {{include.price}}">
+<section class="feature-table {{include.price}}">
   {% include kankoda/licenses/tiers-header.html tiers=include.tiers price=include.price %}    
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Input Engine" columns="✔,✔" url="features/input" title="VietnameseInput has an input engine that lets you type in Vietnamese." %}
-  {% include kankoda/licenses/table-row.html row=02 feature="TELEX" columns="✔,✔" url="features/input" title="VietnameseInput supports TELEX." %}
-  {% include kankoda/licenses/table-row.html row=03 feature="VIQR" columns="✔,✔" url="features/input" title="VietnameseInput supports VIQR." %}
-  {% include kankoda/licenses/table-row.html row=04 feature="VNI" columns="✔,✔" url="features/input" title="VietnameseInput supports VNI." %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Max. Requests" columns="100,Unlimited,Unlimited,Unlimited" title="The free tier stops working after 100 requests per process." %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Offline Validation"  columns="-,✔" url="license-validation" title="Yearly Gold and Enterprise licenses are compiled into the library and can be validated offline, without the need for Full Access." %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Input Engine" columns="✔,✔,✔,✔" url="features/input" title="VietnameseInput has an input engine that lets you type in Vietnamese." %}
+  {% include kankoda/licenses/table-row.html row=02 feature="TELEX" columns="✔,✔,✔,✔" url="features/input" title="VietnameseInput supports TELEX." %}
+  {% include kankoda/licenses/table-row.html row=03 feature="VIQR" columns="✔,✔,✔,✔" url="features/input" title="VietnameseInput supports VIQR." %}
+  {% include kankoda/licenses/table-row.html row=04 feature="VNI" columns="✔,✔,✔,✔" url="features/input" title="VietnameseInput supports VNI." %}
   
   <hr />
 
-  {% include kankoda/licenses/table-row.html row=01 feature="Additional Products" columns="-,✔" url="features/addons" title="Custom licenses can include additional products, at a significant discount." %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Custom Billing" columns="-,✔" url="features/addons" title="Custom licenses can customize the billing, included products, etc." %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Custom Terms" columns="-,✔" url="features/addons" title="Custom licenses can customize the license terms." %}
-  {% include kankoda/licenses/table-row.html row=04 feature="Enterprise Support" columns="-,✔" url="features/addons" title="Custom licenses can include support for additional test environments and enterprise requirements.." %}
-  {% include kankoda/licenses/table-row.html row=05 feature="Escrow Services" columns="-,✔" url="features/addons" title="Enterprise licenses can include support for additional test environments and enterprise requirements.." %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Offline Validation"  columns="-,-,Yearly,✔" url="license-validation" title="Yearly Gold and Enterprise licenses are compiled into the library and can be validated offline, without the need for Full Access." %}
+  
+  <hr />
+
+  {% include kankoda/licenses/table-row.html row=01 feature="Additional Products" columns="-,-,-,✔" url="features/addons" title="Custom licenses can include additional products, at a significant discount." %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Custom Billing" columns="-,-,-,✔" url="features/addons" title="Custom licenses can customize the billing, included products, etc." %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Custom Terms" columns="-,-,-,✔" url="features/addons" title="Custom licenses can customize the license terms." %}
+  {% include kankoda/licenses/table-row.html row=04 feature="Enterprise Support" columns="-,-,-,✔" url="features/addons" title="Custom licenses can include support for additional test environments and enterprise requirements.." %}
+  {% include kankoda/licenses/table-row.html row=05 feature="Escrow Services" columns="-,-,-,✔" url="features/addons" title="Enterprise licenses can include support for additional test environments and enterprise requirements.." %}
   
   <hr />
   
-  {% include kankoda/licenses/table-row.html row=01 feature="Support" columns="GitHub,Dedicated" url="features/support" title="The higher tiers include priorityfeatures/ support and can pay extra for dedicated support." %}
-  {% include kankoda/licenses/table-row.html row=02 feature="Terms" columns="Standard,Custom" url="terms-and-conditions" title="Custom licenses can customize the terms to accomodate to any business or legal requirements." %}
-  {% include kankoda/licenses/table-row.html row=03 feature="Discord Server" columns="Public,Private" url="features/support#communication" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}
+  {% include kankoda/licenses/table-row.html row=03 feature="Discord Server" columns="-,Public,Private,Private" url="features/support#communication" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}
+  {% include kankoda/licenses/table-row.html row=01 feature="Support" columns="GitHub,GitHub,Priority,Dedicated" url="features/support" title="The higher tiers include priorityfeatures/ support and can pay extra for dedicated support." %}
+  {% include kankoda/licenses/table-row.html row=02 feature="Terms" columns="GitHub,Standard,Standard,Custom" url="terms-and-conditions" title="Custom licenses can customize the terms to accomodate to any business or legal requirements." %}
 
   <hr />
 </section>

@@ -1,6 +1,16 @@
-- name: Standard
+- name: Free
+  cta: Sign Up
+  url: https://kankoda.gumroad.com/l/vietnameseinput
+
+- name: Starter
   price_year: 1500
   price_month: 150
+  cta: Sign Up
+  url: https://kankoda.gumroad.com/l/vietnameseinput
+
+- name: Business
+  price_year: 2500
+  price_month: 250
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/vietnameseinput
 

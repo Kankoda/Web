@@ -13,20 +13,20 @@ cta:
   url:   /sdks/licensekit#pricing
 
 cta-secondary:
-  title: GitHub
-  url:   https://github.com/Kankoda/LicenseKit
+  title: Features
+  url:   /sdks/licensekit#features
 
 permalink: /sdks/licensekit
 redirect_from: /licensekit
 
-description: LicenseKit is a Swift SDK helps you protect your apps and SDKs with commercial software licenses on all major Apple platforms (iOS, iPadOS, macOS, tvOS and watchOS).
+description: A Swift SDK that helps you protect your apps and SDKs with commercial software licenses on all major Apple platforms.
 ---
 
 {% assign product=site.data.licensekit %}
 {% include kankoda/data/sdk name="LicenseKit" %}
 
 {% include kankoda/sdks/github-section.md sdk=sdk %}
-{% include kankoda/sdks/pricing-section.html product=sdk %}
+{% include kankoda/sdks/pricing-section.html product=sdk free=1 %}
 {% include sdks/licensekit-feature-table.html tiers=product.tiers %}
 {% include kankoda/sdks/pricing-footer.html %}
 {% include kankoda/sdks/feature-section.html features=product.features %}
