@@ -27,8 +27,7 @@ description: A Swift SDK that lets you add Vietnamese input support with TELEX, 
 
 Vietnamese Input is a Swift SDK that lets you add Vietnamese input to your product. It supports all three major input methods (TELEX, VNI & VIQR) and can be used on all Apple platforms.
 
-Vietnamese Input is hosted at [GitHub]({{sdk.github}}) and is currently in closed beta. [Contact us]({{site.urls.email}}) if you want to test it. Early beta testers will get a discount on future pricing.
-
+{% include kankoda/sdks/github-section.md sdk=sdk %}
 {% include kankoda/sdks/pricing-section.html product=sdk free=1 %}
 {% include sdks/vietnameseinput-feature-table.html tiers=product.tiers %}
 {% include kankoda/sdks/pricing-footer.html %}
