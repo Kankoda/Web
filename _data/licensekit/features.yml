@@ -8,20 +8,30 @@
   emoji: 🧑🏽‍💻
   text: LicenseKit can compile licenses into the product binary.
 
-- title: File-Based Licenses
-  url:  /sdks/licensekit/features/file-licenses
+- title: Encrypted Files
+  url:  /sdks/licensekit/features/encrypted-files
+  emoji: 🔐
+  text: LicenseKit can read licenses from encrypted license files.
+
+- title: CSV Files
+  url:  /sdks/licensekit/features/csv-files
   emoji: 📄
-  text: LicenseKit can read licenses from plain text files.
+  text: LicenseKit can read licenses from plain CSV files.
+
+- title: API Integrations
+  url:  /sdks/licensekit/features/api-integrations
+  emoji: ☁️
+  text: LicenseKit can integrate with any 3rd party API.
 
 - title: Gumroad
   url:  /sdks/licensekit/features/gumroad
-  emoji: 🏬
+  emoji: 🌩️
   text: LicenseKit integrates directly with Gumroad's license API.
 
-- title: API Integrations
-  url:  /sdks/licensekit/features/api-licenses
-  emoji: 🌩️
-  text: LicenseKit can integrate with any 3rd party API.
+- title: License Caching
+  url:  /sdks/licensekit/features/license-caching
+  emoji: 🗄️
+  text: LicenseKit can cache the last successful license validation.
 
 - title: Service Composition
   url:  /sdks/licensekit/features/service-composition

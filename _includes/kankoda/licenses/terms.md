@@ -2,7 +2,7 @@
 {% assign product-escaped = include.product | split: " " | join: "%20" %}
 {% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20License%20Request" %}
 
-# {{ product }} Terms & Conditions
+# {{product}} Terms & Conditions
 
 
 ## Standard Terms & Conditions

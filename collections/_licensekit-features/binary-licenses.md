@@ -6,7 +6,7 @@ hero-title: LicenseKit Binary Licenses
 description: Compile licenses into your product binary
 ---
 
-## Binary licenses
+## Binary Licenses
 
 [LicenseKit](/sdks/licensekit) can compile product licenses into a product binary. This is a great alternative if you need to ship licenses together with your product, with custom handling for each license.
 

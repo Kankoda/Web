@@ -1,14 +1,14 @@
 ---
-title: LicenseKit File-based Licenses
+title: CSV Files
 
-hero-title: LicenseKit File-based Licenses
+hero-title: LicenseKit CSV Files
 
-description: LicenseKit can read licenses from any file
+description: Read licenses from CSV files
 ---
 
-## File-based licenses
+## CSV File Licenses
 
-[LicenseKit's](/sdks/licensekit) can parse licenses from plain text files in the product bundle, or from any URL that the product has access to.
+[LicenseKit](/sdks/licensekit) can parse licenses from plain text files in the product bundle, or from any available URL.
 
 File-based licenses let you bundle license files together with your product. You can also refer to files at any URL, for instance to parse a file that can be fetched from a remote web server.
 

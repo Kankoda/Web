@@ -31,6 +31,6 @@ description: A Swift SDK that helps you protect your apps and SDKs with commerci
 {% include kankoda/sdks/github-section.md sdk=sdk %}
 {% include kankoda/sdks/pricing-section.html product=sdk free=1 %}
 {% include sdks/licensekit-feature-table.html tiers=product.tiers %}
-{% include kankoda/sdks/pricing-footer.html %}
+{% include kankoda/sdks/terms-section.html %}
 {% include kankoda/sdks/feature-section.html features=product.features %}
 {% include kankoda/sdks/footer.md %}

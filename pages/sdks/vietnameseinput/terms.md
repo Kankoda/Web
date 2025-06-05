@@ -8,5 +8,5 @@ redirect_from:
 image: /assets/sdks/vietnameseinput-header.jpg
 ---
 
-{% include kankoda/data/sdk name="VietnameseInput" %}
+{% include kankoda/data/sdk name="Vietnamese Input" %}
 {% include kankoda/licenses/terms.md product=sdk.name url=sdk.url %}

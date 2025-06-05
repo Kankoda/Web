@@ -7,7 +7,7 @@ description: Integrate with any 3rd party REST API
 ---
 
 
-## API-based licenses
+## API Licenses
 
 [LicenseKit's](/sdks/licensekit) API license service is a great way to validate licenses from any remote license API using regular REST API requests.
 
