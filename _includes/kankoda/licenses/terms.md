@@ -7,7 +7,7 @@
 
 ## Standard Terms & Conditions
 
-Below are the standard [{{product}}]({{include.url}}) Terms & Conditions. Each license is valid for one product, which is defined by the bundle ID that is provided at the time of purchase.
+These are the Standard Terms & Conditions for the [{{product}}]({{include.url}}) SDK (“the Software”) which is owned and licensed by [Kankoda Sweden AB]({{site.url}}) (“the Licensee").
 
 The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{ custom-email }}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
 
@@ -16,14 +16,14 @@ The standard license is aimed at indies & small businesses. Reach out for a [cus
 
 Standard licenses are purchased via [Gumroad]({{ site.urls.gumroad }}) and can be used immediately after purchase, using the unique license key that is provided with the license purchase confirmation.
 
-Licenses that are purchased via regular invoicing or other means of payment, are activated in a new version of the product, typically within two business days after payment has been received.
+Custom licenses can be purchased via regular invoicing or any other preferred means of payment, and will typically be activated within two business days after payment has been received.
 
 
 ## License Validation
 
 Standard licenses are validated using network requests. The SDK can handle temporary connectivity loss, but requires regular connectivity for the license to be properly validated.
 
-Yearly higher and custom licenses are encoded into the product and delivered in an encrypted file, and are validated on-device, without the need for network-based validation.
+Yearly higher and custom licenses are encoded into the product and delivered as an encrypted file that is validated on-device, without the need for network-based validation.
 
 
 ## License Expiration
