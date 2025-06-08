@@ -8,7 +8,7 @@ assets: /assets/blog/25/0529/
 
 Kankoda has released brand new versions of several of our apps, including KeyboardKit, Wally, and EmojiKit. These updates adds new features and fixes some bugs and minor flaws.
 
-![iOS device using the new Diesel skin]({{page.image}})
+![Blog post header]({{page.image}})
 
 
 ## Emoji Picker
