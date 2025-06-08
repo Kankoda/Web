@@ -39,6 +39,20 @@ description: Kankoda builds apps and SDKs for all major Apple platforms, using S
         {% include kankoda/grid/grid.html items=site.data.apps limit=4 type="icons" %}
       </article>
     </section>
+
+    <section>
+      <h2>Latest News</h2>
+      <p> 
+        Follow the <a href="/blog">KeyboardKit blog</a> for news & updates.
+      </p>
+      <div class="grid home blog list">
+        {% for post in site.posts limit:2 %}
+        <div>
+          {% include kankoda/blog/image-item.html post=posts.first tag-limit=1 %}
+        </div>
+        {% endfor %}
+      </div>
+    </section>
   
     <section>
       <h2>Social Media</h2>

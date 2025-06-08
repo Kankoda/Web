@@ -1,5 +1,5 @@
 ---
-title: New SDK - Vietnamese Input!
+title: New SDK - Vietnamese Input
 date:  2025-05-29 07:00:00 +0100
 tags:  sdks vietnamese-input
 
