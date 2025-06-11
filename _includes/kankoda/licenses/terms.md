@@ -7,40 +7,46 @@
 
 ## Standard Terms & Conditions
 
-These are the Standard Terms & Conditions for the [{{product}}]({{include.url}}) SDK (“the Software”) which is owned and licensed by [Kankoda Sweden AB]({{site.url}}) (“the Licensee").
+These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) (“the Software”) which is owned and licensed by [Kankoda Sweden AB]({{site.url}}) (“the Licensee").
 
-The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{ custom-email }}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
+The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{custom-email}}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
 
 
 ## License Activation
 
-Standard licenses are purchased via [Gumroad]({{ site.urls.gumroad }}) and can be used immediately after purchase, using the unique license key that is provided with the license purchase confirmation.
+Standard licenses that are purchased via the online store can be used immediately after purchase, using the unique license key that is provided with the purchase confirmation.
 
-Custom licenses can be purchased via regular invoicing or any other preferred means of payment, and will typically be activated within two business days after payment has been received.
+Licenses that are purchased via invoicing or any other means of payment, will typically be activated within two business days after payment has been received.
 
 
 ## License Validation
 
 Standard licenses are validated using network requests. The SDK can handle temporary connectivity loss, but requires regular connectivity for the license to be properly validated.
 
-Yearly higher and custom licenses are encoded into the product and delivered as an encrypted file that is validated on-device, without the need for network-based validation.
+Yearly Gold/Business/Custom/Enterprise licenses are encoded into the SDK and also delivered as an encrypted file. Both options are validated on-device, without the need for network-based validation.
 
 
 ## License Expiration
 
-A license expires when its subscription ends, or when the binary or encrypted information expires. This will stop LicenseKit from being used in the related product.
+Standard licenses expire when the subscription ends, or when the on-device SDK license or license file expires. This will stop LicenseKit from being used until the license is renewed.
 
-Custom licenses can be configured to customize the license expiration behavior, which allows them to allow a grace period in already shipped version of an app.
+Yearly Gold/Business/Custom/Enterprise licenses can customize the license expiration behavior, to allow a grace period in already shipped versions of the related product.
 
 
 ## Free Trial
 
-Standard licenses include a free trial with unlimited access to all non-consumption-based features in the selected tier. The trial will automatically convert to a paid plan if it's not cancelled.
+Standard licenses that are purchased via the online store include a free trial with unlimited access to non-consumption features in the selected tier. 
+
+The trial will automatically convert to a paid plan if it's not cancelled before the trial period ends.
 
 
 ## Refunds
 
-The free trial can be cancelled at any time. No refunds will be approved after the free trial ends. All active license subscriptions can be cancelled at any time, and will last through the remaining term.
+Standard licenses that are purchased via the online store honor the store's refund policy (7 days for Gumroad and 14 days for Paddle).
+
+Yearly Gold/Business licenses will not be encoded into the SDK until the refund period ends, since it will lock in the license period into the SDK binary.
+
+Yearly Custom/Enterprise licenses include a limited refund policy. No refunds will be approved after the license has been encoded into the SDK or delivered as a file.
 
 
 ## Technical Information
@@ -57,11 +63,20 @@ The free trial can be cancelled at any time. No refunds will be approved after t
 Features that stop working due to, but not limited to, such changes, may be removed at any time, without replacement or compensation, since the required capabilities may no longer be available.
 
 
+## Data Collection
+
+By using this SDK under the Standard License (by signing up for a license after June 11th 2025), you grant {{site.copyright_owner}} a right to collect non-personal usage and crash data from the SDK.
+
+For a complete specification on how the SDK may collect data, see the [{{product}} privacy policy](privacy).
+
+Custom/Enterprise licenses will automatically opt-out of any data collection. The SDK reserves the right to adjust its data collection practices to any future update.
+
+
 ## Right to Market
 
-By using this SDK under the Standard License (by signing up for a license after May 30th 2025), you grant {{site.copyright_owner}} a non-exclusive, worldwide, royalty-free right to use your company name, logo, and app name in our marketing materials, case studies, and promotional content. This right includes identifying you as a customer and describing your general use of the SDK. 
+By using this SDK under the Standard License (by signing up for a license after May 30th 2025), you grant {{site.copyright_owner}} a non-exclusive, worldwide, royalty-free right to use your company name, logo, and app name in our marketing materials, case studies, and promotional content. This right includes identifying you as a customer and describing your general use of the SDK.
 
-You may opt out of this marketing right clause by signing up for a [Custom or Enterprise license]({{include.url}}), which includes the right to specify a custom license agreement. 
+Custom/Enterprise licenses will automatically opt-out of the right to market, but can opt-in to be included in {{site.copyright_owner}}'s marketing material.
 
 
 ## Closed-Source License Agreement
