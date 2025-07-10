@@ -1,13 +1,15 @@
 {% assign product = include.product %}
 {% assign product-escaped = include.product | split: " " | join: "%20" %}
+{% assign show-title = include.show-title | default: 1 %}
 {% assign custom-email = site.urls.email | append: "?subject=" | append: product-escaped | append: "%20-%20Custom%20License%20Request" %}
 
+{% if show-title == 1 %}
 # {{product}} Terms & Conditions
-
+{% endif %}
 
 ## Standard Terms & Conditions
 
-These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) (“the Software”) which is owned and licensed by [Kankoda Sweden AB]({{site.url}}) (“the Licensee").
+These are the Standard Terms & Conditions for the [{{product}} SDK]({{include.url}}) ("the Software") which is owned and licensed by [Kankoda Sweden AB]({{site.url}}) (“the Licensee").
 
 The standard license is aimed at indies & small businesses. Reach out for a [custom license]({{custom-email}}) if you’re an enterprise or a company with $10M+ in annual revenue, or the app has $1M+ in annual revenue.
 
@@ -21,14 +23,14 @@ Licenses that are purchased via invoicing or any other means of payment, will ty
 
 ## License Validation
 
-Standard licenses are validated using network requests. The SDK can handle temporary connectivity loss, but requires regular connectivity for the license to be properly validated.
+Standard licenses are validated using network requests. The license validation is designed to handle temporary connectivity loss, but requires regular connectivity for a license to be properly validated.
 
-Yearly Gold/Business/Custom/Enterprise licenses are encoded into the SDK and also delivered as an encrypted file. Both options are validated on-device, without the need for network-based validation.
+Yearly Gold/Business/Custom/Enterprise licenses are encoded into the Software and also delivered as encrypted files. Both options are validated on-device without requiring network-based validation.
 
 
 ## License Expiration
 
-Standard licenses expire when the subscription ends, or when the on-device SDK license or license file expires. This will stop LicenseKit from being used until the license is renewed.
+Standard licenses expire when the subscription ends, or when the on-device license or license file expires. This will stop {{product}} from being used until the license is renewed.
 
 Yearly Gold/Business/Custom/Enterprise licenses can customize the license expiration behavior, to allow a grace period in already shipped versions of the related product.
 
@@ -42,41 +44,39 @@ The trial will automatically convert to a paid plan if it's not cancelled before
 
 ## Refunds
 
-Standard licenses that are purchased via the online store honor the store's refund policy (7 days for Gumroad and 14 days for Paddle).
+Standard licenses that are purchased via the online store honor the store refund policy (7 days for Gumroad and 14 days for Paddle).
 
-Yearly Gold/Business licenses will not be encoded into the SDK until the refund period ends, since it will lock in the license period into the SDK binary.
-
-Yearly Custom/Enterprise licenses include a limited refund policy. No refunds will be approved after the license has been encoded into the SDK or delivered as a file.
+No refunds will be approved after a license has been encoded into the Software or delivered as an encrypted license file.
 
 
 ## Technical Information
 
-{{ product }} targets the current major OS version, and two major versions back (one for macOS). Any support for older OS versions will only be removed in a major version bump.
+The Software targets the current major OS version, and two major versions back (one for macOS). Any support for older OS versions will only be removed in a major version bump.
 
-{{ product }} is built with the latest version of Xcode, but offers on-demand support for the last major version, up to three months after the latest major version was released. 
+The Software is built with the latest version of Xcode, but offers on-demand builds using the last major version, up to three months after the latest major version was released. 
 
 
 ## Feature Disclaimer
 
-{{ product }} depends on hardware- and operating system capabilities that are provided by Apple and that can be changed or removed at any time, at Apple’s discretion, in ways that may affect the SDK.
+The Software depends on hardware- and operating system capabilities that are provided by Apple and that can be changed or removed at any time, at Apple’s discretion.
 
 Features that stop working due to, but not limited to, such changes, may be removed at any time, without replacement or compensation, since the required capabilities may no longer be available.
 
 
 ## Data Collection
 
-By using this SDK under the Standard License (by signing up for a license after June 11th 2025), you grant {{site.copyright_owner}} a right to collect non-personal usage and crash data from the SDK.
+By using the Software under the Standard License (by signing up for a license after June 11th 2025), you grant {{site.copyright_owner}} a right to collect usage data and crash reports from the Software.
 
-For a complete specification on how the SDK may collect data, see the [{{product}} privacy policy](privacy).
+For a full specification on how the Software may collect data, see the [Software privacy policy](privacy).
 
-Custom/Enterprise licenses will automatically opt-out of any data collection. The SDK reserves the right to adjust its data collection practices to any future update.
+Custom/Enterprise licenses will automatically opt-out of any data collection. The Software reserves the right to adjust its data collection practices in any future update.
 
 
 ## Right to Market
 
-By using this SDK under the Standard License (by signing up for a license after May 30th 2025), you grant {{site.copyright_owner}} a non-exclusive, worldwide, royalty-free right to use your company name, logo, and app name in our marketing materials, case studies, and promotional content. This right includes identifying you as a customer and describing your general use of the SDK.
+By using this Software under the Standard License (by signing up for a license after May 30th 2025), you grant {{site.copyright_owner}} a non-exclusive, worldwide, royalty-free right to use your company name, logo, and app name in our marketing materials, case studies, and promotional content. This includes the right to identifying you as a customer and describing your general use of the Software.
 
-Custom/Enterprise licenses will automatically opt-out of the right to market, but can opt-in to be included in {{site.copyright_owner}}'s marketing material.
+Custom/Enterprise licenses will automatically opt-out of the right to market, but can opt-in to be included in our marketing material.
 
 
 ## Closed-Source License Agreement
