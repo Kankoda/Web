@@ -56,9 +56,6 @@ header:
     - pages/apps.md
     - pages/sdks.md
     - pages/blog.md
-  cta:
-    title: Download
-    url: https://danielsaidi.com
 
 footer_sitemap:
   - index.html
@@ -112,7 +109,7 @@ defaults:
     values:
       layout: app
       hero-class: devices
-      page-class: glass-panel bg-1
+      page-class: glass-background bg-1
   -
     scope:
       type: posts

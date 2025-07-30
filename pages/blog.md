@@ -3,7 +3,7 @@ id: blog
 title: Blog
 layout: blog
 permalink: /blog/
-page-class: glass-panel bg-4
+page-class: glass-background bg-4
 ---
 
 <h1>Blog</h1>
