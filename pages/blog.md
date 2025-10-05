@@ -8,7 +8,6 @@ page-class: glass-background bg4
 
 <div class="searchbar-header">
   <h1>Blog</h1>
-
   {% include kankoda/search/searchbar class="glass-panel prominent" %}
 </div>
 
