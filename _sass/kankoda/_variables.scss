@@ -1,4 +1,4 @@
-$background: #fdfdff;
+$background: #fafafc;
 $background-secondary: #e0e0e8;
 $background-tertiary: #d8d8e0;
 
@@ -37,7 +37,8 @@ $feature-table-background: white;
 $feature-table-even-row-color: #f7f7f7;
 $feature-table-shadow-color: transparent;
 
-$footer-background: $background;
+$footer-background: $background-secondary;
+$footer-background-glass: $background;
 
 $link: black;
 $link-hover: #888;

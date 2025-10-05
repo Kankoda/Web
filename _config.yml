@@ -112,6 +112,7 @@ defaults:
       layout: app
       hero-class: devices
       hero-icon-class: app-icon
+      page-class: glass-background bg1
   -
     scope:
       type: posts
@@ -119,18 +120,21 @@ defaults:
       author: danielsaidi
       layout: post
       image: /assets/headers/kankoda.jpg
+      page-class: glass-background bg1
   -
     scope:
       type: licensekit-features
     values:
       layout: licensekit-feature
       image: /assets/sdks/licensekit-header.jpg
+      page-class: glass-background bg2
   -
     scope:
       type: vietnameseinput-features
     values:
       layout: vietnameseinput-feature
       image: /assets/sdks/vietnameseinput-header.jpg
+      page-class: glass-background bg2
 
 exclude:
   - Gemfile
