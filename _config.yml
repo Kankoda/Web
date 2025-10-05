@@ -110,6 +110,7 @@ defaults:
     values:
       layout: app
       hero-class: devices
+      hero-icon-class: app-icon
   -
     scope:
       type: posts

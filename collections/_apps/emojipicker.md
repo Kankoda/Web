@@ -5,6 +5,7 @@ title: Emoji Picker
 image: /assets/headers/emojipicker.jpg
 hero-image: /assets/heros/emojipicker.png
 hero-icon: /assets/icons/emojipicker.png
+hero-icon-class: rounded
 hero-tagline: Pick emojis from more places
 hero-description: Emoji Picker lets you pick emojis from more places on iPhone, iPad and Mac.
 

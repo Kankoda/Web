@@ -3,7 +3,7 @@ id: about
 title: About
 layout: page
 permalink: /about
-page-class: glass-background bg-5
+page-class: glass-background bg5
 
 image:  /assets/headers/kankoda-sthlm.jpg
 

@@ -3,7 +3,7 @@ id: sdks
 title: SDKs
 layout: page
 permalink: /sdks
-page-class: glass-background bg-3
+page-class: glass-background bg3
 description: Kankoda builds multiplatform SDKs for all major Apple platforms
 
 hero-image: /assets/heros/sdks.png

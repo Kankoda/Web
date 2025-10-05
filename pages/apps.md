@@ -3,7 +3,8 @@ id: apps
 title: Apps
 layout: page
 permalink: /apps
-page-class: glass-background bg-2
+page-class: glass-background bg2
+
 description: Kankoda builds multiplatform apps for all major Apple platforms
 
 hero-image: /assets/heros/apps.png
