@@ -57,11 +57,12 @@ header:
     - pages/sdks.md
     - pages/blog.md
 
-footer_sitemap:
-  - index.html
-  - pages/about.md
-  - pages/sdks.md
-  - pages/apps.md
+footer:
+  sitemap:
+    - index.html
+    - pages/about.md
+    - pages/sdks.md
+    - pages/apps.md
 
 collections_dir: collections
 
