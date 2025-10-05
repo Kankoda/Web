@@ -103,13 +103,13 @@ defaults:
     values:
       layout: "page"
       image: /assets/headers/kankoda.jpg
+      page-class: glass-background bg1
   -
     scope:
       type: apps
     values:
       layout: app
       hero-class: devices
-      page-class: glass-background bg-1
   -
     scope:
       type: posts

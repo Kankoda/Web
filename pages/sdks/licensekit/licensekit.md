@@ -6,6 +6,7 @@ image:  /assets/sdks/licensekit-header.jpg
 image-show: 0
 
 hero-icon: /assets/sdks/licensekit.png
+hero-icon-class: plain
 hero-image: /assets/heros/licensekit.png
 hero-tagline: Software licensing on all Apple platforms
 
