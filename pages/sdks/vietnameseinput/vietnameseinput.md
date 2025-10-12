@@ -30,5 +30,5 @@ Vietnamese Input is a Swift SDK that lets you add Vietnamese input to your produ
 {% include kankoda/sdks/pricing-section product=sdk free=1 %}
 {% include vietnameseinput/feature-table tiers=product.tiers %}
 {% include kankoda/sdks/terms-section %}
-{% include kankoda/features/section features=product.features %}
+{% include kankoda/sections/features features=product.features %}
 {% include kankoda/sdks/footer.md %}

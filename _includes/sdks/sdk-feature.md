@@ -13,7 +13,7 @@
 
   <hr />
   
-  {% include kankoda/features/section title="Features" features=features %}
+  {% include kankoda/sections/features title="Features" features=features %}
   
   <hr />
   

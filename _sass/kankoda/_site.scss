@@ -65,10 +65,18 @@
   }
 
   .column {
+    opacity: 0.75;
     flex-basis: 20%;
+    font-size: smaller;
     
     p {
-      font-weight: bold;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    p:first-of-type {
+      margin-top: 0px;
     }
 
     a, div {

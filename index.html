@@ -23,21 +23,25 @@ description: Kankoda builds apps and SDKs for all major Apple platforms, using S
         Don't hesistate to <a href="mailto:{{site.email}}">reach out</a> if you need help with a project or want to build something amazing.
       </p>
     </section>
-  
-    <section>
-      <h2>SDKs</h2>
-      <p>Kankoda builds commercial <a href="/sdks">SDKs</a> for all Apple platforms.</p>
-      <article>
-        {% include kankoda/grids/grid items=site.data.sdks limit=4 type="icons" %}
-      </article>
-    </section>
 
     <section>
-      <h2>Apps</h2>
-      <p>Kankoda builds <a href="/apps">apps</a> for all Apple platforms.</p>
-      <article>
-        {% include kankoda/grids/grid items=site.data.apps limit=4 type="icons" %}
-      </article>
+      <div class="grid col2">
+        <div>
+          <h2>Social Media</h2>
+          <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
+          <div>
+            {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
+            {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
+          </div>
+        </div>
+        <div>
+          <section>
+            <h2>Newsletter</h2>
+            <p>Subscribe to <a href="{{site.urls.newsletter}}">the Kankoda newsletter</a> for periodic updates.</p>
+            {% include kankoda/widgets/newsletter %}
+          </section>
+        </div>
+      </div>
     </section>
 
     <section>
@@ -55,18 +59,19 @@ description: Kankoda builds apps and SDKs for all major Apple platforms, using S
     </section>
   
     <section>
-      <h2>Social Media</h2>
-      <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
-      <div>
-        {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
-        {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
-      </div>
+      <h2>SDKs</h2>
+      <p>Kankoda builds commercial <a href="/sdks">SDKs</a> for all Apple platforms.</p>
+      <article>
+        {% include kankoda/grids/grid items=site.data.sdks limit=4 type="icons" %}
+      </article>
     </section>
-  
+
     <section>
-      <h2>Newsletter</h2>
-      <p>Subscribe to <a href="{{site.urls.newsletter}}">the Kankoda newsletter</a> for periodic updates.</p>
-      {% include kankoda/widgets/newsletter %}
+      <h2>Apps</h2>
+      <p>Kankoda builds <a href="/apps">apps</a> for all Apple platforms.</p>
+      <article>
+        {% include kankoda/grids/grid items=site.data.apps limit=4 type="icons" %}
+      </article>
     </section>
   </div>    
 </div>
