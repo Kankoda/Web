@@ -21,7 +21,7 @@ cta-secondary:
 permalink: /sdks/licensekit
 redirect_from: /licensekit
 
-description: A Swift SDK that helps you protect your apps and SDKs with commercial software licenses on all major Apple platforms.
+description: LicenseKit helps you protect your apps and SDKs with commercial software licenses on all major Apple platforms.
 ---
 
 {% assign product=site.data.licensekit %}
