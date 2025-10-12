@@ -30,8 +30,8 @@ description: A Swift SDK that helps you protect your apps and SDKs with commerci
 {{sdk.name}} helps you protect your apps and SDKs with commercial software licenses. It can encode licenses into the product binary, read licenses from file, integrate with 3rd party vendors, etc.
 
 {% include kankoda/sdks/github-section.md sdk=sdk %}
-{% include kankoda/sdks/pricing-section.html product=sdk free=1 %}
-{% include sdks/licensekit-feature-table.html tiers=product.tiers %}
-{% include kankoda/sdks/terms-section.html %}
-{% include kankoda/sdks/feature-section.html features=product.features %}
+{% include kankoda/sdks/pricing-section product=sdk free=1 %}
+{% include licensekit/feature-table tiers=product.tiers %}
+{% include kankoda/sdks/terms-section %}
+{% include kankoda/features/section features=product.features %}
 {% include kankoda/sdks/footer.md %}

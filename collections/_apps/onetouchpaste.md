@@ -21,6 +21,6 @@ One Touch Paste lets you create and sync clips and snippets across all devices, 
 The app has a keyboard extension that lets you use your clips and snippets in any app or browser. It supports 70+ locales, and features such as autocomplete, emojis, etc.
 
 
-{% include kankoda/grid/screenshots.html images="onetouchpaste-1,onetouchpaste-2,onetouchpaste-3" %}
+{% include kankoda/grids/screenshots images="onetouchpaste-1,onetouchpaste-2,onetouchpaste-3" %}
 
 One Touch Paste was created in partnership with [SalesForza](https://www.salesforza.com) - an Italian SaaS company with great products like SalesForza and CalendBook.

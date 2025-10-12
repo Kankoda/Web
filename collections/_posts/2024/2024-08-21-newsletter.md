@@ -12,6 +12,6 @@ The [Kankoda Newsletter]({{site.urls.newsletter}}) is managed through [our Gumro
 
 While this site isn't always updated with the latest information on products that have their own sites and social media accounts, like [KeyboardKit]({{site.urls.keyboardkit}}), the newsletter is a holistic source of news.
 
-{% include kankoda/widgets/newsletter.html %} 
+{% include kankoda/widgets/newsletter %} 
 
 So sign up today, and we'll update you when something significant happens to us and our products.

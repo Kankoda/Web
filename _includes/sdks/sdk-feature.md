@@ -13,11 +13,11 @@
 
   <hr />
   
-  {% include kankoda/sdks/feature-section.html title="Features" features=features %}
+  {% include kankoda/features/section title="Features" features=features %}
   
   <hr />
   
-  {% include kankoda/sdks/pricing-section.html product=sdk %}
+  {% include kankoda/sdks/pricing-section product=sdk %}
 
   <div class="cta-container">
     <a href="{{sdk.url}}#pricing" class="cta padding">Sign up now!</a>

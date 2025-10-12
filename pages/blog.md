@@ -12,10 +12,10 @@ page-class: glass-background bg4
 </div>
 
 <div class="blog list">
-    {%- include kankoda/tags/tag-list.html tags=site.tags firstmost="releases,pro" -%}
+    {%- include kankoda/tags/list tags=site.tags firstmost="releases,pro" -%}
 
     {% for post in site.posts %}
-    {% include kankoda/blog/list-item.html post=post %}
+    {% include kankoda/blog/list-item post=post %}
     {% endfor %}
-    {%- include kankoda/tags/tag-scripts.html -%}
+    {%- include kankoda/tags/scripts -%}
 </div>

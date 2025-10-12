@@ -19,7 +19,7 @@ Kankoda has a bunch of apps on the [App Store]({{site.urls.appstore}}). Due to t
 Here are some apps that Kankoda has created, either as products, as partnerships, or for clients.
 
 {% assign apps = site.data.apps %}
-{% include kankoda/grid/grid.html items=apps type="icons" %}
+{% include kankoda/grids/grid items=apps type="icons" %}
 
 
 {% include company/contact-section.md %}

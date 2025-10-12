@@ -9,4 +9,4 @@ redirect_from:
 ---
 
 {% include kankoda/data/app name="One Touch Paste" %}
-{% include kankoda/apps/privacy-policy.md app=app %}
+{% include kankoda/apps/privacy-policy app=app %}

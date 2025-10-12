@@ -10,7 +10,7 @@ description: LicenseKit requires a valid license
 ---
 
 {% include kankoda/data/sdk name="LicenseKit" %}
-{% include kankoda/buttons/back.html url=sdk.url %}
+{% include kankoda/buttons/back url=sdk.url %}
 {% include kankoda/licenses/license-validation.md product=sdk.name url=sdk.url %}
 
 ## Licenses

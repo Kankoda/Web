@@ -18,7 +18,7 @@ Kankoda builds SDKs for the Apple ecosystem, using [Swift]({{site.urls.swift}}),
 Kankoda has commercial, closed-source SDKs that are hosted on [GitHub]({{site.urls.github}}), distributed with the [Swift Package Manager]({{site.urls.spm}}) and sold through [Gumroad]({{site.urls.gumroad}}).
 
 {% assign products = site.data.sdks %}
-{% include kankoda/grid/grid.html items=products type="icons" %}
+{% include kankoda/grids/grid items=products type="icons" %}
 
 
 ## Open-Source Software

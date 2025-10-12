@@ -35,4 +35,4 @@ Wally 5.2 lets you scan things to quickly add them to your wallet. Just snap a p
 
 These app updates are nice improvements that polish the overall in-app experience. Download the apps from the [the Kankoda App Store page]({{site.urls.appstore}}) and let us know what you think.
 
-{% include kankoda/buttons/app-store.html %}
+{% include kankoda/buttons/app-store %}

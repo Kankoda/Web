@@ -28,7 +28,7 @@ description: Kankoda builds apps and SDKs for all major Apple platforms, using S
       <h2>SDKs</h2>
       <p>Kankoda builds commercial <a href="/sdks">SDKs</a> for all Apple platforms.</p>
       <article>
-        {% include kankoda/grid/grid.html items=site.data.sdks limit=4 type="icons" %}
+        {% include kankoda/grids/grid items=site.data.sdks limit=4 type="icons" %}
       </article>
     </section>
 
@@ -36,7 +36,7 @@ description: Kankoda builds apps and SDKs for all major Apple platforms, using S
       <h2>Apps</h2>
       <p>Kankoda builds <a href="/apps">apps</a> for all Apple platforms.</p>
       <article>
-        {% include kankoda/grid/grid.html items=site.data.apps limit=4 type="icons" %}
+        {% include kankoda/grids/grid items=site.data.apps limit=4 type="icons" %}
       </article>
     </section>
 
@@ -48,7 +48,7 @@ description: Kankoda builds apps and SDKs for all major Apple platforms, using S
       <div class="grid home blog list">
         {% for post in site.posts limit:2 %}
         <div>
-          {% include kankoda/blog/image-item.html post=posts.first tag-limit=1 %}
+          {% include kankoda/blog/image-item post=posts.first tag-limit=1 %}
         </div>
         {% endfor %}
       </div>
@@ -58,15 +58,15 @@ description: Kankoda builds apps and SDKs for all major Apple platforms, using S
       <h2>Social Media</h2>
       <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
       <div>
-        {% include kankoda/buttons/social.html name="bluesky" href=site.urls.bluesky class="scale" %}
-        {% include kankoda/buttons/social.html name="mastodon" href=site.urls.mastodon class="scale" %}  
+        {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
+        {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
       </div>
     </section>
   
     <section>
       <h2>Newsletter</h2>
       <p>Subscribe to <a href="{{site.urls.newsletter}}">the Kankoda newsletter</a> for periodic updates.</p>
-      {% include kankoda/widgets/newsletter.html %}
+      {% include kankoda/widgets/newsletter %}
     </section>
   </div>    
 </div>
