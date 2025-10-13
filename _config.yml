@@ -7,7 +7,7 @@ title: Kankoda
 description: >-
   Kankoda builds apps and products for iOS, iPadOS, tvOS, macOS and watchOS, using technologies like Swift, SwiftUI and Swift Package Manager. 
 
-url: http://kankoda.com
+url: https://kankoda.com
 email: info@kankoda.com
 
 copyright_year: 2021-2025
@@ -69,10 +69,10 @@ collections_dir: collections
 collections:
   apps:
     output: true
-    permalink: /apps/:name/
+    permalink: /apps/:name
   emojikit-features:
     output: true
-    permalink: /emojikit/features/:name/
+    permalink: /emojikit/features/:name
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
