@@ -79,10 +79,10 @@ collections:
 
   licensekit-features:
     output: true
-    permalink: /sdks/licensekit/features/:name/
+    permalink: /sdks/licensekit/features/:name
   vietnameseinput-features:
     output: true
-    permalink: /sdks/vietnameseinput/features/:name/
+    permalink: /sdks/vietnameseinput/features/:name
 
 baseurl: ""
 theme: minima
