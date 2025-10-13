@@ -96,6 +96,7 @@ include: [".well-known"]
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-sitemap
 
 defaults:
   -
