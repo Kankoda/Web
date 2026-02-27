@@ -8,7 +8,7 @@
 {% endif %}
   
 {% if has-hero %}
-<section class="hero wrapper">
+<section class="hero wrapper wide">
   {% if has-icon > 0 %}
   <img class="app-icon sticker {{page.hero-icon-class}}" src="{{page.hero-icon}}" />
   {% endif %}
@@ -17,11 +17,11 @@
       {{page.hero-emoji}}
   </div>
   {% endif %}
-  <div class="text">
+  <div>
     <h1>{{page.hero-title | default: page.title}}</h1>
     {% if page.hero-tagline %}
     <h2>{{page.hero-tagline}}</h2>
-    <h3>{{page.hero-description | default: page.description}}</h3>
+    <p>{{page.hero-description | default: page.description}}</p>
     {% else %}
     <h2>{{page.hero-description | default: page.description}}</h2>
     {% endif %}

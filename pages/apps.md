@@ -5,10 +5,12 @@ layout: page
 permalink: /apps
 page-class: glass-background bg2
 
-description: Kankoda builds multiplatform apps for all major Apple platforms
+description: Kankoda builds apps for major Apple platforms, using Swift, SwiftUI and the Swift Package Manager.
 
 hero-image: /assets/heros/apps.png
-hero-description: Multiplatform apps for Apple platforms
+hero-tagline: Multiplatform apps for all Apple platforms
+
+description: Kankoda builds apps for the Apple ecosystem, using Swift and SwiftUI.
 ---
 
 Kankoda has a bunch of apps on the [App Store]({{site.urls.appstore}}). Due to the company's focus on SDKs, open-source & client work, most apps are small, but they're built with the latest versions of [Swift]({{site.urls.swift}}) & [SwiftUI]({{site.urls.swiftui}}).
