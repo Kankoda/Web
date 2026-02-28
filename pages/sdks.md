@@ -5,13 +5,16 @@ layout: page
 permalink: /sdks
 page-class: glass-background bg3
 
-description: Kankoda builds SDKs for major Apple platforms, using Swift, SwiftUI and the Swift Package Manager.
+hero:
+  image: /assets/heros/sdks.png
 
-hero-image: /assets/heros/sdks.png
-hero-tagline: Multiplatform SDKs for all Apple platforms
+description: Kankoda builds SDKs for major Apple platforms, using Swift, SwiftUI and the Swift Package Manager.
 ---
 
-Using [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}) and [Swift Package Manager]({{site.urls.spm}}) means that we can easily distribute our SDKs to iOS, iPadOS, macOS, tvOS, watchOS & visionOS.
+
+## Modern Technologies
+
+Using [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}) and the [Swift Package Manager]({{site.urls.spm}}) means that we can easily distribute our SDKs to all major Apple platforms (iOS, iPadOS, macOS, tvOS, watchOS & visionOS).
 
 
 ## Closed-Source Products

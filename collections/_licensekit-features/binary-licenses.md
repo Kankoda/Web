@@ -1,9 +1,11 @@
 ---
-title: LicenseKit Binary Licenses
+title: Binary Licenses
 
-hero-title: LicenseKit Binary Licenses
+hero: 
+  icon: /assets/sdks/licensekit.png
+  icon-class: plain
 
-description: Compile licenses into your product binary
+description: LicenseKit can compile licenses into your product binary
 ---
 
 ## Binary Licenses

@@ -1,8 +1,11 @@
 ---
-title: Vietnamese Input Support
-hero-title: Vietnamese Input Support
+title: Vietnamese Input Engine
 
-description: Vietnamese Input supports typing with TELEX, VIQR, and VNI
+hero:
+  icon: /assets/sdks/vietnameseinput.png
+  icon-class: plain
+
+description: Vietnamese Input supports typing with Vietnamese TELEX, VIQR, and VNI
 ---
 
 

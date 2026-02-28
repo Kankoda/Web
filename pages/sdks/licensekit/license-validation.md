@@ -4,7 +4,9 @@ permalink: /sdks/licensekit/license-validation
 
 image: /assets/sdks/licensekit-header.jpg
 
-hero-title: License Validation
+hero: 
+  icon: /assets/sdks/licensekit.png
+  icon-class: plain
 
 description: LicenseKit requires a valid license
 ---

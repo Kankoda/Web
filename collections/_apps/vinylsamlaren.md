@@ -2,8 +2,11 @@
 title: Vinylsamlaren
 
 image: /assets/headers/kankoda.jpg
-hero-image: /assets/heros/vinylsamlaren.png
-hero-icon: /assets/icons/vinylsamlaren.png
+
+
+hero:
+  icon: /assets/icons/vinylsamlaren.png
+  image: /assets/heros/vinylsamlaren.png
 
 cta:
   title: Download
@@ -11,7 +14,7 @@ cta:
 
 redirect_from: /vinylsamlaren
 
-description: Find great record stores nearby
+description: Find great record stores nearby and get album information with a quick scan
 ---
 
 Say hi to Vinylsamlaren – the app that lets you find great record stores nearby. Just open the app to get the best places to find that next great vinyl in the palm of your hands.

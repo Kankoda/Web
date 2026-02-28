@@ -5,11 +5,12 @@ title: MediaKit
 image:  /assets/sdks/mediakit-header.jpg
 image-show: 0
 
-hero-icon: /assets/sdks/mediakit.png
-hero-icon-class: plain
-hero-tagline: Create amazing streaming apps with Swift & SwiftUI
+hero:
+  icon: /assets/sdks/mediakit.png
+  icon-class: plain
+  image: /assets/heros/mediakit.png
 
-cta-secondary:
+cta:
   title: Contact Us
   url:   info@kankoda.com
 
@@ -19,6 +20,8 @@ cta-secondary:
 
 permalink: /sdks/mediakit
 redirect_from: /mediakit
+
+description: Create amazing streaming apps with Swift & SwiftUI
 ---
 
 {% assign product=site.data.mediakit %}
@@ -29,3 +32,8 @@ redirect_from: /mediakit
 This page is still under construction, but feel free to check out the project on GitHub and [reach out]({{site.urls.email}}) if you want to give it a try.
 
 {% include kankoda/sdks/github-section.md sdk=sdk %}
+
+
+<div class="cta-container">
+  <a href="{{site.urls.email}}" class="cta">Contact Us</a>
+</div>

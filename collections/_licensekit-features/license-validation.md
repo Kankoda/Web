@@ -1,9 +1,11 @@
 ---
 title: License Validation
 
-hero-title: LicenseKit License Validation
+hero: 
+  icon: /assets/sdks/licensekit.png
+  icon-class: plain
 
-description: Validate customer licenses on-device or over the network.
+description: LicenseKit can validate licenses over the network or directly on-device.
 ---
 
 ## License Validation

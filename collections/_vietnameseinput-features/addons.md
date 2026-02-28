@@ -1,10 +1,13 @@
 ---
-title: Add-ons
+title: License Add-ons
 
-hero-title: Vietnamese Input Add-ons
+hero:
+  icon: /assets/sdks/vietnameseinput.png
+  icon-class: plain
+
 documentation: -1
 
-description: Extend your license with great add-ons
+description: Extend your VietnameseInput license with great add-ons
 ---
 
 {% include kankoda/data/sdk name="VietnameseInput" %}

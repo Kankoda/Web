@@ -1,9 +1,11 @@
 ---
-title: Service Composition
+title: LicenseKit Service Composition
 
-hero-title: LicenseKit Service Composition
+hero:
+  icon: /assets/sdks/licensekit.png
+  icon-class: plain
 
-description: Compose license services into flexible, powerful combinations
+description: LicenseKit lets you compose services into flexible combinations
 ---
 
 

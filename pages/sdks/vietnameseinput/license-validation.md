@@ -4,7 +4,9 @@ permalink: /sdks/vietnameseinput/license-validation
 
 image: /assets/sdks/vietnameseinput-header.jpg
 
-hero-title: License Validation
+hero: 
+  icon: /assets/sdks/vietnameseinput.png
+  icon-class: plain
 
 description: Vietnamese Input requires a valid license
 ---

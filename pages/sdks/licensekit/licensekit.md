@@ -5,23 +5,20 @@ title: LicenseKit
 image:  /assets/sdks/licensekit-header.jpg
 image-show: 0
 
-hero-icon: /assets/sdks/licensekit.png
-hero-icon-class: plain
-hero-image: /assets/heros/licensekit.png
-hero-tagline: Software licensing on all Apple platforms
+hero:
+  icon: /assets/sdks/licensekit.png
+  icon-class: plain
+  image: /assets/heros/licensekit.png
+  tagline: Software licensing on all Apple platforms
 
 cta:
   title: Pricing
   url:   /sdks/licensekit#pricing
 
-cta-secondary:
-  title: Features
-  url:   /sdks/licensekit#features
-
 permalink: /sdks/licensekit
 redirect_from: /licensekit
 
-description: LicenseKit helps you protect your apps and SDKs with commercial software licenses on all major Apple platforms.
+description: Protect your SDKs, apps, and software with commercial software licenses on all major Apple platforms.
 ---
 
 {% assign product=site.data.licensekit %}

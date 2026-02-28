@@ -3,8 +3,11 @@ id: lunchrrrrr
 title: Lunchrrrrr
 
 image: /assets/headers/kankoda.jpg
-hero-icon: /assets/icons/lunchrrrrr.png
-hero-image: /assets/heros/lunchrrrrr.png
+screenshot: /assets/screenshots/lunchrrrrr-iphone-
+
+hero:
+  icon: /assets/icons/lunchrrrrr.png
+  image: /assets/heros/lunchrrrrr.png
 
 cta:
   title: Download
@@ -19,6 +22,10 @@ Say hi to Lunchrrrrr – the app that lets you find great restaurants nearby. Ju
 
 Lunchrrrrr behaves just like some dating apps you may recognize, but for restaurants! Swipe left for the next great thing, or right to see more information about any place you find intriguing.
 
-{% include kankoda/grids/screenshots images="lunchrrrrr-iphone-1,lunchrrrrr-iphone-3,lunchrrrrr-iphone-4" %}
+<div class="grid col3">
+    <img src="{{page.screenshot}}1.jpg" alt="Lunchrrrrr Screenshot" />
+    <img src="{{page.screenshot}}3.jpg" alt="Lunchrrrrr Screenshot" />
+    <img src="{{page.screenshot}}4.jpg" alt="Lunchrrrrr Screenshot" />
+</div>
 
 Lunchrrrrr was created with [Swift]({{site.urls.swift}}) and [SwiftUI]({{site.urls.swiftui}}) and supports iOS 17 on iPhone and iPad. It's free to use and was created as a fun side project.

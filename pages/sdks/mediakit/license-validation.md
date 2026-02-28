@@ -4,7 +4,9 @@ permalink: /sdks/mediakit/license-validation
 
 image: /assets/sdks/mediakit-header.jpg
 
-hero-title: License Validation
+hero: 
+  icon: /assets/sdks/mediakit.png
+  icon-class: plain
 
 description: MediaKit requires a valid license
 ---

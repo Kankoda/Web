@@ -114,8 +114,6 @@ defaults:
       type: apps
     values:
       layout: app
-      hero-class: devices
-      hero-icon-class: app-icon
       page-class: glass-background bg1
   -
     scope:
