@@ -18,13 +18,15 @@ cta:
 permalink: /sdks/licensekit
 redirect_from: /licensekit
 
-description: Protect your SDKs, apps, and software with commercial software licenses on all major Apple platforms.
+description: Protect your SDKs, apps, and software products with commercial licenses.
 ---
 
 {% assign product=site.data.licensekit %}
 {% include kankoda/data/sdk name="LicenseKit" %}
 
-{{sdk.name}} helps you protect your apps and SDKs with commercial software licenses. It can encode licenses into the product binary, read licenses from file, integrate with 3rd party vendors, etc.
+{{sdk.name}} is a Swift SDK that can protect your software with commercial licenses on all major Apple platforms (iOS, iPadOS, macOS, tvOS, watchOS, visionOS). 
+
+{{sdk.name}} can encode licenses into your binary, generate and read encrypted license files, integrate with any 3rd party services, and has pre-made integrations to services like Gumroad, etc.
 
 {% include kankoda/sdks/github-section.md sdk=sdk %}
 {% include kankoda/sdks/pricing-section product=sdk free=1 %}

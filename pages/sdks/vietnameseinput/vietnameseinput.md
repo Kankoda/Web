@@ -8,6 +8,7 @@ image-show: 0
 hero:
   icon: /assets/sdks/vietnameseinput.png
   icon-class: plain
+  description: Vietnamese TELEX, VNI & VIQR typing for Swift & SwiftUI.
 
 cta:
   title: Pricing
@@ -16,7 +17,7 @@ cta:
 permalink: /sdks/vietnameseinput
 redirect_from: /vietnameseinput
 
-description: Vietnamese TELEX, VNI & VIQR typing support for Swift & SwiftUI
+description: Vietnamese Input lets you add Vietnamese TELEX, VNI & VIQR typing to your Swift & SwiftUI apps.
 ---
 
 {% assign product=site.data.vietnameseinput %}

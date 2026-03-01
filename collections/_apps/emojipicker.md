@@ -6,9 +6,10 @@ image: /assets/headers/emojipicker.jpg
 screenshot: /assets/screenshots/emojipicker-
 
 hero: 
-  image: /assets/heros/emojipicker.png
   icon: /assets/icons/emojipicker.png
   icon-class: rounded
+  image: /assets/heros/emojipicker.png
+  description: Pick emojis from more places on your iPhone, iPad and Mac.
 
 cta:
   title: Download
@@ -16,7 +17,7 @@ cta:
 
 redirect_from: /emojipicker
 
-description: Emoji Picker lets you pick emojis from more places on iPhone, iPad and Mac.
+description: Emoji Picker lets you pick emojis from more places on your iPhone, iPad and Mac.
 ---
 
 The iPhone & iPad app has a full-blown picker, and lets you pick emojis from a home screen widget, while the macOS app has a full-blown picker app, a menu bar app, and a desktop widget.

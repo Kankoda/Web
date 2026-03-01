@@ -6,9 +6,9 @@ layout: plain
 page-class: glass-background bg1
 
 hero:
+  eyebrow: Welcome to Kankoda
   title: We build SDKs & Apps
   image: /assets/devices.png
-  image-class: wide
 
 description: Kankoda builds software for all Apple platforms, using Swift, SwiftUI and the Swift Package Manager.
 ---
@@ -36,8 +36,7 @@ description: Kankoda builds software for all Apple platforms, using Swift, Swift
       </div>
     </section>
   </div>
-  <div class="wrapper wide">
-    <section>
+  <section class="wrapper wide">
       <h2>Latest News</h2>
       <p> 
         Follow the <a href="/blog">Kankoda blog</a> for news & updates.
@@ -51,7 +50,7 @@ description: Kankoda builds software for all Apple platforms, using Swift, Swift
       </div>
     </section>
   
-    <section>
+    <section class="wrapper">
       <h2>SDKs</h2>
       <p>Kankoda builds commercial <a href="/sdks">SDKs</a> for all Apple platforms.</p>
       <article>
@@ -59,12 +58,11 @@ description: Kankoda builds software for all Apple platforms, using Swift, Swift
       </article>
     </section>
 
-    <section>
+    <section class="wrapper">
       <h2>Apps</h2>
       <p>Kankoda builds <a href="/apps">apps</a> for all Apple platforms.</p>
       <article>
         {% include kankoda/grids/grid items=site.data.apps limit=4 type="icons" %}
       </article>
     </section>
-  </div>    
 </div>

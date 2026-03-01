@@ -8,6 +8,7 @@ screenshot: /assets/screenshots/lunchrrrrr-iphone-
 hero:
   icon: /assets/icons/lunchrrrrr.png
   image: /assets/heros/lunchrrrrr.png
+  description: Find your next favorite restaurant.
 
 cta:
   title: Download
@@ -15,7 +16,7 @@ cta:
 
 redirect_from: /lunchrrrrr
 
-description: Find great restaurants nearby
+description: Lunchrrrrr makes it easy to find your next favorite restaurant nearby.
 ---
 
 Say hi to Lunchrrrrr – the app that lets you find great restaurants nearby. Just open the app and get the best places to grab lunch, dinner or a snack in the palm of your hands.
