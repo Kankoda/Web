@@ -4,7 +4,7 @@ Promo box for displaying features with title, image, description, and CTAs.     
   - title: (required) The heading text for the feature box                                                       ╎│
   - image: (required) The image source path                                                                      ╎│
   - text: (required) The descriptive text/content                                                                ╎│
-  - delay: (optional) Animation delay class number (e.g., "1" for "delay-1")                                     ╎│
+  - class: (optional) Optional css class (e.g., "slide-in delay-1")                                     ╎│
   - cta_link: (optional) The URL for a secondary call-to-action button                                         ╎│
   - cta_text: (optional) Custom text for a secondary CTA button (defaults to "Learn more" if not provided)     ╎│
   - cta_primary_link: (optional) The URL for a primary call-to-action button                                   ╎│
