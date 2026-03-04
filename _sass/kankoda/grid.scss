@@ -1,5 +1,13 @@
+.grid-title {
+  margin: 10px;
+}
+
 p + .grid {
   margin: 50px 0px;
+}
+
+.grid + .grid {
+  margin-top: 50px;
 }
 
 section {
