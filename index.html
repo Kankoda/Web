@@ -8,61 +8,58 @@ page-class: glass-background bg1
 hero:
   eyebrow: Welcome to Kankoda
   title: We build SDKs & Apps
-  image: /assets/devices.png
+  image: /assets/heros/devices.png
 
-description: Kankoda builds software for all Apple platforms, using Swift, SwiftUI and the Swift Package Manager.
+description: Kankoda builds software for all Apple platforms.
 ---
 
 <div class="paper">
 
-  <div class="wrapper">
-    <section>
-      <div class="grid col2">
-        <div>
-          <h2>Social Media</h2>
-          <p>Follow Kankoda on <a href="{{site.urls.bluesky}}">Bluesky</a>, and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
-          <div>
-            {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
-            {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
-          </div>
-        </div>
-        <div>
-          <section>
-            <h2>Newsletter</h2>
-            <p>Subscribe to <a href="{{site.urls.newsletter}}">the Kankoda newsletter</a> for periodic updates.</p>
-            {% include kankoda/widgets/newsletter %}
-          </section>
-        </div>
+  <section class="wrapper wide slide-in">
+    <h2>Latest News</h2>
+    <p> 
+      Follow <a href="/blog">our blog</a> for news & updates.
+    </p>
+    <div class="grid col2 blog list">
+      {% for post in site.posts limit:2 %}
+      <div>
+        {% include kankoda/blog/image-item post=posts.first tag-limit=1 %}
       </div>
-    </section>
-  </div>
-  <section class="wrapper wide">
-      <h2>Latest News</h2>
-      <p> 
-        Follow the <a href="/blog">Kankoda blog</a> for news & updates.
-      </p>
-      <div class="grid home blog list">
-        {% for post in site.posts limit:2 %}
-        <div>
-          {% include kankoda/blog/image-item post=posts.first tag-limit=1 %}
-        </div>
-        {% endfor %}
-      </div>
-    </section>
-  
-    <section class="wrapper">
-      <h2>SDKs</h2>
-      <p>Kankoda builds commercial <a href="/sdks">SDKs</a> for all Apple platforms.</p>
-      <article>
-        {% include kankoda/grids/grid items=site.data.sdks limit=4 type="icons" %}
-      </article>
-    </section>
+      {% endfor %}
+    </div>
+  </section>
 
-    <section class="wrapper">
-      <h2>Apps</h2>
-      <p>Kankoda builds <a href="/apps">apps</a> for all Apple platforms.</p>
-      <article>
-        {% include kankoda/grids/grid items=site.data.apps limit=4 type="icons" %}
-      </article>
-    </section>
+  <section class="wrapper">
+    <div class="grid col2">
+      <div class="slide-in">
+        <h2>Social Media</h2>
+        <p>Follow us on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
+        <div>
+          {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
+          {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
+        </div>
+      </div>
+      <div class="slide-in">
+        <h2>Newsletter</h2>
+        <p>Subscribe to <a href="{{site.urls.newsletter}}">our newsletter</a> for periodic updates.</p>
+        {% include kankoda/widgets/newsletter %}
+      </div>
+    </div>
+  </section>
+  
+  <section class="wrapper">
+    <h2>SDKs</h2>
+    <p>Kankoda builds commercial <a href="/sdks">SDKs</a> for all Apple platforms.</p>
+    <article>
+      {% include kankoda/grids/grid items=site.data.sdks limit=4 type="icons" %}
+    </article>
+  </section>
+
+  <section class="wrapper">
+    <h2>Apps</h2>
+    <p>Kankoda builds <a href="/apps">apps</a> for all Apple platforms.</p>
+    <article>
+      {% include kankoda/grids/grid items=site.data.apps limit=4 type="icons" %}
+    </article>
+  </section>
 </div>

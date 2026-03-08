@@ -23,12 +23,11 @@
   
   <hr />
 
-  {% include kankoda/licenses/table-row row=01 feature="Additional Products" columns="-,-,-,✔" url="features/addons" title="Custom licenses can include additional products, at a significant discount." %}
-  {% include kankoda/licenses/table-row row=02 feature="Custom Billing" columns="-,-,-,✔" url="features/addons" title="Custom licenses can customize the billing, included products, etc." %}
+  {% include kankoda/licenses/table-row row=01 feature="Custom Billing" columns="-,-,-,✔" url="features/addons" title="Custom licenses can customize the billing, included products, etc." %}
+  {% include kankoda/licenses/table-row row=02 feature="Custom SLA" columns="-,-,-,✔" url="features/addons" title="Custom licenses can include support for additional test environments and enterprise requirements.." %}
   {% include kankoda/licenses/table-row row=03 feature="Custom Terms" columns="-,-,-,✔" url="features/addons" title="Custom licenses can customize the license terms." %}
-  {% include kankoda/licenses/table-row row=04 feature="Enterprise Support" columns="-,-,-,✔" url="features/addons" title="Custom licenses can include support for additional test environments and enterprise requirements." %}
-  {% include kankoda/licenses/table-row row=05 feature="Escrow Services" columns="-,-,-,✔" url="features/addons" title="Enterprise licenses can include support for additional test environments and enterprise requirements." %}
-  
+  {% include kankoda/licenses/table-row row=04 feature="Software Escrow" columns="-,-,-,✔" url="features/addons" title="Enterprise licenses can include support for additional test environments and enterprise requirements.." %}
+    
   <hr />
   
   {% include kankoda/licenses/table-row row=01 feature="Discord Server" columns="-,Public,Private,Private" url="features/support#communication" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}

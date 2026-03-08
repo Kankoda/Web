@@ -1,16 +1,18 @@
 - name: Free
+  cta: Coming Soon
+  url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Standard%20Plan
 
 - name: Standard
   price_year: 1500
   price_month: 150
-  cta: Coming Soon
+  cta: Contact Us
   # url: https://kankoda.gumroad.com/l/vietnameseinput
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Standard%20Plan
 
 - name: Business
   price_year: 2500
   price_month: 250
-  cta: Coming Soon
+  cta: Contact Us
   # url: https://kankoda.gumroad.com/l/vietnameseinput
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Business%20Plan
 

@@ -15,27 +15,6 @@ function scrollToTop() {
 }
 
 
-// Animations
-
-document.addEventListener('DOMContentLoaded', function() {
-  console.log("TEST");
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-      }
-    });
-  }, {
-    threshold: 0.1,
-    rootMargin: '0px 0px -50px 0px'
-  });
-
-  document.querySelectorAll('.slide-up').forEach(item => {
-    observer.observe(item);
-  });
-});
-
-
 // Licenses
 
 function hideAllLicenseTables() {
@@ -92,6 +71,28 @@ function showTag(tag) {
     window.location.href = "/blog#" + tag; 
   }
 }
+
+// Animations
+
+document.addEventListener('DOMContentLoaded', function () {
+  const observerOptions = {
+    threshold: 0.1,
+    rootMargin: '0px 0px -50px 0px'
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, observerOptions);
+
+  document.querySelectorAll('.slide-in').forEach(element => {
+    observer.observe(element);
+  });
+});
 
 // Search ***
 
