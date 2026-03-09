@@ -16,6 +16,11 @@
   -webkit-transform: translateX(50px); /* Safari prefix */
 }
 
+.slide-in.from-top {
+  transform: translateY(-50px);
+  -webkit-transform: translateY(-50px); /* Safari prefix */
+}
+
 .slide-in.delay-1 {
   transition-delay: 0.5s;
 }
