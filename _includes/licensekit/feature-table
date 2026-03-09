@@ -2,8 +2,8 @@
   {% include kankoda/licenses/table-tiers tiers=include.tiers price=include.price %}
 
   {% include kankoda/licenses/table-row row=01 feature="Max. Binary/CSV Licenses" columns="5,25,1 000,Unlimited" url="features/file-licenses" title="LicenseKit lets you define licenses with code or in plain CSV files." %}
-  {% include kankoda/licenses/table-row row=01 feature="Binary Licenses" columns="✔,✔,✔,✔" url="features/binary-licenses" title="LicenseKit lets you define licenses with code." %}
-  {% include kankoda/licenses/table-row row=02 feature="CSV Files" columns="✔,✔,✔,✔" url="features/csv-files" title="LicenseKit lets you define licenses in text files." %}
+  {% include kankoda/licenses/table-row row=02 feature="Binary Licenses" columns="✔,✔,✔,✔" url="features/binary-licenses" title="LicenseKit lets you define licenses with code." %}
+  {% include kankoda/licenses/table-row row=03 feature="CSV Files" columns="✔,✔,✔,✔" url="features/csv-files" title="LicenseKit lets you define licenses in text files." %}
 
   <hr />
   
