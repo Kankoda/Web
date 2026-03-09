@@ -1,18 +1,18 @@
 - name: Free
-  cta: Coming Soon
+  cta: Contact
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Standard%20Plan
 
-- name: Standard
+- name: Silver
   price_year: 1500
   price_month: 150
-  cta: Contact Us
+  cta: Contact
   # url: https://kankoda.gumroad.com/l/vietnameseinput
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Standard%20Plan
 
 - name: Gold
   price_year: 2500
   price_month: 250
-  cta: Contact Us
+  cta: Contact
   # url: https://kankoda.gumroad.com/l/vietnameseinput
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Business%20Plan
 

@@ -18,8 +18,8 @@
   
   <hr />
 
-  {% include kankoda/licenses/table-row row=01 feature="On-Device Validation"  columns="-,-,Yearly,✔" title="Licenses can be compiled into the library and be validated offline." url="license-validation" %}
-  {% include kankoda/licenses/table-row row=02 feature="License Files"  columns="-,-,Yearly,✔" title="Licenses can be delivered on file and be validated offline." url="license-validation" %}
+  {% include kankoda/licenses/table-row row=01 feature="License File"          columns="-,-,Yearly,✔" title="Yearly Gold licenses and above are validated on-device, without the need for Full Access." url="/pro/license-validation" %}
+  {% include kankoda/licenses/table-row row=02 feature="On-Device Validation"  columns="-,-,Yearly,✔" title="Yearly Gold licenses and above are validated on-device, without the need for Full Access." url="/pro/license-validation" %}
   
   <hr />
 
