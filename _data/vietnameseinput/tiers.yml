@@ -9,7 +9,7 @@
   # url: https://kankoda.gumroad.com/l/vietnameseinput
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Standard%20Plan
 
-- name: Business
+- name: Gold
   price_year: 2500
   price_month: 250
   cta: Contact Us
@@ -17,5 +17,5 @@
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Business%20Plan
 
 - name: Custom
-  cta: Contact Us
+  cta: Contact
   url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Custom%20Plan

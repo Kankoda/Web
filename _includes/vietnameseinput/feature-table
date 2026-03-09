@@ -12,7 +12,7 @@
   
   <hr />
 
-  {% include kankoda/licenses/table-row row=01 feature="Offline Validation"  columns="-,-,Yearly,✔" url="license-validation" title="Yearly Gold and Enterprise licenses are compiled into the library and can be validated offline, without the need for Full Access." %}
+  {% include kankoda/licenses/table-row row=01 feature="On-Device Validation"  columns="-,-,Yearly,✔" url="license-validation" title="Yearly Gold and Enterprise licenses are compiled into the library and can be validated offline, without the need for Full Access." %}
   
   <hr />
 

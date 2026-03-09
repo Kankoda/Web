@@ -8,13 +8,13 @@
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/licensekit
 
-- name: Business
+- name: Gold
   price_year: 5000
   price_month: 500
   cta: Sign Up
   url: https://kankoda.gumroad.com/l/licensekit
 
 - name: Custom
-  cta: Contact Us
+  cta: Contact
   subtitle: Let's talk
   url: mailto:info@kankoda.com?subject=LicenseKit%20Custom%20Plan
