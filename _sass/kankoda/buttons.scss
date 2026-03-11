@@ -32,6 +32,7 @@ a.cta.secondary, a.cta.secondary:hover, a.cta.secondary:visited,
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
+
 a.scale:hover, a:hover .scale, a.cta:hover, .cta a:hover  {
   transform: scale(1.04);
 }
@@ -128,38 +129,4 @@ a.forward-button:after {
 .social-button.twitter {
   mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
   -webkit-mask: url(/assets/kankoda/social-icons/twitter.svg) no-repeat center;
-}
-
-article > .button-container {
-  margin-top: 15px;
-}
-
-article > .button-container ~ .button-container {
-  margin-top: 25px;
-}
-
-.button-container {
-  font-size: small;
-  text-align: center;
-  margin-bottom: 50px;
-
-  .group {
-    padding: 15px 5px;
-    border: solid 1px $button-container-border;
-    border-radius: 20px;
-    background-color: $button-container-background;
-
-    a {
-      padding: 10px;
-      border-radius: 15px;
-      display: inline-block;
-      color: $button-container-foreground;
-    }
-  
-    a.active {
-      color: $button-container-selected-foreground;
-      background-color: $button-container-selected-background;
-      box-shadow: 0px 1px 2px $shadow;
-    }
-  }
 }
