@@ -1,38 +1,50 @@
 <section class="feature-table ">
-  {% include kankoda/licenses/table-tiers tiers=include.tiers price=include.price %}
+  {% include kankoda/feature-table/tiers tiers=include.tiers price=include.price %}
 
-  {% include kankoda/licenses/table-row row=01 feature="Max. Binary/CSV Licenses" columns="5,25,1 000,Unlimited" url="features/file-licenses" title="LicenseKit lets you define licenses with code or in plain CSV files." %}
-  {% include kankoda/licenses/table-row row=02 feature="Binary Licenses" columns="✔,✔,✔,✔" url="features/binary-licenses" title="LicenseKit lets you define licenses with code." %}
-  {% include kankoda/licenses/table-row row=03 feature="CSV Files" columns="✔,✔,✔,✔" url="features/csv-files" title="LicenseKit lets you define licenses in text files." %}
+  <div class="feature-group">
+    {% include kankoda/feature-table/row  title="Max. Binary/CSV Licenses"  columns="5,25,1 000,Unlimited"  url="features/file-licenses"    tooltip="LicenseKit lets you define licenses with code or in plain CSV files." %}
+    {% include kankoda/feature-table/row  title="Binary Licenses"           columns="✔,✔,✔,✔"               url="features/binary-licenses"  tooltip="LicenseKit lets you define licenses with code." %}
+    {% include kankoda/feature-table/row  title="CSV Files"                 columns="✔,✔,✔,✔"               url="features/csv-files"        tooltip="LicenseKit lets you define licenses in text files." %}
+  </div>
 
   <hr />
   
-  {% include kankoda/licenses/table-row row=01 feature="Gumroad Integration" columns="✔,✔,✔,✔" url="features/gumroad" title="LicenseKit lets you integrate with Gumroad." %}
+  <div class="feature-group">
+    {% include kankoda/feature-table/row  title="Gumroad Integration"   columns="✔,✔,✔,✔"  url="features/gumroad" tooltip="LicenseKit lets you integrate with Gumroad." %}
+  </div>
   
   <hr />
 
-  {% include kankoda/licenses/table-row row=01 feature="API Integrations" columns="-,-,✔,✔" url="features/api-integrations" title="LicenseKit lets you validate licenses over the cloud." %}
-  {% include kankoda/licenses/table-row row=02 feature="Encrypted Files" columns="-,-,✔,✔" url="features/encrypted-files" title="LicenseKit lets you distribute licenses in encrypted files." %}
-  {% include kankoda/licenses/table-row row=03 feature="License Caching" columns="-,-,✔,✔" url="features/license-caching" title="LicenseKit lets you integrate with Gumroad." %}
-  {% include kankoda/licenses/table-row row=04 feature="Service Compositions" columns="-,-,✔,✔" url="features/service-composition" title="LicenseKit lets you combine multiple license services into a single service." %}
-  
+  <div class="feature-group">
+    {% include kankoda/feature-table/row  title="API Integrations"      columns="-,-,✔,✔"  url="features/api-integrations"     tooltip="LicenseKit lets you validate licenses over the cloud." %}
+    {% include kankoda/feature-table/row  title="Encrypted Files"       columns="-,-,✔,✔"  url="features/encrypted-files"      tooltip="LicenseKit lets you distribute licenses in encrypted files." %}
+    {% include kankoda/feature-table/row  title="License Caching"       columns="-,-,✔,✔"  url="features/license-caching"      tooltip="LicenseKit lets you integrate with Gumroad." %}
+    {% include kankoda/feature-table/row  title="Service Compositions"  columns="-,-,✔,✔"  url="features/service-composition"  tooltip="LicenseKit lets you combine multiple license services into a single service." %}
+  </div>
+
   <hr />
 
-  {% include kankoda/licenses/table-row row=01 feature="License File"          columns="-,-,Yearly,✔" title="Yearly Gold licenses and above are validated on-device, without the need for Full Access." url="/pro/license-validation" %}
-  {% include kankoda/licenses/table-row row=02 feature="On-Device Validation"  columns="-,-,Yearly,✔" title="Yearly Gold licenses and above are validated on-device, without the need for Full Access." url="/pro/license-validation" %}
-  
+  <div class="feature-group">
+    {% include kankoda/feature-table/row  title="License File"          columns="-,-,Yearly,✔"   url="features/license-validation"   tooltip="Yearly Gold licenses and above are validated on-device, without the need for Full Access." %}
+    {% include kankoda/feature-table/row  title="On-Device Validation"  columns="-,-,Yearly,✔"   url="features/license-validation"   tooltip="Yearly Gold licenses and above are validated on-device, without the need for Full Access." %}
+  </div>
+
   <hr />
 
-  {% include kankoda/licenses/table-row row=01 feature="Custom Billing" columns="-,-,-,✔" url="features/addons" title="Custom licenses can customize the billing, included products, etc." %}
-  {% include kankoda/licenses/table-row row=02 feature="Custom SLA" columns="-,-,-,✔" url="features/addons" title="Custom licenses can include support for additional test environments and enterprise requirements.." %}
-  {% include kankoda/licenses/table-row row=03 feature="Custom Terms" columns="-,-,-,✔" url="features/addons" title="Custom licenses can customize the license terms." %}
-  {% include kankoda/licenses/table-row row=04 feature="Software Escrow" columns="-,-,-,✔" url="features/addons" title="Enterprise licenses can include support for additional test environments and enterprise requirements.." %}
+  <div class="feature-group">
+    {% include kankoda/feature-table/row  title="Custom Billing"    columns="-,-,-,✔"  url="features/addons"  tooltip="Custom licenses can customize the billing, included products, etc." %}
+    {% include kankoda/feature-table/row  title="Custom SLA"        columns="-,-,-,✔"  url="features/addons"  tooltip="Custom licenses can include support for additional test environments and enterprise requirements.." %}
+    {% include kankoda/feature-table/row  title="Custom Terms"      columns="-,-,-,✔"  url="features/addons"  tooltip="Custom licenses can customize the license terms." %}
+    {% include kankoda/feature-table/row  title="Software Escrow"   columns="-,-,-,✔"  url="features/addons"  tooltip="Enterprise licenses can include support for additional test environments and enterprise requirements.." %}
+  </div>
+
+  <hr />
+  
+  <div class="feature-group">
+    {% include kankoda/feature-table/row  title="Discord Server"    columns="-,Public,Private,Private"          url="features/support#communication"  tooltip="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}
+    {% include kankoda/feature-table/row  title="Support"           columns="GitHub,Email,Priority,Dedicated"   url="features/support"                tooltip="The higher tiers include priority support and can pay extra for dedicated support." %}
+    {% include kankoda/feature-table/row  title="Terms"             columns="Standard,Standard,Custom,Custom"   url="terms-and-conditions"            tooltip="Custom licenses can customize the terms to accomodate to any business or legal requirements." %}
+  </div>
     
-  <hr />
-  
-  {% include kankoda/licenses/table-row row=01 feature="Discord Server" columns="-,Public,Private,Private" url="features/support#communication" title="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}
-  {% include kankoda/licenses/table-row row=02 feature="Support" columns="GitHub,Email,Priority,Dedicated" url="features/support" title="The higher tiers include priority support and can pay extra for dedicated support." %}
-  {% include kankoda/licenses/table-row row=03 feature="Terms" columns="Standard,Standard,Custom,Custom" url="terms-and-conditions" title="Custom licenses can customize the terms to accomodate to any business or legal requirements." %}
-  
   <hr />
 </section>

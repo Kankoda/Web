@@ -82,8 +82,14 @@
     }
   }
 
-  .table-section-header {
+  .feature-group .table-row:nth-child(odd) {
     background-color: $feature-table-background;
+  }
+  .feature-group .table-row:nth-child(even) {
+    background-color: $feature-table-even-row-color;
+  }
+
+  .table-section-header {
     display: none;
     padding: 5px 5px 0px 5px;
     font-size: smaller;
@@ -106,14 +112,6 @@
 
   .grid + .grid {
     border: none;
-  }
-
-  .even, .even + .grid {
-    background-color: $feature-table-background;
-  }
-
-  .odd, .odd + .grid {
-    background-color: $feature-table-even-row-color;
   }
 }
 
