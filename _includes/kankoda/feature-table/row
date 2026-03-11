@@ -1,5 +1,5 @@
 <div class="table-row">
-  <div class="table-section-header {{include.table-class}}" title="{{include.tooltip}}">{{include.title}}</div>
+  <div class="feature header" title="{{include.tooltip}}">{{include.title}}</div>
   <div class="grid {{include.grid-class}}" title="{{include.tooltip}}"  style="line-height: 1em;">
     <div class="feature">
       {% if include.url %}
