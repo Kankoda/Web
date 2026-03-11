@@ -1,13 +1,13 @@
 <section class="feature-table {{include.price}}">
   {% include kankoda/feature-table/tiers tiers=include.tiers price=include.price %}    
 
-  <div class="feature-group">
+  <div>
     {% include kankoda/feature-table/row title="Max. Requests"  columns="50,Unlimited,Unlimited,Unlimited"  tooltip="The free tier stops working after 100 requests per process." %}
   </div>
   
   <hr />
 
-  <div class="feature-group">
+  <div>
     {% include kankoda/feature-table/row  title="Input Engine"   columns="✔,✔,✔,✔"   url="features/input"  tooltip="VietnameseInput has an input engine that lets you type in Vietnamese." %}
     {% include kankoda/feature-table/row  title="TELEX"          columns="✔,✔,✔,✔"   url="features/input"  tooltip="VietnameseInput supports TELEX." %}
     {% include kankoda/feature-table/row  title="VIQR"           columns="✔,✔,✔,✔"   url="features/input"  tooltip="VietnameseInput supports VIQR." %}
@@ -16,14 +16,14 @@
   
   <hr />
 
-  <div class="feature-group">
+  <div>
     {% include kankoda/feature-table/row  title="License File"          columns="-,-,Yearly,✔"  url="features/license-validation"  tooltip="Yearly Gold licenses and above are validated on-device, without the need for Full Access." %}
     {% include kankoda/feature-table/row  title="On-Device Validation"  columns="-,-,Yearly,✔"  url="features/license-validation"  tooltip="Yearly Gold licenses and above are validated on-device, without the need for Full Access." %}
   </div>
   
   <hr />
 
-  <div class="feature-group">
+  <div>
     {% include kankoda/feature-table/row  title="Custom Billing" columns="-,-,-,✔"  url="features/addons"  tooltip="Custom licenses can customize the billing, included products, etc." %}
     {% include kankoda/feature-table/row  title="Custom SLA" columns="-,-,-,✔"      url="features/addons"  tooltip="Custom licenses can include support for additional test environments and enterprise requirements.." %}
     {% include kankoda/feature-table/row  title="Custom Terms" columns="-,-,-,✔"    url="features/addons"  tooltip="Custom licenses can customize the license terms." %}
@@ -32,7 +32,7 @@
   
   <hr />
   
-  <div class="feature-group">
+  <div>
     {% include kankoda/feature-table/row title="Discord Server" columns="-,Public,Private,Private"  url="features/support"      tooltip="Yearly Gold and License customers  The optional onboarding call lets us understand your needs to help you get started." %}
     {% include kankoda/feature-table/row title="Support" columns="GitHub,GitHub,Priority,Dedicated" url="features/support"      tooltip="The higher tiers include priorityfeatures/ support and can pay extra for dedicated support." %}
     {% include kankoda/feature-table/row title="Terms" columns="Standard,Standard,Standard,Custom"  url="terms-and-conditions"  tooltip="Custom licenses can customize the terms to accomodate to any business or legal requirements." %}

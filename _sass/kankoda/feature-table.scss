@@ -82,10 +82,10 @@
     }
   }
 
-  .feature-group .table-row:nth-child(odd) {
+  > div .table-row:nth-child(odd) {
     background-color: $feature-table-background;
   }
-  .feature-group .table-row:nth-child(even) {
+  > div .table-row:nth-child(even) {
     background-color: $feature-table-even-row-color;
   }
 
