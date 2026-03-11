@@ -19,8 +19,8 @@
   
   {% include kankoda/sdks/pricing-section product=sdk %}
 
-  <div class="cta-container">
-    <a href="{{sdk.url}}#pricing" class="cta padding">Sign up now!</a>
+  <div class="cta">
+    <a href="{{sdk.url}}#pricing">Sign up now!</a>
   </div>
 
   <hr />

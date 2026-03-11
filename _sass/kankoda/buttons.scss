@@ -1,4 +1,12 @@
-a.cta {
+.cta {
+  text-align: center;
+}
+
+div.cta {
+  margin: 50px 0;
+}
+
+.cta a, a.cta {
   color: $cta-foreground;
   background-color: $cta-background;
   border-color: $cta-border;
@@ -7,37 +15,24 @@ a.cta {
   font-weight: 600;
   font-size: medium;
   min-width: 100px;
-  text-align: center;
   padding: 10px 20px;
+  margin: 0 10px;
+  text-decoration: none;
 }
 
-.cta, .cta:hover, a.cta:visited {
+.cta a:hover, a.cta:hover, .cta a:visited, a.cta:visited {
   color: $cta-foreground !important;
 }
 
-.cta.secondary, .cta.secondary:hover, a.cta.secondary:visited {
+a.cta.secondary, a.cta.secondary:hover, a.cta.secondary:visited,
+.cta a.secondary, .cta a.secondary:hover, .cta a.secondary:visited
+ {
   color: $cta-background !important;
   background-color: $cta-foreground;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.15);
 }
 
-a.cta + a.cta {
-  margin-left: 20px;
-}
-
-a.cta:hover { color: $cta-foreground; }
-a.cta:visited { color: $cta-foreground !important; }
-
-.cta-container {
-  text-align: center;
-  margin: 50px 0;
-}
-
-a.scale {
-  text-decoration: none;
-}
-
-a.scale:hover, a:hover .scale {
+a.scale:hover, a:hover .scale, a.cta:hover, .cta a:hover  {
   transform: scale(1.04);
 }
 

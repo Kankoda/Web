@@ -15,7 +15,7 @@
             {% endif %}
 
             {% if tier.cta %}
-            <a href="{{tier.url}}" class="cta scale">
+            <a href="{{tier.url}}" class="cta">
                 {{tier.cta}}
             </a>
             {% endif %}
