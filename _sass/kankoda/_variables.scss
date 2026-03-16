@@ -4,8 +4,8 @@ $background-tertiary: #d8d8e0;
 
 $foreground: black;
 $foreground-contrast: white;
-$foreground-secondary: #333;
-$foreground-tertiary: #666;
+$foreground-secondary: #555;
+$foreground-tertiary: #888;
 
 $border: #ddd;
 $border-tertiary: #ccc;
@@ -46,6 +46,14 @@ $tag-swiftui: #004080;
 $texture: transparent;
 $texture-size: 350px;
 $texture-overlay: transparent;
+
+$tier-tag-blue-bg: #EAF3FD;
+$tier-tag-blue-border: #D8E7FB;
+$tier-tag-blue-text: #4589EC;
+
+$tier-tag-orange-bg: rgb(255, 70, 0);
+$tier-tag-orange-border: rgb(255, 70, 0);
+$tier-tag-orange-text: white;
 
 $wrapper-width: 900px;
 $wrapper-width-wide: 1200px;
