@@ -60,24 +60,17 @@
   padding-top: 0px;
   text-align: center;
 
-  ul + p { 
-    margin: 20px; 
-  }
-
-  .row {
-    flex-wrap: wrap;
-    margin-bottom: 50px;
-  }
-
   .column {
     opacity: 0.75;
     flex-basis: 20%;
     font-size: smaller;
+    text-align: left;
     
     p {
       margin-top: 30px;
       margin-bottom: 10px;
       font-weight: 600;
+      text-align: left;
     }
 
     p:first-of-type {
@@ -96,18 +89,25 @@
   }
 
   .copyright {
+    font-size: smaller;
     text-align: center;
+    margin-top: 50px;
   }
 
   @media (max-width: 800px) {
     .row {
+      flex-direction: column;
       margin-left: 10px;
       margin-bottom: 0px;
     }
 
-    .column { 
-      flex-basis: 100%;
+    .column {
+      width: 100%;
       margin-bottom: 30px;
+    }
+
+    .desktop {
+      display: none;
     }
   }
 }
