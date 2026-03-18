@@ -1,30 +1,23 @@
 .site-header {
   min-height: 0px;
 	border: 0 !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  font-size: 0.8em;
+  padding: 20px 0;
 
   a {
     font-weight: 600;
   }
 
-  .row {
-    align-items: center;
-    min-height: 40px;
-  }
+  .logo {
 
-  .logo img {
-    max-height: 25px;
-    margin-top: -5px;
-  }
+    img {
+      max-height: 25px;
+      margin-top: -5px;
 
-  .logo img.icon {
-    max-height: 50px;
-  }
-
-  .logo:hover {
-    transform: none;
-    transform: scale(1.04);
+      &.icon {
+        max-height: 50px;
+      }
+    }
   }
 
   .column:nth-of-type(1) {
@@ -37,10 +30,6 @@
     text-align: right;
   }
 
-  .menu {
-    font-size: 0.8em;
-  }
-
   .pricing {
     background-color: gold;
     padding: 5px 10px;
@@ -48,29 +37,20 @@
   }
 }
 
-.glass-background .site-footer {
-  background: white;
-}
-
 .site-footer {
   margin-top: 0px;
   border: 0 !important;
-  background: linear-gradient($texture-overlay, $texture-overlay), $footer-background;
+  background: $footer-background;
 
   padding-top: 0px;
   text-align: center;
 
   .column {
-    opacity: 0.75;
-    flex-basis: 20%;
     font-size: smaller;
     text-align: left;
 
     p {
-      margin-top: 30px;
-      margin-bottom: 10px;
       font-weight: 600;
-      text-align: left;
     }
 
     p:first-of-type {
@@ -99,7 +79,6 @@
 
   .copyright {
     font-size: smaller;
-    text-align: center;
     margin-top: 50px;
   }
 

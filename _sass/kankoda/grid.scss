@@ -6,10 +6,6 @@ p + .grid {
   margin: 50px 0px;
 }
 
-.grid + .grid {
-  margin-top: 50px;
-}
-
 section {
   p + .grid {
     margin-bottom: 0px !important;
@@ -21,6 +17,11 @@ section {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   grid-template-columns: repeat(4, minmax(0, 1fr));
+
+  &.col2 { grid-template-columns: repeat(2, 1fr); }
+  &.col3 { grid-template-columns: repeat(3, 1fr); }
+  &.col4 { grid-template-columns: repeat(4, 1fr); }
+  &.col5 { grid-template-columns: repeat(5, 1fr); }
 
   h2 {
     margin-top: 0px !important;
@@ -61,14 +62,6 @@ section {
   box-shadow: none;
 }
 
-.grid.col2 { 
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.grid.col3 { 
-  grid-template-columns: repeat(3, 1fr);
-}
-
 .grid.icons, .grid.centered {
   text-align: center;
 }
@@ -94,11 +87,6 @@ section {
       margin-bottom: 0px;
     }
   }
-}
-
-.grid.image-item.reversed {
-  img { order: 2; }
-  p { order: 1; }
 }
 
 .grid.image-item + .grid.image-item {

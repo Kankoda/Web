@@ -5,9 +5,7 @@
   <body class="{{page.id}} {{page.page-class}}"> 
     
     <!-- Header -->
-    <header class="site-header" role="banner">
-      {% include kankoda/site/header %}
-    </header>
+    {% include kankoda/site/header %}
 
     <!-- Top Message -->
     {% if page.top-message %}
@@ -31,26 +29,6 @@
     </main>
 
     <!-- Footer -->
-    {% include kankoda/site/footer %}
-
-    <script>
-      // Header scroll effect
-      window.addEventListener('scroll', function() {
-        const header = document.querySelector('.site-header');
-        if (window.scrollY > 50) {
-          header.classList.add('scrolled');
-        } else {
-          header.classList.remove('scrolled');
-        }
-      });
-
-      // Footer accordion on mobile
-      document.querySelectorAll('.footer-toggle').forEach(function(toggle) {
-        toggle.addEventListener('click', function() {
-          const column = this.parentElement;
-          column.classList.toggle('expanded');
-        });
-      });
-    </script>
+    {% include site/footer %}
   </body>
 </html>
