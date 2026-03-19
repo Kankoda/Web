@@ -16,10 +16,12 @@ function scrollToTop() {
 
 // Footer mobile accordion
 
-document.querySelectorAll('.footer-toggle').forEach(function(toggle) {
-  toggle.addEventListener('click', function() {
-    const column = this.parentElement;
-    column.classList.toggle('expanded');
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('.footer-toggle').forEach(function(toggle) {
+    toggle.addEventListener('click', function() {
+      const column = this.parentElement;
+      column.classList.toggle('expanded');
+    });
   });
 });
 

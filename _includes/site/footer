@@ -34,7 +34,7 @@
         </div>
       </div>
 
-      <div class="column desktop">
+      <div class="column">
         <p class="footer-toggle">SDKs</p>
         <div class="footer-content">
           <a href="https://keyboardkit.com">KeyboardKit</a>
@@ -44,7 +44,7 @@
         </div>
       </div>
 
-      <div class="column desktop">
+      <div class="column">
         <p class="footer-toggle">Apps</p>
         <div class="footer-content">
           <a href="https://kankoda.com/emojipicker">Emoji Picker</a>

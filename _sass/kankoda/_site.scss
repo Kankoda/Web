@@ -46,34 +46,25 @@
   text-align: center;
 
   .column {
-    font-size: smaller;
-    text-align: left;
+    font-size: 0.80em;
 
-    p {
-      font-weight: 600;
-    }
-
-    p:first-of-type {
-      margin-top: 0px;
-    }
-
-    p.footer-toggle::after {
-      display: none;
+    .footer-toggle {
+      margin-bottom: 13px;
+      font-weight: 500;
     }
 
     .footer-content {
       display: flex;
       flex-direction: column;
-    }
 
-    a, div {
-      font-weight: normal;
-      margin-bottom: 5px;
-      min-height: 10px;
-    }
-
-    a:hover, a:visited:hover {
-      transform: translateX(2px);
+      a {
+        font-size: 0.95em;
+        font-weight: normal;
+        margin-bottom: 10px;
+        &:hover, &:visited:hover {
+          transform: translateX(2px);
+        }
+      }
     }
   }
 
@@ -97,6 +88,7 @@
 
     .column p.footer-toggle {
       cursor: pointer;
+      font-weight: normal;
       position: relative;
       padding: 15px 0;
       margin: 0 !important;
@@ -130,11 +122,8 @@
     .column.expanded .footer-content {
       display: flex;
       flex-direction: column;
+      padding-left: 10px;
       padding-bottom: 15px;
-    }
-
-    .desktop {
-      display: none;
     }
   }
 }
