@@ -15,7 +15,7 @@ rm -rf $TARGET/_layouts/plain.html
 rm -rf $TARGET/_layouts/post.html
 rm -rf $TARGET/_sass/kankoda
 rm -rf $TARGET/assets/kankoda
-rm -rf $TARGET/js/kankoda
+rm -rf $TARGET/js
 
 cp -r _includes/kankoda $TARGET/_includes
 cp -r _layouts/blog.html $TARGET/_layouts/blog.html
@@ -25,4 +25,4 @@ cp -r _layouts/plain.html $TARGET/_layouts/plain.html
 cp -r _layouts/post.html $TARGET/_layouts/post.html
 cp -r _sass/kankoda $TARGET/_sass
 cp -r assets/kankoda $TARGET/assets
-cp -r js/kankoda $TARGET/js
+cp -r js $TARGET/js
