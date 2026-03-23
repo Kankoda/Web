@@ -16,11 +16,11 @@ rm -rf _layouts/post.html
 rm -rf _sass/kankoda
 rm -rf assets/kankoda
 
-cp -r ../$SOURCE/_includes/kankoda _includes
-cp -r ../$SOURCE/_layouts/blog.html _layouts/blog.html
-cp -r ../$SOURCE/_layouts/default.html _layouts/default.html
-cp -r ../$SOURCE/_layouts/page.html _layouts/page.html
-cp -r ../$SOURCE/_layouts/plain.html _layouts/plain.html
-cp -r ../$SOURCE/_layouts/post.html _layouts/post.html
-cp -r ../$SOURCE/_sass/kankoda _sass
-cp -r ../$SOURCE/assets/kankoda assets
+cp -r $SOURCE/_includes/kankoda _includes
+cp -r $SOURCE/_layouts/blog.html _layouts/blog.html
+cp -r $SOURCE/_layouts/default.html _layouts/default.html
+cp -r $SOURCE/_layouts/page.html _layouts/page.html
+cp -r $SOURCE/_layouts/plain.html _layouts/plain.html
+cp -r $SOURCE/_layouts/post.html _layouts/post.html
+cp -r $SOURCE/_sass/kankoda _sass
+cp -r $SOURCE/assets/kankoda assets
