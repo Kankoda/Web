@@ -2,6 +2,8 @@
   icon: keyboardkit
   text: Create custom keyboards on your iPhone & iPad.
   url: https://keyboardkit.com
+  image: /assets/sdks/keyboardkit.png
+  icon-class: plain
 
 - name: Wally
   icon: wally

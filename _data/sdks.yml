@@ -5,6 +5,7 @@
   header: /assets/sdks/keyboardkit-header.jpg
   github: https://github.com/KeyboardKit/KeyboardKit
   gumroad: https://kankoda.gumroad.com/l/keyboardkit
+  icon-class: plain
 
 - name: LicenseKit
   text: Protect your software with commercial licenses.
@@ -14,6 +15,7 @@
   github: https://github.com/kankoda/licensekit
   gumroad: https://kankoda.gumroad.com/l/licensekit
   documentation: https://kankoda.github.io/LicenseKit
+  icon-class: plain
 
 - name: MediaKit
   text: Build streaming apps with Swift & SwiftUI
@@ -23,7 +25,7 @@
   github: https://github.com/kankoda/mediakit
   gumroad: https://kankoda.gumroad.com/l/mediakit
   documentation: https://kankoda.github.io/MediaKit
-  icon-class: liquid-glass
+  icon-class: plain
 
 - name: Vietnamese Input
   text: Add Vietnamese input support to your apps.
@@ -33,3 +35,4 @@
   github: https://github.com/kankoda/vietnameseinput
   gumroad: https://kankoda.gumroad.com/l/vietnameseinput
   documentation: https://kankoda.github.io/VietnameseInput
+  icon-class: plain
