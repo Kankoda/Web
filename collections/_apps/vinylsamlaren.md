@@ -1,25 +1,22 @@
 ---
 title: Vinylsamlaren
 
-image: /assets/headers/kankoda.jpg
+assets: /assets/apps/vinylsamlaren/
+image: /assets/apps/vinylsamlaren/header.jpg
+screenshots: "1,3,4,5"
 
+description: Vinylsamlaren lets you find record stores nearby and scan albums for quick album information.
 
-hero:
-  icon: /assets/icons/vinylsamlaren.png
-  image: /assets/heros/vinylsamlaren.png
-  description: Find record stores and get album information with a quick scan.
+about: Vinylsamlaren is available on iPhone and iPad, and is built for iOS 26 Liquid Glass.
 
-cta:
-  title: Download
-  url:   https://itunes.apple.com/us/app/vinylsamlaren/id640253601
-
-redirect_from: /vinylsamlaren
-
-description: Vinylsamlaren lets you find record stores nearby and scan albums for quick information.
+features:
+  - icon: lucide:map-pin
+    title: Stores
+    text: Vinylsamlaren lets you find album stores on the map, or by searching.
+  - icon: lucide:scan-line
+    title: Album Scanner
+    text: Vinylsamlaren lets you scan albums with your camera for quick information.
+  - icon: lucide:disc-3
+    title: Discogs
+    text: Vinylsamlaren integrates with Discogs for up to date information.
 ---
-
-Say hi to Vinylsamlaren – the app that lets you find great record stores nearby. Just open the app to get the best places to find that next great vinyl in the palm of your hands.
-
-Vinylsamlaren also has a Discogs integrated scanner that lets you scan any record's EAN code to get all relevant information for that album.
-
-Vinylsamlaren is currently a bit old, and was created with [Swift]({{site.urls.swift}}) and UIKit many years ago. It's free to use and was created as a fun side project.

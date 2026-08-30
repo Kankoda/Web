@@ -1,0 +1,44 @@
+- name: Free
+  price_year: $0
+  price_month: $0
+  cta: Free Trial
+  url: https://kankoda.gumroad.com/l/licensekit
+  features:
+    - 5 Binary/CSV Licenses
+    - Gumroad Integration
+    - GitHub Support
+    - Standard Terms
+
+- name: Silver
+  price_year: $1.500
+  price_month: $150
+  cta: Free Trial
+  url: https://kankoda.gumroad.com/l/licensekit
+  features:
+    - 25 Binary/CSV Licenses
+    - Gumroad Integration
+    - Email Support
+    - Standard Terms
+
+- name: Gold
+  badge: Popular
+  price_year: $5.000
+  price_month: $500
+  cta: Free Trial
+  url: https://kankoda.gumroad.com/l/licensekit
+  features:
+    - 1 000 Binary/CSV Licenses
+    - All Features
+    - Priority Support
+    - Standard Terms
+
+- name: Business
+  price_month: Custom
+  price_year: Custom
+  cta: Contact Us
+  url: mailto:info@kankoda.com?subject=LicenseKit%20Custom%20Plan
+  features:
+    - Unlimited Licenses
+    - All Features
+    - LicenseKit License File
+    - Critical Business Protection

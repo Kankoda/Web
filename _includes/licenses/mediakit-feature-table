@@ -1,0 +1,23 @@
+<div class="feature-table">
+  <div class="sections">
+    {% include kankoda/licenses/feature-table-tiers tiers=include.tiers %}
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Models & Views"     columns="✔,✔,✔,✔"   url="features"   tooltip="MediaKit provides pre-defined models and views, like movie models, grids, and shelves." %}
+      {% include kankoda/licenses/feature-table-row  title="Video Player"       columns="✔,✔,✔,✔"   url="features"   tooltip="MediaKit has a video player that can be used directly in SwiftUI." %}
+      {% include kankoda/licenses/feature-table-row  title="Video Splash"       columns="-,✔,✔,✔"   url="features"   tooltip="MediaKit has a video splash that can play when the app launches." %}
+      {% include kankoda/licenses/feature-table-row  title="Video Utilities"    columns="-,-,✔,✔"   url="features"   tooltip="MediaKit has a video utilities, like a synced progress store." %}
+      {% include kankoda/licenses/feature-table-row  title="Chromecast Support" columns="-,-,✔,✔"   url="features"   tooltip="MediaKit makes it easy to add support for Chromecast." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Custom Billing"    columns="-,-,-,✔"  url="addons"  tooltip="Customize the billing, included products, etc." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom SLA"        columns="-,-,-,✔"  url="addons"  tooltip="Customize the support level agreement." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom Terms"      columns="-,-,-,✔"  url="addons"  tooltip="Customize the license terms." %}
+      {% include kankoda/licenses/feature-table-row  title="Software Escrow"   columns="-,-,-,✔"  url="addons"  tooltip="Software escrow provides critical business protection." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Discord Server"    columns="-,Public,Private,Private"           url="support#communication"  tooltip="The Discord has public channels and private company channels." %}
+      {% include kankoda/licenses/feature-table-row  title="Support"           columns="GitHub,Email,Priority,Dedicated"    url="support"                tooltip="Upgrade your license to include priority and dedicated support." %}
+      {% include kankoda/licenses/feature-table-row  title="Terms"             columns="Standard,Standard,Standard,Custom"  url="terms-and-conditions"   tooltip="Custom terms can accomodate to any business or legal requirements." %}
+    </div>
+  </div>
+</div>

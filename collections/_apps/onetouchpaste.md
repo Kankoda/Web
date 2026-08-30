@@ -1,31 +1,26 @@
 ---
 title: One Touch Paste
 
-image: /assets/headers/onetouchpaste.jpg
-screenshot: /assets/screenshots/onetouchpaste-
-
-hero:
-  icon: /assets/icons/onetouchpaste.png
-  image: /assets/heros/onetouchpaste.png
-  description: Quickly paste your own text clips and snippets from the keyboard.
-
-cta:
-  title: Download
-  url:   https://apps.apple.com/se/app/one-touch-paste/id6478205851
-
-redirect_from: /onetouchpaste
+assets: /assets/apps/otp/
+image: /assets/apps/otp/header.jpg
+screenshots: "1,2,3"
 
 description: One Touch Paste lets you easily create, manage and sync clips & text snippets, and paste them into any app from the One Touch Paste keyboard.
+
+about: One Touch Paste is available on iPhone and iPad, and is built for iOS 26 Liquid Glass.
+
+features:
+  - icon: lucide:clipboard
+    title: System Clipboard Integration
+    text: One Touch Paste's keyboard lets you paste directly from the system clipboard.
+  - icon: lucide:text-cursor-input
+    title: Custom Clips
+    text: One Touch Paste lets you create custom text clips, which you can organize with groups.
+  - icon: lucide:cloud
+    title: iCloud Sync
+    text: One Touch Paste syncs custom clips over iCloud, to let you use them on all your devices.
 ---
 
-One Touch Paste lets you create text clips and snippets and sync them across all your devices, using your personal and private iCloud account storage.
-
-The app has a custom keyboard that lets you paste your clips and snippets into any app. It supports 70+ locales, and features such as autocomplete, emojis, etc.
-
-<div class="grid col3">
-    <img src="{{page.screenshot}}1.jpg" alt="OneTouchPaste screenshot" />
-    <img src="{{page.screenshot}}2.jpg" alt="OneTouchPaste screenshot" />
-    <img src="{{page.screenshot}}3.jpg" alt="OneTouchPaste screenshot" />
-</div>
+## Partnership
 
 One Touch Paste was created together with [SalesForza](https://www.salesforza.com) - an Italian SaaS company with products like SalesForza and CalendBook.

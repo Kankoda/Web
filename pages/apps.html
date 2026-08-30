@@ -1,0 +1,32 @@
+---
+title: Apps
+permalink: /apps
+layout: plain
+
+description: Kankoda builds apps for all major Apple platforms, using Swift and SwiftUI.
+---
+
+<div class="hero glow">
+  <img src="/assets/heros/apps.png" width="650" />
+  <h1>Apps</h1>
+  <h2>Kankoda builds apps for Apple platforms</h2>
+  <p>We build apps for all major Apple platforms (iOS, macOS, tvOS, watchOS & visionOS), using modern technologies like Swift, SwiftUI, and Swift Data.</p>
+  <div>
+    <a class="cta glass" href="#content">Learn More</a>
+  </div>
+</div>
+
+<a name="content"></a>
+
+<section class="showcase">
+  <a name="apps"></a>
+  <article class="wrapper wide slide-in split-list">
+    <h2>Apps</h2>
+    <p>Here are some apps that we have created, either as products, as partnerships, or for clients.</p>
+    <p>Due to our focus on SDKs, most apps are quite small, but our goal is to keep them up to date with the latest versions of Swift and SwiftUI.</p>
+    <hr />
+    {% for item in site.data.apps %}
+      {% include kankoda/split/split-item item=item %}
+    {% endfor %}
+  </article>
+</section>

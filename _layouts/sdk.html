@@ -1,0 +1,103 @@
+---
+layout: plain
+---
+
+{% include data/sdk name=page.title %}
+
+<div class="hero glow">
+  <div>
+    <img src="{{ sdk.icon }}" class="app-icon" />
+  </div>
+  <h1>{{sdk.name}}</h1>
+  <h2>{{sdk.subtitle | default: sdk.eyebrow}}</h2>
+  <p>{{sdk.text}}</p>
+  <div>
+    <a class="cta glass" href="#content">Learn More</a>
+    <a class="cta" href="{{sdk.url_gumroad}}">Get on GitHub</a>
+  </div>
+</div>
+
+<a name="content"></a>
+
+<section class="blue showcase">
+    <a name="about"></a>
+    <article class="wide wrapper slide-in">
+        <h2>About {{sdk.name}}</h2>
+        <p>{{ page.about }}</p>
+        {% if page.tilt-device == 0 %}{% else %}
+        <img src="{{sdk.tilt-image}}" class="device" />
+        {% endif %}
+        <p>This SDK is hosted at <a href="{{ sdk.url_github }}">GitHub</a>, where you find releases, an issue tracker, documentation, etc.</p>
+    </article>
+</section>
+
+{% if page.features %}
+<section class="showcase">
+    <a name="features"></a>
+    <article class="wide wrapper slide-in">
+        <h2>{{ page.features.title | default: "Title" }}</h2>
+        <p>Here are some {{ sdk.name }} features. For more information, see <a href="{{ sdk.url_github }}">GitHub</a> and the <a href="{{ sdk.url_docs }}">docs</a>.</p>
+        {% assign items = page.features.items %}
+        {% assign items-size = items | size %}
+        {% assign cols = page.features.columns | default: items-size %}
+        <div class="grid col{{ cols | at_most: 4}} mobile carousel">
+            {% for feature in items %}
+            <div class="glass">
+                <div class="glass icon-badge">
+                    <iconify-icon icon="{{feature.icon}}" aria-hidden="true"></iconify-icon>
+                </div>
+                <a href="{{feature.url}}">
+                    <h4>{{feature.title}}</h4>
+                </a>
+                <p>{{feature.text}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+</section>
+{% endif %}
+
+{{ content }}
+
+<section class="dark showcase">
+    <a name="download"></a>
+    <article class="wide wrapper">
+        <h2>Get Started</h2>
+        <p>You can get started with {{ sdk.name }} from GitHub.</p>
+        <div>
+            <a class="cta secondary" href="{{ sdk.url_github }}">GitHub</a>
+            <a class="cta glass" href="{{ sdk.url_docs }}">Documentation</a>
+        </div>
+    </article>
+</section>
+
+<section class="purple showcase">
+    <a name="download"></a>
+    <article class="wide wrapper">
+        <h2>Terms & Conditions</h2>
+        <p>The standard <a href="terms">Terms & Conditions</a> apply to all standard tiers. <a href="{{site.urls.email}}">Contact us</a> for a business license if you need custom terms.</p>
+    </article>
+</section>
+
+<section class="blue showcase">
+    <a name="download"></a>
+    <article class="wide wrapper">
+        <h2>Privacy Policy</h2>
+        <p>The standard <a href="privacy">Privacy Policy</a> applies to all standard tiers. <a href="{{site.urls.email}}">Contact us</a> for a business license if you need a custom policy.</p>
+    </article>
+</section>
+
+<section class="glow showcase">
+    <a name="apps"></a>
+    <article class="wrapper">
+        <h2>Our SDKs</h2>
+        <p>Check out our other <a href="/sdks">sdks</a>.</p>
+        <div class="grid col4">
+            {% for list-sdk in site.data.sdks %}
+            <a href="{{ list-sdk.url }}" class="app-icon scale">
+                <img src="{{ list-sdk.icon }}" class="app-icon" alt="{{list-sdk.name}} icon" />
+            </a>
+            {% endfor %}
+        </div>
+    </article>
+</section>

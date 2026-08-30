@@ -1,0 +1,24 @@
+<div class="feature-table">
+  <div class="sections">
+    {% include kankoda/licenses/feature-table-tiers tiers=include.tiers %}
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Operations/Month" columns="1 000,10 000,Unlimited,Unlimited"  url="features"   tooltip="Vietnamese Input provides pre-defined models and views, like movie models, grids, and shelves." %}
+      {% include kankoda/licenses/feature-table-row  title="TELEX"            columns="✔,✔,✔,✔"   url="features"   tooltip="Vietnamese Input supports typing with TELEX." %}
+      {% include kankoda/licenses/feature-table-row  title="VNI"              columns="✔,✔,✔,✔"   url="features"   tooltip="Vietnamese Input supports typing with VNI." %}
+      {% include kankoda/licenses/feature-table-row  title="VIQR"             columns="✔,✔,✔,✔"   url="features"   tooltip="Vietnamese Input supports typing with VIQR." %}
+      {% include kankoda/licenses/feature-table-row  title="Diacritics"       columns="-,-,✔,✔"   url="features"   tooltip="Vietnamese Input defines all Vietnamese-specific diacritics." %}
+      {% include kankoda/licenses/feature-table-row  title="Simulations"      columns="-,-,✔,✔"   url="features"   tooltip="Vietnamese Input can simulate text input for visualizations and educations." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Custom Billing"   columns="-,-,-,✔"  url="addons"  tooltip="Customize the billing, included products, etc." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom SLA"       columns="-,-,-,✔"  url="addons"  tooltip="Customize the support level agreement." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom Terms"     columns="-,-,-,✔"  url="addons"  tooltip="Customize the license terms." %}
+      {% include kankoda/licenses/feature-table-row  title="Software Escrow"  columns="-,-,-,✔"  url="addons"  tooltip="Software escrow provides critical business protection." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Discord Server"   columns="-,Public,Private,Private"           url="support#communication"  tooltip="The Discord has public channels and private company channels." %}
+      {% include kankoda/licenses/feature-table-row  title="Support"          columns="GitHub,Email,Priority,Dedicated"    url="support"                tooltip="Upgrade your license to include priority and dedicated support." %}
+      {% include kankoda/licenses/feature-table-row  title="Terms"            columns="Standard,Standard,Standard,Custom"  url="terms-and-conditions"   tooltip="Custom terms can accomodate to any business or legal requirements." %}
+    </div>
+  </div>
+</div>

@@ -2,8 +2,6 @@
 title:  Important EmojiKit changes
 date:   2024-06-23 06:00:00 +0000
 tags:   sdks
-
-image:  /assets/headers/emojikit.png
 ---
 
 After not being able to scale EmojiKit Pro to a commercial product, Kankoda will migrate EmojiKit back to an open-source library.

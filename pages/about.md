@@ -1,51 +1,34 @@
 ---
-id: about
 title: About
-layout: page
 permalink: /about
-page-class: glass-background bg3
-
-image:  /assets/headers/kankoda-sthlm.jpg
-
-redirect_from: /company
+layout: page-sidebar
 
 description: Kankoda builds apps & SDKs for all major Apple platforms.
 ---
 
-# About Kankoda
-
-Kankoda is an software company in [Stockholm, Sweden]({{site.urls.stockholm}}), that builds software for all major Apple platforms, using technologies like [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}), and the [Swift Package Manager]({{site.urls.spm}}).
-
-Kankoda builds [SDKs](/sdks) and [apps](/apps) for the Apple ecosystem and helps companies as freelance experts on app development & architecture.
-
-{% include company/contact-section.md %}
+Kankoda is an software company in [Stockholm, Sweden]({{site.urls.stockholm}}). We build software for all major Apple platforms, using modern technologies like [Swift]({{site.urls.swift}}), [SwiftUI]({{site.urls.swiftui}}), and the [Swift Package Manager]({{site.urls.spm}}).
 
 
-## Apps
+## Apps & SDKs
 
-Kankoda builds multi-platform [apps](/products) that can run on all major Apple platforms (iOS, iPadOS, macOS, watchOS, visionOS), with maximum compatibility and minimum effort.
-
-
-## SDKs
-
-Kankoda builds commercial [SDKs](/products) that can run on all major Apple platforms (iOS, iPadOS, macOS, watchOS, visionOS), and that use the [Swift Package Manager]({{site.urls.spm}}) for easy distribution & integration.
+We build multi-platform [apps](/apps) and [SDKs](/sdks) for all major Apple platforms (iOS, macOS, watchOS, tvOS, visionOS).
 
 
 ## Open-source
 
-Kankoda has extensive experience of open-source software, and can help you set up and maintain complex, long-term projects.
+We have extensive open-source experience, and can help you set up and maintain complex, long-term projects.
 
 
 ## System Architecture
 
-Kankoda has extensive experience of frontend, backend and API design. We can help you design your system and information architecture.
+We have extensive experience of frontend, backend, and API design, and can help you design your architecture.
 
 
 ## Freelancing
 
-Kankoda can help you out with your apps and software on freelance basis. Don't hesitate to [reach out](mailto:{{site.email}}) if want to build something, or need help with your in any way.
+We can help you out with your apps and software on a freelance basis. Just [email us](mailto:{{site.email}}) if want to build something.
 
 
 ## Android
 
-Kankoda can team up with amazing friends to deliver stunning experiences for Android, using tools like [Kotlin]({{site.urls.kotlin}}) and [Jetpack Compose]({{site.urls.jetpack}}).
+We can team up with friends to deliver apps for Android, using modern tools like [Kotlin]({{site.urls.kotlin}}) and [Jetpack Compose]({{site.urls.jetpack}}).

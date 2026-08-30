@@ -3,59 +3,48 @@ id: home
 title: Home
 layout: plain
 
-page-class: glass-background bg1
-
-hero:
-  eyebrow: Welcome to Kankoda
-  title: We build SDKs & Apps
-  image: /assets/heros/devices.png
-
 description: Kankoda builds software for all Apple platforms.
 ---
 
-<div class="paper">
-
-  <section class="wrapper wide slide-in">
-    <h2>Latest News</h2>
-    <p> 
-      Follow <a href="/blog">our blog</a> for news & updates.
-    </p>
-    <div class="grid col2 blog list">
-      {% for post in site.posts limit:2 %}
-      <div>
-        {% include kankoda/blog/image-item post=posts.first tag-limit=1 %}
-      </div>
-      {% endfor %}
-    </div>
-  </section>
-
-  <section class="wrapper">
-    <div class="grid col2">
-      <div class="slide-in">
-        <h2>Social Media</h2>
-        <p>Follow us on <a href="{{site.urls.bluesky}}">Bluesky</a> and <a href="{{site.urls.mastodon}}">Mastodon</a> for the latest news.</p>
-        <div>
-          {% include kankoda/buttons/social name="bluesky" href=site.urls.bluesky class="scale" %}
-          {% include kankoda/buttons/social name="mastodon" href=site.urls.mastodon class="scale" %}  
-        </div>
-      </div>
-      <div class="slide-in">
-        <h2>Newsletter</h2>
-        <p>Subscribe to <a href="{{site.urls.newsletter}}">our newsletter</a> for periodic updates.</p>
-        {% include kankoda/widgets/newsletter %}
-      </div>
-    </div>
-  </section>
-  
-  <section class="wrapper">
-    <h2>SDKs</h2>
-    <p>Kankoda builds commercial <a href="/sdks">SDKs</a> for all Apple platforms.</p>
-    {% include kankoda/grids/grid items=site.data.sdks limit=4 type="icons" %}
-  </section>
-
-  <section class="wrapper">
-    <h2>Apps</h2>
-    <p>Kankoda builds <a href="/apps">apps</a> for all Apple platforms.</p>
-    {% include kankoda/grids/grid items=site.data.apps limit=4 type="icons" %}
-  </section>
+<div class="hero glow">
+  <img src="/assets/logo/logo.png" class="logo" />
+  <h2>We build software for Apple platforms</h2>
+  <p>Kankoda is a software company in <a href="{{site.urls.stockholm}}">Stockholm, Sweden</a>. We build apps and SDKs for all major Apple platforms (iOS, macOS, tvOS, watchOS & visionOS).</p>
+  <div>
+    <a class="cta glass" href="#content">Learn More</a>
+  </div>
 </div>
+
+<a name="content"></a>
+
+<section class="showcase blue">
+  <a name="news"></a>
+  {% include kankoda/sections/latest-news %}
+  {% include sections/social %}
+</section>
+
+<section class="showcase glow">
+  <a name="sdks"></a>
+  <article class="wrapper wide slide-in split-list">
+    <h2>SDKs</h2>
+    <p>Kankoda builds commercial SDKs for all Apple platforms.</p>
+    <a href="/sdks" class="cta glass">View all SDKs</a>
+    <hr />
+    {% for item in site.data.sdks limit: 3 %}
+      {% include kankoda/split/split-item item=item %}
+    {% endfor %}
+  </article>
+</section>
+
+<section class="showcase">
+  <a name="apps"></a>
+  <article class="wrapper wide slide-in split-list">
+    <h2>Apps</h2>
+    <p>Kankoda builds apps for all Apple platforms.</p>
+    <a href="/apps" class="cta glass">View all apps</a>
+    <hr />
+    {% for item in site.data.apps limit: 3 %}
+      {% include kankoda/split/split-item item=item %}
+    {% endfor %}
+  </article>
+</section>

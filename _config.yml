@@ -20,7 +20,6 @@ mastodon_username: kankoda@mastodon.social
 twitter_username: kankodahq
 
 assets: /assets/
-header_image: /assets/logo/logo.png
 
 urls:
   blog:       /blog
@@ -54,18 +53,37 @@ google-analytics:
   measurement-id: G-Z6E1LPSK09
 
 header:
+  logo: /assets/logo/header.png
   pages:
-    - pages/home.md
-    - pages/apps.md
-    - pages/sdks.md
+    - index.html
+    - pages/apps.html
+    - pages/sdks.html
     - pages/blog.md
 
 footer:
-  sitemap:
-    - index.html
-    - pages/about.md
-    - pages/sdks.md
-    - pages/apps.md
+  sections:
+    - title: Site
+      links:
+        - Home | index.html
+        - About | /about
+        - SDKs | /sdks
+        - Apps | /apps
+    - title: News
+      links:
+        - Blog | /blog
+        - RSS | /feed.xml
+        - Newsletter | https://kankoda.gumroad.com/subscribe
+    - title: Contact
+      links:
+        - E-mail | mailto:info@kankoda.com
+        - Bluesky | https://bsky.app/profile/kankoda.bsky.social
+        - Mastodon | https://mastodon.social/@kankoda
+    - title: SDKs & Apps
+      links:
+        - EmojiPicker | /apps/emojipicker
+        - KeyboardKit | https://keyboardkit.com
+        - OneTouchPaste | /apps/onetouchpaste
+        - Wally | https://wally.app
 
 collections_dir: collections
 
@@ -79,13 +97,18 @@ collections:
   posts:
     output: true
     permalink: /blog/:categories/:year/:month/:day/:title
-
-  licensekit-features:
+  sdks:
     output: true
-    permalink: /sdks/licensekit/features/:name
-  vietnameseinput-features:
+    permalink: /sdks/:name
+  licensekit-pages:
     output: true
-    permalink: /sdks/vietnameseinput/features/:name
+    permalink: /sdks/licensekit/:name
+  mediakit-pages:
+    output: true
+    permalink: /sdks/mediakit/:name
+  vietnameseinput-pages:
+    output: true
+    permalink: /sdks/vietnameseinput/:name
 
 baseurl: ""
 theme: minima
@@ -108,13 +131,11 @@ defaults:
     values:
       layout: "page"
       image: /assets/headers/kankoda.jpg
-      page-class: glass-background bg1
   -
     scope:
       type: apps
     values:
       layout: app
-      page-class: glass-background bg1
   -
     scope:
       type: posts
@@ -122,21 +143,38 @@ defaults:
       author: danielsaidi
       layout: post
       image: /assets/headers/kankoda.jpg
-      page-class: glass-background bg1
   -
     scope:
-      type: licensekit-features
+      type: sdks
     values:
-      layout: licensekit-feature
-      image: /assets/sdks/licensekit-header.jpg
-      page-class: glass-background bg2
+      layout: sdk
   -
     scope:
-      type: vietnameseinput-features
+      type: licensekit-pages
     values:
-      layout: vietnameseinput-feature
-      image: /assets/sdks/vietnameseinput-header.jpg
-      page-class: glass-background bg2
+      image: /assets/sdks/licensekit/header.jpg
+      layout: page-sidebar
+      back-link:
+        title: Back to LicenseKit
+        url: /sdks/licensekit#feature-table
+  -
+    scope:
+      type: mediakit-pages
+    values:
+      image: /assets/sdks/mediakit/header.jpg
+      layout: page-sidebar
+      back-link:
+        title: Back to MediaKit
+        url: /sdks/mediakit#feature-table
+  -
+    scope:
+      type: vietnameseinput-pages
+    values:
+      image: /assets/sdks/vietnameseinput/header.jpg
+      layout: page-sidebar
+      back-link:
+        title: Back to Vietnamese Input
+        url: /sdks/vietnameseinput#feature-table
 
 exclude:
   - Gemfile

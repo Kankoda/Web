@@ -1,45 +1,79 @@
 - name: KeyboardKit
-  icon: keyboardkit
-  text: Create custom keyboards on your iPhone & iPad.
-  url: https://keyboardkit.com
-  image: /assets/sdks/keyboardkit.png
-  icon-class: plain
+  eyebrow: Your Personal Keyboard
+  header: /assets/apps/keyboardkit/header.jpg
+  icon: /assets/apps/keyboardkit/icon.png
+  split-image: /assets/apps/keyboardkit/split-device.png
+  tilt-image: /assets/apps/keyboardkit/device-tilted.png
+  text: KeyboardKit is an app for iPhone and iPad, that lets you replace the system keyboard with a custom keyboard that is truly yours.
+  url: https://keyboardkit.com/app
+  url_appstore: https://itunes.apple.com/app/keyboardkit/id1568444977
 
 - name: Wally
-  icon: wally
-  text: A digital wallet for your private things.
+  eyebrow: Your Personal Wallet
+  header: /assets/apps/wally/header.jpg
+  icon: /assets/apps/wally/icon.png
+  split-image: /assets/apps/wally/split-device.png
+  tilt-image: /assets/apps/wally/device-tilted.png
+  text: Wally is a digital wallet for iPhone and iPad. Add your cards, receipts, etc. to Wally to keep them safe and available at all times.
   url:  https://wally.app
+  url_appstore: https://itunes.apple.com/app/wally/id516398915
 
 - name: Emoji Picker
-  icon: emojipicker
-  text: Pick emojis from more places.
+  eyebrow: Your Personal Emoji Picker
+  header: /assets/apps/emojipicker/header.jpg
+  icon: /assets/apps/emojipicker/icon.png
+  split-image: /assets/apps/emojipicker/split-device.png
+  tilt-image: /assets/apps/emojipicker/device-tilted.png
+  text: EmojiPicker lets you pick emojis from more places on your iPhone, iPad and Mac, create new, custom emoji categories, and much more.
   url: /apps/emojipicker
   url_appstore: https://apps.apple.com/se/app/emoji-picker-pick-emojis/id6472487442
 
 - name: Cineasterna
-  icon: cineasterna
-  text: Stream library movies for free.
+  eyebrow: Watch Movies For Free
+  header: /assets/apps/cineasterna/header.jpg
+  icon: /assets/apps/cineasterna/icon.png
+  split-image: /assets/apps/cineasterna/split-device.png
+  tilt-image: /assets/apps/cineasterna/device-tilted.png
+  text: Cineasterna lets you watch movies for free on your iPhone, iPad, Mac, or Apple TV. Just sign up with your public library card and start watching.
   url:  https://cineasterna.com/en
+  url_appstore: https://itunes.apple.com/se/app/cineasterna-chromecast-app/id1446065399
 
 - name: One Touch Paste
-  icon: onetouchpaste
-  text: Paste text and snippets with ease.
+  eyebrow: Clipboard Keyboard
+  header: /assets/apps/otp/header.jpg
+  icon: /assets/apps/otp/icon.png
+  split-image: /assets/apps/otp/split-device.png
+  tilt-image: /assets/apps/otp/device-tilted.png
+  text: One Touch Paste lets you create text clips and snippets and sync them across all your devices, using your personal and private iCloud account storage.
   url: /apps/onetouchpaste
   url_appstore: https://apps.apple.com/se/app/one-touch-paste/id6478205851
 
 - name: Appamini
-  icon: appamini
-  text: Educational games for curious kids.
+  eyebrow: Educational Games
+  header: /assets/apps/appamini/header.jpg
+  icon: /assets/apps/appamini/icon-abc.png
+  split-image: /assets/apps/appamini/split-device.png
+  tilt-image: /assets/apps/appamini/device-tilted.png
+  text: Appamini creates educational games for curious kids. The company was co-founded and was acquired by Kankoda after releasing Appamini ABC, and Appamini 123.
   url:  https://appamini.com
+  url_appstore: https://itunes.apple.com/app/appamini-abc/id581402736
 
 - name: Lunchrrrrr
-  icon: lunchrrrrr
-  text: Find great restaurants nearby.
+  eyebrow: Find Nearby Food
+  header: /assets/apps/lunchrrrrr/header.jpg
+  icon: /assets/apps/lunchrrrrr/icon.png
+  split-image: /assets/apps/lunchrrrrr/split-device.png
+  tilt-image: /assets/apps/lunchrrrrr/device-tilted.png
+  text: Lunchrrrrr lets you find great restaurants nearby. Just open the app and get the best places to grab lunch, dinner or a snack in the palm of your hands.
   url: /apps/lunchrrrrr
   url_appstore: https://apps.apple.com/se/app/lunchrrrrr/id1209779063
 
 - name: Vinylsamlaren
-  icon: vinylsamlaren
-  text: Find great record shops nearby.
+  eyebrow: Find Record Stores
+  header: /assets/apps/vinylsamlaren/header.jpg
+  icon: /assets/apps/vinylsamlaren/icon.png
+  split-image: /assets/apps/vinylsamlaren/split-device.png
+  tilt-image: /assets/apps/vinylsamlaren/device-tilted.png
+  text: Vinylsamlaren lets you find great record stores nearby, and lets you scan albums with your phone to get instant release information when you need it.
   url:  /apps/vinylsamlaren
   url_appstore: https://itunes.apple.com/us/app/vinylsamlaren/id640253601

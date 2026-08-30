@@ -2,31 +2,25 @@
 id: lunchrrrrr
 title: Lunchrrrrr
 
-image: /assets/headers/kankoda.jpg
-screenshot: /assets/screenshots/lunchrrrrr-iphone-
-
-hero:
-  icon: /assets/icons/lunchrrrrr.png
-  image: /assets/heros/lunchrrrrr.png
-  description: Find your next favorite restaurant.
-
-cta:
-  title: Download
-  url:   https://apps.apple.com/se/app/lunchrrrrr/id1209779063
-
-redirect_from: /lunchrrrrr
+assets: /assets/apps/lunchrrrrr/
+image: /assets/apps/lunchrrrrr/header.jpg
+screenshots: "1,3,4,5"
 
 description: Lunchrrrrr makes it easy to find your next favorite restaurant nearby.
+
+about: Lunchrrrrr is available on iPhone, and iPad, and supports iOS 16+.
+
+features:
+  - icon: lucide:map-pin
+    title: Restaurants
+    text: Lunchrrrrr lets you find restaurants based on your current location.
+  - icon: lucide:sliders-horizontal
+    title: Filtering
+    text: Lunchrrrrr lets you filter restaurants on price, distance, and opening hours.
+  - icon: lucide:layers
+    title: Card Design
+    text: Lunchrrrrr's design is inspired by card-based dating apps, for a more fun experience.
+  - icon: lucide:star
+    title: Yelp
+    text: Lunchrrrrr integrates with Yelp for up to date information.
 ---
-
-Say hi to Lunchrrrrr – the app that lets you find great restaurants nearby. Just open the app and get the best places to grab lunch, dinner or a snack in the palm of your hands.
-
-Lunchrrrrr behaves just like some dating apps you may recognize, but for restaurants! Swipe left for the next great thing, or right to see more information about any place you find intriguing.
-
-<div class="grid col3">
-    <img src="{{page.screenshot}}1.jpg" alt="Lunchrrrrr Screenshot" />
-    <img src="{{page.screenshot}}3.jpg" alt="Lunchrrrrr Screenshot" />
-    <img src="{{page.screenshot}}4.jpg" alt="Lunchrrrrr Screenshot" />
-</div>
-
-Lunchrrrrr was created with [Swift]({{site.urls.swift}}) and [SwiftUI]({{site.urls.swiftui}}) and supports iOS 17 on iPhone and iPad. It's free to use and was created as a fun side project.

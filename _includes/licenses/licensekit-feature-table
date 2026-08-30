@@ -1,0 +1,33 @@
+<div class="feature-table">
+  <div class="sections">
+    {% include kankoda/licenses/feature-table-tiers tiers=include.tiers %}
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Binary/CSV Licenses"        columns="5,25,1 000,Unlimited"    url="licenses"   tooltip="Define licenses with code or in plain CSV files." %}
+      {% include kankoda/licenses/feature-table-row  title="Gumroad Integration"        columns="✔,✔,✔,✔"                 url="licenses"   tooltip="Integrate with Gumroad." %}
+      {% include kankoda/licenses/feature-table-row  title="Lemon Squeezy Integration"  columns="tbd,tbd,tbd,tbd"         url="licenses"   tooltip="Integrate with Lemon Squeezy." %}
+      {% include kankoda/licenses/feature-table-row  title="Paddle Integration"         columns="tbd,tbd,tbd,tbd"         url="licenses"   tooltip="Integrate with Paddle." %}
+      {% include kankoda/licenses/feature-table-row  title="Stripe Integration"         columns="tbd,tbd,tbd,tbd"         url="licenses"   tooltip="Integrate with Stripe." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="API Integrations"         columns="-,-,✔,✔"  url="licenses"            tooltip="Validate licenses over the cloud." %}
+      {% include kankoda/licenses/feature-table-row  title="Encrypted License Files"  columns="-,-,✔,✔"  url="licenses"            tooltip="Distribute licenses as encrypted files." %}
+      {% include kankoda/licenses/feature-table-row  title="License Caching"          columns="-,-,✔,✔"  url="license-validation"  tooltip="Cache successful license validations." %}
+      {% include kankoda/licenses/feature-table-row  title="Service Compositions"     columns="-,-,✔,✔"  url="licenses"            tooltip="Combine multiple license services into a more complex one." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="LicenseKit License File"  columns="-,-,-,✔"   url="license-validation"   tooltip="Business licenses are delivered as encrypted files." %}
+      {% include kankoda/licenses/feature-table-row  title="On-Device Validation"     columns="-,-,-,✔"   url="license-validation"   tooltip="Business licenses are validated on-device, without network calls." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Custom Billing"    columns="-,-,-,✔"  url="addons"  tooltip="Customize the billing, included products, etc." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom SLA"        columns="-,-,-,✔"  url="addons"  tooltip="Customize the support level agreement." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom Terms"      columns="-,-,-,✔"  url="addons"  tooltip="Customize the license terms." %}
+      {% include kankoda/licenses/feature-table-row  title="Software Escrow"   columns="-,-,-,✔"  url="addons"  tooltip="Software escrow provides critical business protection." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Discord Server"    columns="-,Public,Private,Private"           url="support#communication"  tooltip="The Discord has public channels and private company channels." %}
+      {% include kankoda/licenses/feature-table-row  title="Support"           columns="GitHub,Email,Priority,Dedicated"    url="support"                tooltip="Upgrade your license to include priority and dedicated support." %}
+      {% include kankoda/licenses/feature-table-row  title="Terms"             columns="Standard,Standard,Standard,Custom"  url="terms-and-conditions"   tooltip="Custom terms can accomodate to any business or legal requirements." %}
+    </div>
+  </div>
+</div>

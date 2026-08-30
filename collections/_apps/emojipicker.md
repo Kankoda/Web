@@ -1,33 +1,22 @@
 ---
-id: pricing
 title: Emoji Picker
 
-image: /assets/headers/emojipicker.jpg
-screenshot: /assets/screenshots/emojipicker-
-
-hero: 
-  icon: /assets/icons/emojipicker.png
-  icon-class: rounded
-  image: /assets/heros/emojipicker.png
-  description: Pick emojis from more places on your iPhone, iPad and Mac.
-
-cta:
-  title: Download
-  url:   https://apps.apple.com/se/app/emoji-picker/id6472487442
-
-redirect_from: /emojipicker
+assets: /assets/apps/emojipicker/
+image: /assets/apps/emojipicker/header.jpg
+screenshots: "1,2,3"
 
 description: Emoji Picker lets you pick emojis from more places on your iPhone, iPad and Mac.
+
+about: Emoji Picker is available on iPhone, iPad, and Mac, and is built for iOS 26 Liquid Glass.
+
+features:
+  - icon: lucide:smile
+    title: Emoji Picker
+    text: Emoji Picker lets you pick emojis from the main app, and places like the macOS menu bar.
+  - icon: lucide:dog
+    title: Custom Categories
+    text: Emoji Picker lets you create custom categories, for when the native ones are too bloated.
+  - icon: lucide:cloud
+    title: iCloud Sync
+    text: Emoji Picker syncs custom categories over iCloud, to let you use them on all your devices.
 ---
-
-The iPhone & iPad app has a full-blown picker, and lets you pick emojis from a home screen widget, while the macOS app has a full-blown picker app, a menu bar app, and a desktop widget.
-
-<div class="grid col3">
-    <img src="{{page.screenshot}}iphone.jpg" alt="EmojiPicker iOS app screenshot" />
-    <img src="{{page.screenshot}}iphone-menu.jpg" alt="EmojiPicker iOS menu screenshot" />
-    <img src="{{page.screenshot}}iphone-widget.jpg" alt="EmojiPicker iOS widget screenshot" />
-</div>
-
-<img src="/assets/screenshots/emojipicker-macos.jpg" alt="EmojiPicker macOS app screenshot" />
-
-Emoji Picker was created with [Swift]({{site.urls.swift}}) and [SwiftUI]({{site.urls.swiftui}}) and has great accessibility and keyboard support. It supports categories, skin tones, search, and much more.

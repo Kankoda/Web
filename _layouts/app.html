@@ -1,20 +1,93 @@
 ---
-layout: default
+layout: plain
 ---
 
-{% include kankoda/data/app name=page.title %}
+{% include data/app name=page.title %}
 
-<article>
-    {{ content }}
-    {% include kankoda/buttons/app-store url=app.url_appstore image-class="plain" %}
-    <p>
-        For information on how the app collects data (it doesn't), please see the <a href="{{page.url}}privacy-policy">privacy policy</a> document.
-    </p>
+<div class="hero glow">
+  <div>
+    <img src="{{app.icon}}" class="app-icon" />
+  </div>
+  <h1>{{app.name}}</h1>
+  <h2>{{app.eyebrow}}</h2>
+  <p>{{app.text}}</p>
+  <div>
+    <a class="cta glass" href="#content">Learn More</a>
+    <a class="cta" href="{{app.url_appstore}}">Download</a>
+  </div>
+</div>
 
-    <div class="paper">
-        <hr />
-    </div>
-    
-    {% include products/grid-section.md title="Our apps" products=site.data.apps all-url="/apps" %}
+<a name="content"></a>
 
-</article>
+<section class="blue showcase">
+    <a name="about"></a>
+    <article class="wide wrapper slide-in">
+        <h2>About {{app.name}}</h2>
+        <p>{{ page.about }}</p>
+        <img src="{{app.tilt-image}}" class="device" />
+    </article>
+    {% if page.screenshots %}
+    <article class="wide wrapper slide-in">
+        <h2>Screenshots</h2>
+        <p>Below are some screenshots from the iPhone app.</p>
+        {% assign screenshots = page.screenshots | split: "," %}
+        <div class="grid col{{screenshots | size}} images mobile carousel">
+            {% for image in screenshots %}
+            <img src="{{page.assets}}/screenshot-{{image}}.jpg" alt="{{app.name}} app screenshot" />
+            {% endfor %}
+        </div>
+    </article>
+    {% endif %}
+    <article class="wide wrapper slide-in">
+        {{ content }}
+    </article>
+</section>
+
+{% if page.features %}
+<section class="showcase">
+    <a name="features"></a>
+    <article class="wide wrapper slide-in">
+        <h2>Features</h2>
+        <div class="grid col{{page.features | size}} mobile carousel">
+            {% for feature in page.features %}
+            <div class="glass">
+                <div class="glass icon-badge">
+                    <iconify-icon icon="{{feature.icon}}" aria-hidden="true"></iconify-icon>
+                </div>
+                <h4>{{feature.title}}</h4>
+                <p>{{feature.text}}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </article>
+</section>
+{% endif %}
+
+<section class="dark showcase">
+    <a name="download"></a>
+    <article class="wide wrapper">
+        <h2>Download</h2>
+        <p>You can download {{app.name}} from the App Store.</p>
+        <div>
+            {% include kankoda/buttons/appstore url=app.url_appstore %}
+        </div>
+        <p>
+            <a href="privacy">Privacy Policy</a>
+        </p>
+    </article>
+</section>
+
+<section class="glow showcase">
+    <a name="apps"></a>
+    <article class="wrapper">
+        <h2>Our Apps</h2>
+        <p>Check out our other <a href="/apps">apps</a>.</p>
+        <div class="grid col4">
+            {% for list-app in site.data.apps %}
+            <a href="{{list-app.url}}" class="app-icon scale">
+                <img src="{{list-app.icon}}" class="app-icon" alt="{{list-app.name}} icon" />
+            </a>
+            {% endfor %}
+        </div>
+    </article>
+</section>

@@ -1,38 +1,49 @@
 - name: KeyboardKit
-  text: Build amazing custom keyboards with Swift & SwiftUI.
+  eyebrow: Custom Keyboards
+  header: /assets/sdks/keyboardkit/header.jpg
+  icon: /assets/sdks/keyboardkit/icon.png
+  split-image: /assets/sdks/keyboardkit/icon.png
+  tilt-image: /assets/sdks/keyboardkit/device-tilted.png
+  text: KeyboardKit is a custom keyboard SDK that lets you replace the native iOS keyboard with your own custom keyboard.
   url: https://keyboardkit.com
-  image: /assets/sdks/keyboardkit.png
-  header: /assets/sdks/keyboardkit-header.jpg
-  github: https://github.com/KeyboardKit/KeyboardKit
-  gumroad: https://kankoda.gumroad.com/l/keyboardkit
-  icon-class: plain
+  url_github: https://github.com/KeyboardKit/KeyboardKit
+  url_gumroad: https://kankoda.gumroad.com/l/keyboardkit
 
 - name: LicenseKit
-  text: Protect your software with commercial licenses.
+  eyebrow: Software Licensing
+  subtitle: Protect your apps & SDKs with commercial licenses
+  header: /assets/sdks/licensekit/header.jpg
+  icon: /assets/sdks/licensekit/icon.png
+  split-image: /assets/sdks/licensekit/icon.png
+  tilt-image: /assets/sdks/licensekit/device-tilted.png
+  text: LicenseKit is a Swift SDK that can protect your software with commercial licenses on all major Apple platforms.
   url: /sdks/licensekit
-  image: /assets/sdks/licensekit.png
-  header: /assets/sdks/licensekit-header.jpg
-  github: https://github.com/kankoda/licensekit
-  gumroad: https://kankoda.gumroad.com/l/licensekit
-  documentation: https://kankoda.github.io/LicenseKit
-  icon-class: plain
+  url_github: https://github.com/kankoda/licensekit
+  url_gumroad: https://kankoda.gumroad.com/l/licensekit
+  url_docs: https://kankoda.github.io/LicenseKit
 
 - name: MediaKit
-  text: Build streaming apps with Swift & SwiftUI
+  eyebrow: Streaming Media
+  subtitle: Build powerful streaming media apps
+  header: /assets/sdks/mediakit/header.jpg
+  icon: /assets/sdks/mediakit/icon.png
+  split-image: /assets/sdks/mediakit/icon.png
+  tilt-image: /assets/sdks/mediakit/device-tilted.png
+  text: MediaKit is a Swift SDK that lets you create modern streaming media apps for all major Apple platforms in Swift and SwiftUI.
   url: /sdks/mediakit
-  image: /assets/sdks/mediakit.png
-  header: /assets/sdks/mediakit-header.jpg
-  github: https://github.com/kankoda/mediakit
-  gumroad: https://kankoda.gumroad.com/l/mediakit
-  documentation: https://kankoda.github.io/MediaKit
-  icon-class: plain
+  url_github: https://github.com/kankoda/mediakit
+  url_gumroad: https://kankoda.gumroad.com/l/mediakit
+  url_docs: https://kankoda.github.io/MediaKit
 
 - name: Vietnamese Input
-  text: Add Vietnamese input support to your apps.
+  eyebrow: Vietnamese Text Input
+  subtitle: Add Vietnamese text input support to your apps
+  header: /assets/sdks/vietnameseinput/header.jpg
+  icon: /assets/sdks/vietnameseinput/icon.png
+  split-image: /assets/sdks/vietnameseinput/icon.png
+  tilt-image: /assets/sdks/vietnameseinput/device-tilted.png
+  text: Vietnamese Input is a Swift SDK that lets you add Vietnamese input support (TELEX, VNI, and VIQR) to your product. It supports all major Apple platforms.
   url: /sdks/vietnameseinput
-  image: /assets/sdks/vietnameseinput.png
-  header: /assets/sdks/vietnameseinput-header.jpg
-  github: https://github.com/kankoda/vietnameseinput
-  gumroad: https://kankoda.gumroad.com/l/vietnameseinput
-  documentation: https://kankoda.github.io/VietnameseInput
-  icon-class: plain
+  url_github: https://github.com/kankoda/vietnameseinput
+  url_gumroad: https://kankoda.gumroad.com/l/vietnameseinput
+  url_docs: https://kankoda.github.io/VietnameseInput

@@ -1,21 +1,11 @@
 ---
-layout: blog
 title: Blog
+layout: blog
 permalink: /blog
 
-page-class: glass-background bg4
+sidebar-menu:
+  title: Tags
+
+tags:
+  first: general, releases
 ---
-
-<div class="searchbar-header">
-  <h1>Blog</h1>
-  {% include kankoda/search/searchbar class="glass prominent" %}
-</div>
-
-<div class="blog list">
-    {%- include kankoda/tags/list tags=site.tags firstmost="releases,pro" -%}
-
-    {% for post in site.posts %}
-    {% include kankoda/blog/list-item post=post %}
-    {% endfor %}
-    {%- include kankoda/tags/scripts -%}
-</div>

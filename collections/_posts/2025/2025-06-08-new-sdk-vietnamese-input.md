@@ -8,7 +8,7 @@ image: /assets/blog/25/0608/image.jpg
 
 ---
 
-{% include kankoda/data/sdk name="Vietnamese Input" %}
+{% include data/sdk name="Vietnamese Input" %}
 Kankoda has released a brand new SDK called [{{sdk.name}}]({{sdk.url}}), which brings Vietnamese input support with TELEX, VNI & VIQR to all Apple platforms.
 
 ![Blog post header]({{page.image}})

@@ -1,0 +1,31 @@
+---
+title: SDKs
+permalink: /sdks
+layout: plain
+
+description: Kankoda builds SDKs for all major Apple platforms.
+---
+
+<div class="hero glow">
+  <img src="/assets/heros/sdks.png" width="650" />
+  <h1>SDKs</h1>
+  <h2>Kankoda builds SDKs for Apple platforms</h2>
+  <p>We build SDKs for all major Apple platforms (iOS, macOS, tvOS, watchOS & visionOS), using modern tools like Swift, SwiftUI, and Swift Package Manager.</p>
+  <div>
+    <a class="cta glass" href="#content">Learn More</a>
+  </div>
+</div>
+
+<a name="content"></a>
+
+<section class="showcase">
+  <a name="apps"></a>
+  <article class="wrapper wide slide-in split-list">
+    <h2>SDKs</h2>
+    <p>Here are some of our commercial SDKs.</p>
+    <hr />
+    {% for item in site.data.sdks %}
+      {% include kankoda/split/split-item item=item %}
+    {% endfor %}
+  </article>
+</section>

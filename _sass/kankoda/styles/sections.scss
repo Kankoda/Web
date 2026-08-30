@@ -1,0 +1,144 @@
+section.glow, section.showcase {
+  border-top: 1px solid var(--border-glass);
+}
+
+
+// Colors *********************************************
+//
+// Background colors apply to any section, independent of `.showcase`. A plain
+// `<section class="blue">` gets the color without opting into showcase layout.
+// Each color also has a `.glow` variant, which swaps in a matching glow tint —
+// see `glow.scss` for the gradient definitions.
+//
+// These properties are deliberately scoped to the color classes rather than to
+// every `section`. A section used as a plain structural wrapper must stay
+// transparent, and `overflow: hidden` on an ancestor silently disables
+// `position: sticky` in its subtree.
+
+section {
+  &.blue,
+  &.green,
+  &.purple,
+  &.red,
+  &.orange,
+  &.gold,
+  &.silver,
+  &.dark,
+  &.showcase {
+    position: relative;
+    overflow: hidden;
+    isolation: isolate;
+  }
+
+  &.blue { background: var(--bg-blue); }
+  &.green { background: var(--bg-green); }
+  &.purple { background: var(--bg-purple); }
+  &.red { background: var(--bg-red); }
+  &.orange { background: var(--bg-orange); }
+  &.gold { background: var(--bg-gold); }
+  &.silver { background: var(--bg-silver); }
+
+  &.dark {
+    background: var(--bg-dark);
+    color: var(--text-dark);
+
+    a:not(.cta):not(.glass) {
+      color: var(--text-dark) !important;
+    }
+  }
+
+  // A glow behind section content sits softer than a standalone glow panel,
+  // and each color class swaps the base gradient for its own.
+  &.glow {
+    &::before { opacity: 0.4; }
+
+    &.blue::before { @extend %glow-before-blue; inset: -18%; opacity: 0.4; }
+    &.green::before { @extend %glow-before-green; inset: -18%; opacity: 0.4; }
+    &.purple::before { @extend %glow-before-purple; inset: -18%; opacity: 0.4; }
+    &.red::before { @extend %glow-before-red; inset: -18%; opacity: 0.4; }
+    &.gold::before { @extend %glow-before-gold; inset: -18%; opacity: 0.4; }
+    &.silver::before { @extend %glow-before-silver; inset: -18%; opacity: 0.4; }
+    &.dark::before { opacity: 0.15; }
+  }
+}
+
+
+// Showcase *******************************************
+//
+// `.showcase` sets up prominent content — padding, centering, type scale. It
+// says nothing about color; combine it with a color class above as needed.
+
+section.showcase {
+  padding: clamp(4rem, 6vw, 5.5rem) 0;
+  text-align: center;
+
+  // The default showcase background. A color class above overrides it, since
+  // those rules are equally specific and come earlier in the cascade... so this
+  // one is scoped to "no color class set".
+  &:not(.blue):not(.green):not(.purple):not(.red):not(.orange):not(.gold):not(.silver):not(.dark) {
+    background: var(--bg-blue-subtle);
+  }
+
+  article {
+    > p {
+      margin-bottom: 0;
+    }
+  }
+
+  article + article {
+    margin-top: 5rem !important;
+  }
+
+  p, .wrapper > p {
+    max-width: 750px;
+    line-height: var(--line-height-body);
+
+    &.wide {
+      max-width: 100%;
+    }
+  }
+
+  .wrapper:not(.split-container) {
+    display: grid;
+    gap: clamp(1.25rem, 3vw, 2.3rem);
+    justify-items: center;
+    align-content: start;
+
+    > .feature-table {
+      justify-self: stretch;
+    }
+
+    > p + p {
+      margin-top: calc(var(--paragraph-spacing) * -1);
+    }
+
+    &::after {
+      content: none;
+    }
+  }
+
+  h2 {
+    font-size: clamp(2rem, 4vw, 3.25rem);
+    line-height: 1;
+    margin: 0;
+  }
+
+  h3 {
+    font-size: clamp(1.45rem, 2.15vw, 1.9rem);
+    margin: 0;
+  }
+
+  img.promo {
+    padding: 1.5rem 0;
+    max-height: 25rem;
+    width: auto;
+  }
+
+  .grid {
+    width: 100%;
+    align-items: stretch;
+    justify-content: center;
+
+    &.spaced { margin: 0 !important; }
+  }
+}
