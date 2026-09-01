@@ -72,13 +72,13 @@
       justify-items: start;
     }
 
-    // Image on the right (default): pushed to the far edge so it sits flush
-    // with the wrapper (lining up with the header menu).
+    // Image on the right (default): pushed to the far side of the row, but
+    // kept inside the wrapper's gutter rather than bleeding past it.
     > img {
       width: var(--split-image-width);
       max-width: var(--split-image-max);
       margin-left: auto;
-      margin-right: calc(-1 * var(--split-gap));
+      margin-right: 0;
     }
 
     // Mirror for image-left: image on the left.
@@ -86,7 +86,7 @@
       flex-direction: row-reverse;
 
       > img {
-        margin-left: calc(-1 * var(--split-gap));
+        margin-left: 0;
         margin-right: auto;
       }
     }
@@ -105,7 +105,7 @@
       flex-direction: row-reverse;
 
       > img {
-        margin-left: calc(-1 * var(--split-gap));
+        margin-left: 0;
         margin-right: auto;
       }
     }
@@ -119,7 +119,7 @@
 
         > img {
           margin-left: auto;
-          margin-right: calc(-1 * var(--split-gap));
+          margin-right: 0;
         }
       }
 
@@ -127,7 +127,7 @@
         flex-direction: row-reverse;
 
         > img {
-          margin-left: calc(-1 * var(--split-gap));
+          margin-left: 0;
           margin-right: auto;
         }
       }
