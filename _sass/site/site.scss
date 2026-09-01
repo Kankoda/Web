@@ -1,3 +1,8 @@
+// Cap the logo's size on wide screens, but let it shrink with the viewport
+// on narrow ones — `max-width` alone overrides minima's `img { max-width: 100% }`
+// and would force the logo wider than the screen on phones.
 .hero .logo {
+  width: 100%;
   max-width: 450px;
+  height: auto;
 }
