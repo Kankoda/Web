@@ -1,0 +1,103 @@
+#!/bin/bash
+
+# Creates a blog post, its asset folder and a header image, using today's date.
+#
+#   assets/blog/yy/mmdd/image.jpg
+#   collections/_posts/yyyy/yyyy-mm-dd-<title-slug>.md
+#
+# Usage: ./create-post --title "News in KeyboardKit 11" [--tag swiftui]
+#        ./create-post -t "News in KeyboardKit 11"
+#
+# The tag defaults to "Blog", which is written as "general" to the post.
+
+set -e
+
+TITLE=""
+TAG="Blog"
+
+while [ $# -gt 0 ]; do
+    case "$1" in
+        --title|-t)
+            TITLE="$2"
+            shift 2
+            ;;
+        --title=*)
+            TITLE="${1#*=}"
+            shift
+            ;;
+        -t=*)
+            TITLE="${1#*=}"
+            shift
+            ;;
+        --tag)
+            TAG="$2"
+            shift 2
+            ;;
+        --tag=*)
+            TAG="${1#*=}"
+            shift
+            ;;
+        *)
+            echo "Unknown argument: $1"
+            echo "Usage: ./create-post --title \"News in KeyboardKit 11\""
+            exit 1
+            ;;
+    esac
+done
+
+if [ -z "$TITLE" ]; then
+    echo "Missing title"
+    echo "Usage: ./create-post --title \"News in KeyboardKit 11\""
+    exit 1
+fi
+
+SLUG=$(echo "$TITLE" \
+    | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//')
+
+if [ -z "$SLUG" ]; then
+    echo "Invalid title: $TITLE (no usable characters for a slug)"
+    exit 1
+fi
+
+POST_TAG=$(echo "$TAG" \
+    | tr '[:upper:]' '[:lower:]' \
+    | sed -E 's/[^a-z0-9]+/-/g; s/^-+//; s/-+$//')
+[ "$POST_TAG" = "blog" ] && POST_TAG="general"
+
+DATE=$(date +%Y-%m-%d)
+YYYY=$(date +%Y)
+YY=$(date +%y)
+MMDD=$(date +%m%d)
+
+FOLDER="assets/blog/$YY/$MMDD"
+POST_DIR="collections/_posts/$YYYY"
+POST="$POST_DIR/$DATE-$SLUG.md"
+
+if [ -e "$POST" ]; then
+    echo "Post already exists: $POST"
+    exit 1
+fi
+
+mkdir -p "$FOLDER"
+echo "Created $FOLDER"
+
+mkdir -p "$POST_DIR"
+cat > "$POST" <<EOF
+---
+title:  $TITLE
+date:   $DATE 06:00:00 +0100
+tags:   $POST_TAG
+
+assets: /$FOLDER/
+image: /$FOLDER/image.jpg
+image-show: 1
+---
+
+Text here...
+EOF
+
+echo "Created $POST"
+
+"$(dirname "$0")/create-post-header" --title "$TITLE" --tag "$TAG" --date "$DATE" --output "$FOLDER" \
+    || echo "Warning: Could not create the header image. Run create-post-header manually."
