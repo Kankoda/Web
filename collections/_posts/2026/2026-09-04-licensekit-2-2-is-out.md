@@ -1,7 +1,7 @@
 ---
 title:  LicenseKit 2.2 is out
 date:   2026-09-02 06:00:00 +0100
-tags:   general
+tags:   general releases licensekit
 
 assets: /assets/blog/26/0904/
 image: /assets/blog/26/0904/image.jpg
