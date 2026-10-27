@@ -17,12 +17,24 @@
   header: /assets/sdks/licensekit/header.jpg
   icon: /assets/sdks/licensekit/icon.png
   split-image: /assets/sdks/licensekit/icon.png
-  tilt-image: /assets/sdks/licensekit/device-tilted.png
-  text: LicenseKit is a Swift SDK that lets you protect your apps and SDKs with commercial licenses on all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS).
+  text: LicenseKit is a Swift SDK that lets you protect your apps and SDKs with commercial licenses on all major Apple platforms.
   url: /sdks/licensekit
   url_github: https://github.com/kankoda/licensekit
   url_gumroad: https://kankoda.gumroad.com/l/licensekit
   url_docs: https://kankoda.github.io/LicenseKit
+
+- name: OnboardingKit
+  featured: 1
+  eyebrow: In-App Onboarding
+  subtitle: Create great onboarding experiences 
+  header: /assets/sdks/onboardingkit/header.jpg
+  icon: /assets/sdks/onboardingkit/icon.png
+  split-image: /assets/sdks/onboardingkit/icon.png
+  text: OnboardingKit is a Swift & SwiftUI SDK that lets you create flexible onboarding experiences on all major Apple platforms.
+  url: /sdks/onboardingkit
+  url_github: https://github.com/kankoda/onboardingkit
+  url_gumroad: https://kankoda.gumroad.com/l/onboardingkit
+  url_docs: https://kankoda.github.io/onboardingkit
 
 - name: MediaKit
   featured: 1
@@ -32,7 +44,7 @@
   icon: /assets/sdks/mediakit/icon.png
   split-image: /assets/sdks/mediakit/icon.png
   tilt-image: /assets/sdks/mediakit/device-tilted.png
-  text: MediaKit is a Swift & SwiftUI SDK that lets you create modern streaming media apps for all major Apple platforms (iOS, macOS, tvOS, watchOS, visionOS).
+  text: MediaKit is a Swift & SwiftUI SDK that lets you create modern streaming media apps for all major Apple platforms.
   url: /sdks/mediakit
   url_github: https://github.com/kankoda/mediakit
   url_gumroad: https://kankoda.gumroad.com/l/mediakit

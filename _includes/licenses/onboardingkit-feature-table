@@ -1,0 +1,23 @@
+<div class="feature-table">
+  <div class="sections">
+    {% include kankoda/licenses/feature-table-tiers tiers=include.tiers %}
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Models & Views"     columns="✔,✔,✔"   url="features"   tooltip="OnboardingKit provides pre-defined models and views." %}
+      {% include kankoda/licenses/feature-table-row  title="Screens & Flows"    columns="-,✔,✔"   url="features"   tooltip="OnboardingKit has a built-in screen and flow templates." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="On-Device Validation"     columns="-,-,✔"   url="addons"   tooltip="Business licenses are validated on-device, without network calls." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Custom Billing"    columns="-,-,✔"  url="addons"  tooltip="Customize the billing, included products, etc." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom SLA"        columns="-,-,✔"  url="addons"  tooltip="Customize the support level agreement." %}
+      {% include kankoda/licenses/feature-table-row  title="Custom Terms"      columns="-,-,✔"  url="addons"  tooltip="Customize the license terms." %}
+      {% include kankoda/licenses/feature-table-row  title="Software Escrow"   columns="-,-,✔"  url="addons"  tooltip="Software escrow provides critical business protection." %}
+    </div>
+    <div class="glass">
+      {% include kankoda/licenses/feature-table-row  title="Discord Server"    columns="-,Public,Private"           url="support#communication"  tooltip="The Discord has public channels and private company channels." %}
+      {% include kankoda/licenses/feature-table-row  title="Support"           columns="GitHub,Email,Priority"    url="support"                tooltip="Upgrade your license to include priority and dedicated support." %}
+      {% include kankoda/licenses/feature-table-row  title="Terms"             columns="Standard,Standard,Custom"  url="terms"   tooltip="Custom terms can accomodate to any business or legal requirements." %}
+    </div>
+  </div>
+</div>

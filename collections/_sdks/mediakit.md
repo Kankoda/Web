@@ -10,7 +10,6 @@ description: MediaKit lets you create modern streaming media apps with SwiftUI o
 about: MediaKit has a rich set of models, views, and utilities, to get you up and running in no time. Build content-rich apps with list, grids, shelves, lazy loading, and powerful media tools.
 
 features: 
-  title: Powerful Media Management
   columns: 3
   items:
     - icon: lucide:box

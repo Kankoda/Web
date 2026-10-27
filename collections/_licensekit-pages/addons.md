@@ -1,7 +1,7 @@
 ---
 title: LicenseKit Add-Ons
 
-description: LicenseKit offers various add-ons to its licenses.
+description: LicenseKit offers various license add-ons.
 ---
 
 {% include data/sdk name="LicenseKit" %}

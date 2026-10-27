@@ -6,9 +6,10 @@ description: Vietnamese Input provides TELEX, VNI, and VIQR input, text input si
 
 {{ page.description }}
 
+
 ## Text Input
 
-[Vietnamese Input](/sdks/vietnameseinput) supports the three Vietnamese text input modes: TELEX, VNI, and VIQR. Each one lets people type the full Vietnamese alphabet on a plain Latin keyboard, using a different set of keys or combinations.
+[Vietnamese Input](/sdks/vietnameseinput) supports the three input modes: TELEX, VNI, and VIQR. Each input mode supports typing the full Vietnamese alphabet on a plain, Latin keyboard, using a different set of keys or combinations.
 
 TELEX composes characters from letter keys, VNI uses number keys, and VIQR uses punctuation. Supporting all standards means your users can keep typing the way they already do, instead of learning a new one for your app.
 

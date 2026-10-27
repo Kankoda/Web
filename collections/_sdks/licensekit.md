@@ -10,7 +10,6 @@ description: LicenseKit lets you protect your apps and SDKs with commercial lice
 about: LicenseKit can protect your apps and SDKs with commercial licenses, and makes it easy to verify that people have the right to use your software.
 
 features: 
-  title: Powerful License Management
   columns: 3
   items:
     - icon: lucide:circle-check
@@ -24,7 +23,7 @@ features:
     - icon: lucide:file-text
       title: Encrypted License Files
       url: /sdks/licensekit/licenses
-      text: Create and read encrypted license files.
+      text: Create & validate encrypted license files.
     - icon: lucide:cloud-lightning
       title: Integrations
       url: /sdks/licensekit/licenses
@@ -32,7 +31,7 @@ features:
     - icon: lucide:database
       title: License Caching
       url: /sdks/licensekit/license-validation
-      text: Cache the last successful validation.
+      text: Cache successful license validations.
     - icon: lucide:settings
       title: Service Composition
       url: /sdks/licensekit/licenses

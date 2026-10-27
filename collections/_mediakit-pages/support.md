@@ -1,8 +1,8 @@
 ---
-title: LicenseKit Support
+title: MediaKit Support
 
-description: LicenseKit has custom support levels for larger organizations
+description: MediaKit has custom support levels for larger organizations
 ---
 
-{% include data/sdk name="LicenseKit" %}
+{% include data/sdk name="MediaKit" %}
 {% include kankoda/sdks/support sdk=sdk %}

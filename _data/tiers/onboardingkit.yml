@@ -1,0 +1,33 @@
+- name: Free
+  price_year: $0
+  price_month: $0
+  cta: Contact Us
+  url: mailto:info@kankoda.com?subject=MediaKit%20Private%20Beta
+  features:
+    - Models & Views
+    - Limited Features
+    - GitHub Support
+    - Standard Terms
+
+- name: Standard
+  badge: Popular
+  price_year: $99.99
+  price_month: $9.99
+  cta: Contact Us
+  url: mailto:info@kankoda.com?subject=MediaKit%20Private%20Beta
+  features:
+    - Everything in Basic
+    - Screens & Flows 
+    - Email Support
+    - Standard Terms
+
+- name: Business
+  price_month: Custom
+  price_year: Custom
+  cta: Contact Us
+  url: mailto:info@kankoda.com?subject=MediaKit%20Custom%20Plan
+  features:
+    - All Features
+    - Custom Terms
+    - Priority Support
+    - Critical Business Features

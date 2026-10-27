@@ -4,32 +4,21 @@
   cta: Contact Us
   url: mailto:info@kankoda.com?subject=LicenseKit%20Private%20Beta
   features:
-    - 1 000 Operations / Month
+    - 1 000 Operations
     - TELEX, VNI & VIQR
     - GitHub Support
     - Standard Terms
 
-- name: Silver
-  price_year: $1.500
-  price_month: $150
-  cta: Contact Us
-  url: mailto:info@kankoda.com?subject=LicenseKit%20Private%20Beta
-  features:
-    - 10 000 Operations / Month
-    - TELEX, VNI & VIQR
-    - Email Support
-    - Standard Terms
-
-- name: Gold
+- name: Standard
   badge: Popular
-  price_year: $2.500
-  price_month: $250
+  price_year: $99.99
+  price_month: $9.99
   cta: Contact Us
   url: mailto:info@kankoda.com?subject=LicenseKit%20Private%20Beta
   features:
     - Unlimited Operations
     - All Features
-    - Priority Support
+    - Email Support
     - Standard Terms
 
 - name: Business
@@ -38,7 +27,7 @@
   cta: Contact Us
   url: mailto:info@kankoda.com?subject=LicenseKit%20Custom%20Plan
   features:
-    - Unlimited Operations
     - All Features
-    - Dedicated Support
+    - Custom Terms
+    - Priority Support
     - Critical Business Protection

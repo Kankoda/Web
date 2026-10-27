@@ -12,11 +12,10 @@ about: Vietnamese Input is easy to use and lets you get up and running in no tim
 tilt-device: 0
 
 features: 
-  title: Powerful Typing Tools
   columns: 3
   items:
     - icon: lucide:keyboard
-      title: Input Types
+      title: Text Input
       url: /sdks/vietnameseinput/features
       text: Type Vietnamese with TELEX, VNI, and VIQR, using standard input methods.
     - icon: lucide:a-large-small

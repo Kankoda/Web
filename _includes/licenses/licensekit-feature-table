@@ -2,11 +2,11 @@
   <div class="sections">
     {% include kankoda/licenses/feature-table-tiers tiers=include.tiers %}
     <div class="glass">
-      {% include kankoda/licenses/feature-table-row  title="Binary/CSV Licenses"        columns="5,25,1 000,Unlimited"    url="licenses"   tooltip="Define licenses with code or in plain CSV files." %}
+      {% include kankoda/licenses/feature-table-row  title="Bundle Licenses"            columns="5,25,1 000,Unlimited"    url="licenses"   tooltip="Define licenses with code or in plain CSV files." %}
       {% include kankoda/licenses/feature-table-row  title="Gumroad Integration"        columns="✔,✔,✔,✔"                 url="licenses"   tooltip="Integrate with Gumroad." %}
-      {% include kankoda/licenses/feature-table-row  title="Lemon Squeezy Integration"  columns="tbd,tbd,tbd,tbd"         url="licenses"   tooltip="Integrate with Lemon Squeezy." %}
-      {% include kankoda/licenses/feature-table-row  title="Paddle Integration"         columns="tbd,tbd,tbd,tbd"         url="licenses"   tooltip="Integrate with Paddle." %}
-      {% include kankoda/licenses/feature-table-row  title="Stripe Integration"         columns="tbd,tbd,tbd,tbd"         url="licenses"   tooltip="Integrate with Stripe." %}
+      {% include kankoda/licenses/feature-table-row  title="Lemon Squeezy Integration"  columns="-,tbd,tbd,tbd"           url="licenses"   tooltip="Integrate with Lemon Squeezy." %}
+      {% include kankoda/licenses/feature-table-row  title="Paddle Integration"         columns="-,tbd,tbd,tbd"           url="licenses"   tooltip="Integrate with Paddle." %}
+      {% include kankoda/licenses/feature-table-row  title="Stripe Integration"         columns="-,tbd,tbd,tbd"           url="licenses"   tooltip="Integrate with Stripe." %}
     </div>
     <div class="glass">
       {% include kankoda/licenses/feature-table-row  title="API Integrations"         columns="-,-,✔,✔"  url="licenses"            tooltip="Validate licenses over the cloud." %}
@@ -15,7 +15,6 @@
       {% include kankoda/licenses/feature-table-row  title="Service Compositions"     columns="-,-,✔,✔"  url="licenses"            tooltip="Combine multiple license services into a more complex one." %}
     </div>
     <div class="glass">
-      {% include kankoda/licenses/feature-table-row  title="LicenseKit License File"  columns="-,-,-,✔"   url="license-validation"   tooltip="Business licenses are delivered as encrypted files." %}
       {% include kankoda/licenses/feature-table-row  title="On-Device Validation"     columns="-,-,-,✔"   url="license-validation"   tooltip="Business licenses are validated on-device, without network calls." %}
     </div>
     <div class="glass">

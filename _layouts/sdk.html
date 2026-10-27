@@ -32,15 +32,15 @@ layout: plain
         {% assign cols = page.features.columns | default: items-size %}
         <div class="grid col{{ cols | at_most: 4}} mobile carousel">
             {% for feature in items %}
-            <div class="glass">
-                <div class="glass icon-badge">
-                    <iconify-icon icon="{{feature.icon}}" aria-hidden="true"></iconify-icon>
-                </div>
-                <a href="{{feature.url}}">
+            <a href="{{feature.url}}" class="scale">
+                <div class="glass">
+                    <div class="glass icon-badge">
+                        <iconify-icon icon="{{feature.icon}}" aria-hidden="true"></iconify-icon>
+                    </div>
                     <h4>{{feature.title}}</h4>
-                </a>
-                <p>{{feature.text}}</p>
-            </div>
+                    <p>{{feature.text}}</p>
+                </div>
+            </a>
             {% endfor %}
         </div>
         <p>This SDK is hosted at <a href="{{ sdk.url_github }}">GitHub</a>, where you find releases, an issue tracker, <a href="{{ sdk.url_docs }}">documentation</a>, etc.</p>

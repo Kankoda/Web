@@ -1,8 +1,8 @@
 ---
-title: LicenseKit Add-Ons
+title: Vietnamese Input Add-Ons
 
-description: LicenseKit offers various add-ons to its licenses.
+description: Vietnamese Input offers various license add-ons.
 ---
 
-{% include data/sdk name="LicenseKit" %}
+{% include data/sdk name="Vietnamese Input" %}
 {% include kankoda/sdks/addons sdk=sdk %}

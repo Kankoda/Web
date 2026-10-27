@@ -1,8 +1,8 @@
 ---
-title: LicenseKit Add-Ons
+title: MediaKit Add-Ons
 
-description: LicenseKit offers various add-ons to its licenses.
+description: MediaKit offers various license add-ons.
 ---
 
-{% include data/sdk name="LicenseKit" %}
+{% include data/sdk name="MediaKit" %}
 {% include kankoda/sdks/addons sdk=sdk %}

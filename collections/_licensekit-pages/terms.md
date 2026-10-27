@@ -1,7 +1,7 @@
 ---
 title: LicenseKit Terms & Conditions
 
-description: This page defines the Standard KeyboardKit Pro License Terms & Conditions
+description: This page defines the Standard LicenseKit License Terms & Conditions
 ---
 
 {% include data/sdk name="LicenseKit" %}
