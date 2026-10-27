@@ -43,8 +43,10 @@ features:
 <section class="showcase gold">
   <a name="pricing"></a>
   <article class="wide wrapper slide-in">
-    <h2>Pricing</h2>
-    <p>MediaKit is currently in private beta. <a href="{{site.urls.email}}">Contact us</a> if you want to give it a try.</p>
+    {% include kankoda/licenses/pricing-title name=page.title %}
+    {% include kankoda/licenses/tier-price-toggle %}
+    {% include kankoda/licenses/tier-boxes tiers=tiers %}
+    {% include kankoda/licenses/business-disclaimer %}
   </article>
 </section>
 
