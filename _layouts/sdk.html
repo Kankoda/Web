@@ -27,16 +27,6 @@ layout: plain
         {% if page.tilt-device == 0 %}{% else %}
         <img src="{{sdk.tilt-image}}" class="device" />
         {% endif %}
-        <p>This SDK is hosted at <a href="{{ sdk.url_github }}">GitHub</a>, where you find releases, an issue tracker, documentation, etc.</p>
-    </article>
-</section>
-
-{% if page.features %}
-<section class="showcase">
-    <a name="features"></a>
-    <article class="wide wrapper slide-in">
-        <h2>{{ page.features.title | default: "Title" }}</h2>
-        <p>Here are some {{ sdk.name }} features. For more information, see <a href="{{ sdk.url_github }}">GitHub</a> and the <a href="{{ sdk.url_docs }}">docs</a>.</p>
         {% assign items = page.features.items %}
         {% assign items-size = items | size %}
         {% assign cols = page.features.columns | default: items-size %}
@@ -53,9 +43,9 @@ layout: plain
             </div>
             {% endfor %}
         </div>
+        <p>This SDK is hosted at <a href="{{ sdk.url_github }}">GitHub</a>, where you find releases, an issue tracker, <a href="{{ sdk.url_docs }}">documentation</a>, etc.</p>
     </article>
 </section>
-{% endif %}
 
 {{ content }}
 

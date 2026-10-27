@@ -1,25 +1,28 @@
 - name: KeyboardKit
-  eyebrow: Your Personal Keyboard
+  featured: 1
+  eyebrow: Custom Keyboard
   header: /assets/apps/keyboardkit/header.jpg
   icon: /assets/apps/keyboardkit/icon.png
   split-image: /assets/apps/keyboardkit/split-device.png
   tilt-image: /assets/apps/keyboardkit/device-tilted.png
-  text: KeyboardKit is an app for iPhone and iPad, that lets you replace the system keyboard with a custom keyboard that is truly yours.
+  text: KeyboardKit is custom keyboard app for iPhone and iPad, that lets you replace the system keyboard with a custom keyboard that is truly yours.
   url: https://keyboardkit.com/app
   url_appstore: https://itunes.apple.com/app/keyboardkit/id1568444977
 
 - name: Wally
-  eyebrow: Your Personal Wallet
+  featured: 1
+  eyebrow: Digital Wallet
   header: /assets/apps/wally/header.jpg
   icon: /assets/apps/wally/icon.png
   split-image: /assets/apps/wally/split-device.png
   tilt-image: /assets/apps/wally/device-tilted.png
-  text: Wally is a digital wallet for iPhone and iPad. Add your cards, receipts, etc. to Wally to keep them safe and available at all times.
+  text: Wally is a digital wallet for iPhone and iPad. Add your cards, receipts, etc. to Wally to keep them safe, available, and synced to iCloud  at all times.
   url:  https://wally.app
   url_appstore: https://itunes.apple.com/app/wally/id516398915
 
 - name: Emoji Picker
-  eyebrow: Your Personal Emoji Picker
+  featured: 1
+  eyebrow: Custom Emoji Picker
   header: /assets/apps/emojipicker/header.jpg
   icon: /assets/apps/emojipicker/icon.png
   split-image: /assets/apps/emojipicker/split-device.png
@@ -29,6 +32,7 @@
   url_appstore: https://apps.apple.com/se/app/emoji-picker-pick-emojis/id6472487442
 
 - name: Cineasterna
+  featured: 1
   eyebrow: Watch Movies For Free
   header: /assets/apps/cineasterna/header.jpg
   icon: /assets/apps/cineasterna/icon.png
@@ -39,6 +43,7 @@
   url_appstore: https://itunes.apple.com/se/app/cineasterna-chromecast-app/id1446065399
 
 - name: One Touch Paste
+  featured: 0
   eyebrow: Clipboard Keyboard
   header: /assets/apps/otp/header.jpg
   icon: /assets/apps/otp/icon.png
@@ -49,16 +54,18 @@
   url_appstore: https://apps.apple.com/se/app/one-touch-paste/id6478205851
 
 - name: Appamini
+  featured: 1
   eyebrow: Educational Games
   header: /assets/apps/appamini/header.jpg
   icon: /assets/apps/appamini/icon-abc.png
   split-image: /assets/apps/appamini/split-device.png
   tilt-image: /assets/apps/appamini/device-tilted.png
-  text: Appamini creates educational games for curious kids. The company was co-founded and was acquired by Kankoda after releasing Appamini ABC, and Appamini 123.
+  text: Appamini creates educational games for curious kids. The company was acquired by Kankoda after the release of Appamini ABC and Appamini 123.
   url:  https://appamini.com
   url_appstore: https://itunes.apple.com/app/appamini-abc/id581402736
 
 - name: Lunchrrrrr
+  featured: 0
   eyebrow: Find Nearby Food
   header: /assets/apps/lunchrrrrr/header.jpg
   icon: /assets/apps/lunchrrrrr/icon.png
@@ -69,6 +76,7 @@
   url_appstore: https://apps.apple.com/se/app/lunchrrrrr/id1209779063
 
 - name: Vinylsamlaren
+  featured: 0
   eyebrow: Find Record Stores
   header: /assets/apps/vinylsamlaren/header.jpg
   icon: /assets/apps/vinylsamlaren/icon.png

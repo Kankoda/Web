@@ -18,7 +18,7 @@
     <div class="glass">
       {% include kankoda/licenses/feature-table-row  title="Discord Server"   columns="-,Public,Private,Private"           url="support#communication"  tooltip="The Discord has public channels and private company channels." %}
       {% include kankoda/licenses/feature-table-row  title="Support"          columns="GitHub,Email,Priority,Dedicated"    url="support"                tooltip="Upgrade your license to include priority and dedicated support." %}
-      {% include kankoda/licenses/feature-table-row  title="Terms"            columns="Standard,Standard,Standard,Custom"  url="terms-and-conditions"   tooltip="Custom terms can accomodate to any business or legal requirements." %}
+      {% include kankoda/licenses/feature-table-row  title="Terms"            columns="Standard,Standard,Standard,Custom"  url="terms"   tooltip="Custom terms can accomodate to any business or legal requirements." %}
     </div>
   </div>
 </div>

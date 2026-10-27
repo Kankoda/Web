@@ -46,7 +46,7 @@ features:
   <article class="wide wrapper slide-in">
     {% include kankoda/licenses/pricing-title name=page.title %}
     {% include kankoda/licenses/tier-price-toggle %}
-    {% include kankoda/licenses/tier-boxes tiers=sdk.tiers %}
+    {% include kankoda/licenses/tier-boxes tiers=tiers %}
     {% include kankoda/licenses/business-disclaimer %}
   </article>
 </section>

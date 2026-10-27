@@ -27,10 +27,11 @@ description: Kankoda builds software for all Apple platforms.
   <a name="sdks"></a>
   <article class="wrapper wide slide-in split-list">
     <h2>SDKs</h2>
-    <p>Kankoda builds commercial SDKs for all Apple platforms.</p>
+    <p>Kankoda builds SDKs for all Apple platforms.</p>
     <a href="/sdks" class="cta glass">View all SDKs</a>
     <hr />
-    {% for item in site.data.sdks limit: 3 %}
+    {% assign items = site.data.sdks | where: "featured", 1 %}
+    {% for item in items %}
       {% include kankoda/split/split-item item=item %}
     {% endfor %}
   </article>
@@ -43,7 +44,8 @@ description: Kankoda builds software for all Apple platforms.
     <p>Kankoda builds apps for all Apple platforms.</p>
     <a href="/apps" class="cta glass">View all apps</a>
     <hr />
-    {% for item in site.data.apps limit: 3 %}
+    {% assign items = site.data.apps | where: "featured", 1 %}
+    {% for item in items %}
       {% include kankoda/split/split-item item=item %}
     {% endfor %}
   </article>
