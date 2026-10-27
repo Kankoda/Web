@@ -29,7 +29,7 @@ DATE=""
 OUTPUT=""
 FROM=""
 TO=""
-TEMPLATE="$HOME/Library/Mobile Documents/WUGMZZ5K46~com~bohemiancoding~sketch/Documents/Kankoda/Blog.sketch"
+TEMPLATE="$HOME/Library/Mobile Documents/WUGMZZ5K46~com~bohemiancoding~sketch/Documents/KeyboardKit/Blog.sketch"
 
 while [ $# -gt 0 ]; do
     case "$1" in

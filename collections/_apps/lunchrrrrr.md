@@ -19,7 +19,7 @@ features:
     text: Lunchrrrrr lets you filter restaurants on price, distance, and opening hours.
   - icon: lucide:layers
     title: Card Design
-    text: Lunchrrrrr's design is inspired by card-based dating apps, for a more fun experience.
+    text: Lunchrrrrr is inspired by card-based dating apps, for a more fun experience.
   - icon: lucide:star
     title: Yelp
     text: Lunchrrrrr integrates with Yelp for up to date information.
