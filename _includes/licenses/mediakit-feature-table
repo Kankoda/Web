@@ -1,4 +1,4 @@
-<div class="feature-table">
+<div class="feature-table" style="--tier-count: {{ include.tiers | size }}">
   <div class="sections">
     {% include kankoda/licenses/feature-table-tiers tiers=include.tiers %}
     <div class="glass">
