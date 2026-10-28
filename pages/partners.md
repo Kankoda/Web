@@ -8,10 +8,10 @@ sidebar-menu:
   title: Partners
   data: partners
 
-description: KeyboardKit is looking for partners to help grow sales, strengthen the team during integration projects, and scale customer support.
+description: Kankoda is looking for partners to help grow sales, strengthen the team during integration projects, and scale customer support.
 ---
 
-Since KeyboardKit is developed by a small team, we surround ourselves with experts in various fields. They help us expand our capabilities and can assist you when you need it.
+Since Kankoda is a small team, we surround ourselves with experts. They help us expand our capabilities and can assist you when you need it.
 
 Whether you're an agency, consultancy, platform provider, or technology company, we'd love to explore how we can work together. [Contact us]({{site.urls.email}}) via email or [schedule an intro call]({{site.urls.calendar}}).
 
