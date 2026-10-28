@@ -75,6 +75,7 @@ footer:
         - Newsletter | https://kankoda.gumroad.com/subscribe
     - title: Contact
       links:
+        - Partners | /partners
         - E-mail | mailto:info@kankoda.com
         - Bluesky | https://bsky.app/profile/kankoda.bsky.social
         - Mastodon | https://mastodon.social/@kankoda

@@ -1,0 +1,34 @@
+- name: CodeKeeper
+  eyebrow: Software Escrow
+  image: /assets/partners/codekeeper.jpg
+  url: https://codekeeper.co
+  text: CodeKeeper provides audit-ready software escrows, backup, and continuity services, and is our partner for source code escrow.
+
+- name: Extended Brain
+  eyebrow: Sales & Strategy
+  image: /assets/partners/extended-brain.jpg
+  url: https://extendedbrain.se
+  text: Extended Brain is a digital strategy company in Stockholm, Sweden, that assists us with sales strategies and analysis.
+
+- name: Langlot Research
+  eyebrow: Language Technologies
+  image: /assets/partners/langlot.jpg
+  url: https://langlotresearch.com
+  text: Langlot Research is a language technology company in Stockholm, Sweden. We are currently integrating their prediction engine into KeyboardKit.
+
+- name: Lighthouse Growth
+  eyebrow: Integration Support
+  image: /assets/partners/lighthouse.jpg
+  url: https://lighthouse-growth.com
+  text: Lighthouse Growth is a software company in Gdansk, Polandthat helps us with customer integration projects.
+
+- name: Golura
+  eyebrow: UX & Design
+  image: /assets/partners/golura.jpg
+  text: Golura is a UX and design company in Stockholm, Sweden, that assists us and our parent company Kankoda with web design and UX.
+
+- name: Sloboda Studio
+  eyebrow: Integration Support
+  image: /assets/partners/sloboda.jpg
+  url: https://sloboda-studio.com
+  text: Sloboda Studio is a software company in Berlin, Germany, that helps us with customer integration projects. Contact <a href="a.bodnar@sloboda-studio.com">Asia Bodnar, Head of Strategic Partnerships</a> for project inquiries.
