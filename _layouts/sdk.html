@@ -24,8 +24,11 @@ layout: plain
     <article class="wide wrapper slide-in">
         <h2>About {{sdk.name}}</h2>
         <p>{{ page.about }}</p>
-        {% if page.tilt-device == 0 %}{% else %}
-        <img src="{{sdk.tilt-image}}" class="device" />
+        {% if sdk.about-device %}
+        <img src="{{sdk.about-device}}" class="device" />
+        {% endif %}
+        {% if sdk.about-image %}
+        <img src="{{sdk.about-image}}" class="image" />
         {% endif %}
         {% assign items = page.features.items %}
         {% assign items-size = items | size %}

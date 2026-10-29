@@ -3,7 +3,6 @@
   eyebrow: Custom Keyboards
   header: /assets/sdks/keyboardkit/header.jpg
   icon: /assets/sdks/keyboardkit/icon.png
-  split-image: /assets/sdks/keyboardkit/icon.png
   tilt-image: /assets/sdks/keyboardkit/device-tilted.png
   text: KeyboardKit is a Swift & SwiftUI SDK that lets you create iOS keyboard extensions that can replace the native keyboard on iPhone and iPad.
   url: https://keyboardkit.com
@@ -16,7 +15,6 @@
   subtitle: Protect your apps & SDKs with commercial licenses
   header: /assets/sdks/licensekit/header.jpg
   icon: /assets/sdks/licensekit/icon.png
-  split-image: /assets/sdks/licensekit/icon.png
   text: LicenseKit is a Swift SDK that lets you protect your apps and SDKs with commercial licenses on all major Apple platforms.
   url: /sdks/licensekit
   url_github: https://github.com/kankoda/licensekit
@@ -29,7 +27,7 @@
   subtitle: Create great onboarding experiences 
   header: /assets/sdks/onboardingkit/header.jpg
   icon: /assets/sdks/onboardingkit/icon.png
-  split-image: /assets/sdks/onboardingkit/icon.png
+  about-image: /assets/sdks/onboardingkit/devices.jpg
   text: OnboardingKit is a Swift & SwiftUI SDK that lets you create flexible onboarding experiences on all major Apple platforms.
   url: /sdks/onboardingkit
   url_github: https://github.com/kankoda/onboardingkit
@@ -42,8 +40,7 @@
   subtitle: Build powerful streaming media apps
   header: /assets/sdks/mediakit/header.jpg
   icon: /assets/sdks/mediakit/icon.png
-  split-image: /assets/sdks/mediakit/icon.png
-  tilt-image: /assets/sdks/mediakit/device-tilted.png
+  about-device: /assets/sdks/mediakit/device-tilted.png
   text: MediaKit is a Swift & SwiftUI SDK that lets you create modern streaming media apps for all major Apple platforms.
   url: /sdks/mediakit
   url_github: https://github.com/kankoda/mediakit
@@ -56,8 +53,6 @@
   subtitle: Add Vietnamese text input support to your apps
   header: /assets/sdks/vietnameseinput/header.jpg
   icon: /assets/sdks/vietnameseinput/icon.png
-  split-image: /assets/sdks/vietnameseinput/icon.png
-  tilt-image: /assets/sdks/vietnameseinput/device-tilted.png
   text: Vietnamese Input is a Swift SDK that lets you add Vietnamese input support (TELEX, VNI, and VIQR) to apps and SDKs on all major Apple platforms.
   url: /sdks/vietnameseinput
   url_github: https://github.com/kankoda/vietnameseinput
