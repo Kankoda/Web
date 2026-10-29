@@ -1,5 +1,5 @@
 ---
-title: LicenseKit Terms & Conditions
+title: VietnameseInput Terms & Conditions
 
 description: This page defines the Standard Vietnamese Input License Terms & Conditions
 ---
