@@ -1,8 +1,8 @@
 - name: Free
   price_year: $0
   price_month: $0
-  cta: Contact Us
-  url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Private%20Beta
+  cta: Free Trial
+  url: https://kankoda.gumroad.com/l/vietnameseinput
   features:
     - 1 000 Operations
     - TELEX, VNI & VIQR
@@ -13,8 +13,8 @@
   badge: Popular
   price_year: $99.99
   price_month: $9.99
-  cta: Contact Us
-  url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Private%20Beta
+  cta: Free Trial
+  url: https://kankoda.gumroad.com/l/vietnameseinput
   features:
     - Unlimited Operations
     - All Features
