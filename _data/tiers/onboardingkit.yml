@@ -1,8 +1,8 @@
 - name: Free
   price_year: $0
   price_month: $0
-  cta: Contact Us
-  url: mailto:info@kankoda.com?subject=MediaKit%20Private%20Beta
+  cta: Free Trial
+  url: https://kankoda.gumroad.com/l/onboardingkit
   features:
     - Models & Views
     - Limited Features
@@ -13,8 +13,8 @@
   badge: Popular
   price_year: $99.99
   price_month: $9.99
-  cta: Contact Us
-  url: mailto:info@kankoda.com?subject=MediaKit%20Private%20Beta
+  cta: Free Trial
+  url: https://kankoda.gumroad.com/l/onboardingkit
   features:
     - Everything in Basic
     - Screens & Flows 
@@ -25,9 +25,9 @@
   price_month: Custom
   price_year: Custom
   cta: Contact Us
-  url: mailto:info@kankoda.com?subject=MediaKit%20Custom%20Plan
+  url: mailto:info@kankoda.com?subject=OnboardingKit%20Custom%20Plan
   features:
-    - All Features
-    - Critical Business Features
+    - On-Device License File
+    - Software Escrow
     - Priority Support
     - Custom Terms

@@ -2,7 +2,7 @@
   price_year: $0
   price_month: $0
   cta: Contact Us
-  url: mailto:info@kankoda.com?subject=LicenseKit%20Private%20Beta
+  url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Private%20Beta
   features:
     - 1 000 Operations
     - TELEX, VNI & VIQR
@@ -14,7 +14,7 @@
   price_year: $99.99
   price_month: $9.99
   cta: Contact Us
-  url: mailto:info@kankoda.com?subject=LicenseKit%20Private%20Beta
+  url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Private%20Beta
   features:
     - Unlimited Operations
     - All Features
@@ -25,9 +25,9 @@
   price_month: Custom
   price_year: Custom
   cta: Contact Us
-  url: mailto:info@kankoda.com?subject=LicenseKit%20Custom%20Plan
+  url: mailto:info@kankoda.com?subject=Vietnamese%20Input%20-%20Custom%20Plan
   features:
-    - All Features
-    - Critical Business Features
+    - On-Device License File
+    - Software Escrow
     - Priority Support
     - Custom Terms
