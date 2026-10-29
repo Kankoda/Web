@@ -3,7 +3,7 @@ title: OnboardingKit
 
 image: /assets/sdks/onboardingkit/header.jpg
 
-redirect_from: /onboardingKit
+redirect_from: /onboardingkit
 
 description: OnboardingKit lets you protect your apps and SDKs with commercial licenses on all major Apple platforms.
 
